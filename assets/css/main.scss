@@ -7,6 +7,17 @@
 @import 'font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
 
+@import "base/mixins.scss";
+
+// Custom colors
+$primary: {{ site.data.style.highlight | default: "#fed136" }} !default;
+$white: {{ site.data.style.white | default: "#fff" }} !default;
+$black: {{ site.data.style.black | default: "#000" }} !default;
+
+//contact
+$contact-image: "{{ site.data.style.contact-image }}";
+
+
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
@@ -58,7 +69,6 @@
 // Component.
 
 	@import 'components/section';
-	@import 'components/form';
 	@import 'components/box';
 	@import 'components/icon';
 	@import 'components/image';
