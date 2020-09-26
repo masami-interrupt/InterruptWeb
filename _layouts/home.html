@@ -19,7 +19,7 @@
                 <h1>{{ page.landing-title }}</h1>
             </header>
             <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <p style="text-transform: uppercase;color:#fff">{{ site.description }}</p>
                 <ul class="actions">
                     <li><a href="#one" class="button next scrolly">詳しく見る</a></li>
                 </ul>
@@ -35,7 +35,7 @@
 
         <!-- Two -->
         <section id="two">
-            <div class="inner">
+            <div class="inner" style="color:#fff;">
                 <header class="major">
                     <h2>Massa libero</h2>
                 </header>
@@ -48,6 +48,7 @@
 
     </div>
 
+    {% include carousel.html %}
     {% include contact.html %}
     {% include footer.html %}
 

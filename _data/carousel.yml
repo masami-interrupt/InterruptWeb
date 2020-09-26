@@ -1,0 +1,25 @@
+companies:
+   - company:
+        image: "../assets/images/company/header_logo.png"
+        url: "https://archinc.jp"
+   - company:
+        image: "../assets/images/company/logo_tagline-d313510fbad262a2fa7ff3e8049e064a2a10d0002d41b616d407def1f0a7630d.png"
+        url: "https://uridoki.co.jp"
+   - company:
+        image: "../assets/images/company/logo.gif"
+        url: "https://www.gmo.jp"
+   - company:
+        image: "../assets/images/company/logo320x160@2x.png"
+        url: "http://yeah.co.jp"
+   - company:
+        image: "../assets/images/company/lotusflogo.png"
+        url: "http://www.lotusf.co.jp"
+   - company:
+        image: "../assets/images/company/michisuu.png"
+        url: "http://www.michisuu.com"
+   - company:
+        image: "../assets/images/company/miraclep.png"
+        url: "http://miraclepositive.com"
+   - company:
+        image: "../assets/images/company/pocke.png"
+        url: "https://www.pocke.co.jp"
