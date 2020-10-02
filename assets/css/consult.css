@@ -1,0 +1,72 @@
+.prise-table{
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 850px;
+  table-layout: fixed;
+}
+.prise-table thead th{
+  padding: 1em .8em;
+  border-right: 5px solid #fff;
+  text-align: center;
+}
+.prise-table  tr {
+  background-color: #fff;
+  padding: .35em;
+}
+.prise-table tr:nth-child(even){
+  background-color: #f9f9f9;
+}
+.prise-table td {
+  padding: .7em;
+  text-align: center;
+}
+.prise-table th {
+  font-size: .75em;
+}
+.prise-table tr th{
+  color:#333;
+}
+.prise-table tr:nth-child(even) th{
+  color:#666;
+}
+i{
+  font-size:2em
+}
+.plan1{
+  background: #03A9F4;
+}
+.plan1_i{
+  color:#03A9F4;
+}
+.plan4{
+  background: #009688;
+}
+.plan4_i{
+  color:#009688;
+}
+.plan3{
+  background: #4caf50;
+}
+.plan3_i{
+  color:#4caf50;
+}
+.plan2{
+  background: #cddc39;
+}
+.prise-table .plan2_i{
+  color:#cddc39;
+}
+.prise-table .price{
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.8em;
+  text-align: left;
+  margin-bottom:10px
+}
+
+@media screen and (max-width: 600px) {
+  .wrap{
+     overflow-x: scroll;
+  }
+}

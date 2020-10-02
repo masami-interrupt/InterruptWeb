@@ -33,7 +33,7 @@ nav-menu: true
 				</header>
 				<p style="color:#fff;">小さなアドバイスや調査から、業務全体にわたるコンサルティングまで、お気軽に使えるコンサルティングのコースを作りました。プログラミング学習から、コンサルタント、保守業務、小さなツール開発まで承ります。</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">詳しくはこちら</a></li>
+					<li><a href="price/consult.html" class="button">詳しくはこちら</a></li>
 				</ul>
 			</div>
 		</div>
