@@ -2,7 +2,7 @@
 title: 業務内容
 layout: landing
 description: '主な業務内容の一覧です。詳しくはお問い合わせください'
-image: assets/images/pic07.jpg
+image: assets/images/altumcode-zE007SNgcdE-unsplash.jpg
 nav-menu: true
 ---
 
@@ -16,7 +16,9 @@ nav-menu: true
 			<h2>ソフトウェア開発</h2>
 		</header>
 		<p style="color:#fff;">私たちは、２０年以上もソフトウェア開発に携わってきました。サーバーサイド、クライアントサイド、スマホアプリなど、実績は多岐にわたります。また、当社だけでの開発、チーム開発など、開発形式も様々な経験があります。設計や保守作業もおまかせください。</p>
-        <span style="padding:8px;border: solid 2px;color:#fff;">お問い合わせください</span>
+        <ul class="actions">
+            <li><a href="desc/spec.html" class="button">詳しくはこちら</a></li>
+        </ul>
 	</div>
 </section>
 
@@ -24,7 +26,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/goran-ivos-G_BCcijtpUY-unsplash.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -33,14 +35,14 @@ nav-menu: true
 				</header>
 				<p style="color:#fff;">小さなアドバイスや調査から、業務全体にわたるコンサルティングまで、お気軽に使えるコンサルティングのコースを作りました。プログラミング学習から、コンサルタント、保守業務、小さなツール開発まで承ります。</p>
 				<ul class="actions">
-					<li><a href="price/consult.html" class="button">詳しくはこちら</a></li>
+					<li><a href="desc/consult.html" class="button">詳しくはこちら</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/vipul-jha-a4X1cdC1QAc-unsplash.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -56,7 +58,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+			<img src="{% link assets/images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg %}" alt="" data-position="25% 25%" />
 		</a>
         <div class="content">
             <div class="inner">
