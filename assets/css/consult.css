@@ -15,14 +15,14 @@
   padding: .35em;
 }
 .prise-table tr:nth-child(even){
-  background-color: #f9f9f9;
+  background-color: #fcfcfc;
 }
 .prise-table td {
   padding: .7em;
   text-align: center;
 }
 .prise-table th {
-  font-size: .75em;
+  font-size: .65em;
 }
 .prise-table tr th{
   color:#333;
@@ -52,10 +52,10 @@ i{
   color:#4caf50;
 }
 .plan2{
-  background: #cddc39;
+  background: #C6D626;
 }
 .prise-table .plan2_i{
-  color:#cddc39;
+  color:#C6D626;
 }
 .prise-table .price{
   color: #fff;
