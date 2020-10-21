@@ -1,0 +1,31 @@
+appli:
+   - item:
+        title: "すぎちゃんの押せばしゃべ〜る"
+        desc: "有料１位"
+        image: "../assets/images/performance/Icon@2x.jpg"
+        url:
+   - item:
+        title:
+        desc:
+        image: "../assets/images/company/header_logo.png"
+        url:
+   - item:
+        title:
+        desc:
+        image: "../assets/images/company/header_logo.png"
+        url:
+   - item:
+        title:
+        desc:
+        image: "../assets/images/company/header_logo.png"
+        url:
+   - item:
+        title:
+        desc:
+        image: "../assets/images/company/header_logo.png"
+        url:
+   - item:
+        title:
+        desc:
+        image: "../assets/images/company/header_logo.png"
+        url:

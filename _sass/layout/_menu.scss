@@ -72,7 +72,7 @@
 						font-weight: _font(weight-bold);
 						letter-spacing: _font(letter-spacing-alt);
 						line-height: 4em;
-						text-decoration: none;
+						text-decoration: none !important;
 						text-transform: uppercase;
 					}
 
