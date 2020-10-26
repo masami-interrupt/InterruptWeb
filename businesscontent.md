@@ -66,9 +66,6 @@ nav-menu: true
                     <h3>セミナー講師</h3>
                 </header>
                 <p style="color:#fff;">新人教育、社内スキルアップのお手伝いが可能です。</p>
-                <ul class="actions">
-                    <li><a href="generic.html" class="button">詳しくはこちら</a></li>
-                </ul>
             </div>
         </div>
 	</section>

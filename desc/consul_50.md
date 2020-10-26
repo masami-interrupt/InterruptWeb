@@ -14,9 +14,13 @@ show_tile: false
 </section>
 <section id="two">
 
-{% include consul_support.html %}
+{% include consul_environment.html %}
 </section>
 <section id="three">
+
+{% include consul_support.html %}
+</section>
+<section id="four">
 
 {% include consul_software.html %}
 </section>

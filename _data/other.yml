@@ -1,0 +1,43 @@
+appli:
+   - item:
+        title: "URECCO work"
+        subtitle: "php,"
+        desc: "検索部分のロジック修正と、jQueryを使用した検索ダイアログなどを作成しました。"
+        image: "../assets/images/performance/urecco.jpg"
+        url: "https://www.caba2.jp"
+   - item:
+        title: "http://shintaro.com"
+        subtitle: "WordPress"
+        desc: "HTMLページを、WordPress用のテーマに最適化し、編集がしやすい形にしました"
+        image: "../assets/images/performance/shintaro.jpg"
+        url: "http://shintaro.com"
+   - item:
+        title: "フジテレビドラマ"
+        subtitle: "Visual Basic"
+        desc: "テレビドラマで使用する、動きの必要なアプリを作成しました"
+        image: "../assets/images/no_image_square.jpg"
+        url:
+   - item:
+        title: "新人研修"
+        subtitle: "C,C++,Visual Basic"
+        desc: "ソフトウェア開発会社の新人研修の講師を担当しました"
+        image: "../assets/images/no_image_square.jpg"
+        url:
+   - item:
+        title: "ママのわいがやネット"
+        subtitle: "Perl,HTML"
+        desc: "赤ちゃん用品の口コミサイトです"
+        image: "../assets/images/performance/waigaya.jpg"
+        url:
+   - item:
+        title: "技術コンサル"
+        subtitle: "iOS"
+        desc: "安定稼働ができずにリリースが伸びていたプロジェクトの技術的サポートを実施しました。"
+        image: "../assets/images/no_image_square.jpg"
+        url:
+   - item:
+        title: "クラウドファウンディング連携サイト"
+        subtitle: "Ruby on rails,PHP"
+        desc: "クラウドファウンディングサイトから、情報を取得して、限定オリジナルファッションアイテムを扱う支援型ECプラットフォームWebページ作成"
+        image: "../assets/images/performance/FACTRYogp.jpg"
+        url: "http://www.factry.jp"

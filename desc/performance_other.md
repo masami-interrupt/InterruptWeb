@@ -1,19 +1,22 @@
 ---
 layout: post
-title: 自社プロジェクト
-image: assets/images/jisha.jpg
+title: その他の実績
+subtitle: 
+image: assets/images/project.jpg
 nav-menu: false
 show_tile: false
 ---
 
 <!-- Content -->
 {% assign row = 1 %}
-{% for comp in site.data.ourproject.appli %}
+{% for comp in site.data.other.appli %}
     {% if row == 1 %}
 <div class="row">
     {% endif %}
     <div class="6u 12u$(small)">
+    <a href="{{ comp.item.url }}">
     <h3 style="color:#000;">{{ comp.item.title }}</h3>
+    </a>
     <h5 style="color:#777;">{{ comp.item.subtitle }}</h5>
     <p><span class="image left"><img src="{{ comp.item.image }}" alt="" /></span>{{ comp.item.desc }}</p>
     </div>

@@ -1,14 +1,15 @@
 ---
 layout: post
-title: 自社プロジェクト
-image: assets/images/jisha.jpg
+title: 非公開実績
+description: 守秘義務の契約があり、公開できない実績となります
+image: assets/images/hikoukai.jpg
 nav-menu: false
 show_tile: false
 ---
 
 <!-- Content -->
 {% assign row = 1 %}
-{% for comp in site.data.ourproject.appli %}
+{% for comp in site.data.work.appli %}
     {% if row == 1 %}
 <div class="row">
     {% endif %}

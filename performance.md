@@ -54,14 +54,14 @@ nav-menu: true
                 </header>
                 <p style="color:#fff;">守秘義務契約のためWEBで公開できない実績の概要です</p>
                 <ul class="actions">
-                    <li><a href="generic.html" class="button">詳しくはこちら</a></li>
+                    <li><a href="/desc/performance_work.html" class="button">詳しくはこちら</a></li>
                 </ul>
             </div>
         </div>
     </section>
    <section>
 <a href="generic.html" class="image">
-    <img src="{% link assets/images/other.jpg %}" alt="" data-position="top center" />
+    <img src="{% link assets/images/project.jpg %}" alt="" data-position="top center" />
 </a>
 <div class="content">
     <div class="inner">
@@ -70,7 +70,7 @@ nav-menu: true
         </header>
         <p style="color:#fff;">Webや、業務用アプリなど、その他の実績の概要です</p>
         <ul class="actions">
-            <li><a href="generic.html" class="button next">詳しくはこちら</a></li>
+            <li><a href="/desc/performance_other.html" class="button next">詳しくはこちら</a></li>
         </ul>
     </div>
     </div>

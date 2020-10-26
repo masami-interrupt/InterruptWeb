@@ -1,31 +1,31 @@
 appli:
    - item:
-        title: "すぎちゃんの押せばしゃべ〜る"
-        desc: "有料１位"
-        image: "../assets/images/performance/Icon@2x.jpg"
+        title: "ことぽけ"
+        subtitle: "iOS,FacebookSDK"
+        desc: "特定のFacebookページを閲覧するためのアプリです。Facebookページを作成して、更新するだけでアプリの内容を更新することができます。サーバーの管理が不要です。アーキテクチャについてはブログを参照してください。"
+        image: "../assets/images/performance/icon114-3.jpg"
         url:
    - item:
-        title:
-        desc:
-        image: "../assets/images/company/header_logo.png"
+        title: "チェインヒーローズ攻略アプリ"
+        subtitle: "iOS,Android,サーバーサイド"
+        desc: "サーバーサイド- PHPスクリプトによるBBS,WordPress攻略日記、広告ページ <br>クライアント-タイマー機能など"
+        image: "../assets/images/performance/icon_chen.jpg"
         url:
    - item:
-        title:
-        desc:
-        image: "../assets/images/company/header_logo.png"
+        title: "肉カメラ"
+        subtitle: "iOS"
+        desc: "スタンプ機能、フィルター機能を持つカメラアプリです。GPUImageを使用して写真にフィルター加工をしています"
+        image: "../assets/images/performance/icon120.jpg"
         url:
    - item:
-        title:
-        desc:
-        image: "../assets/images/company/header_logo.png"
+        title: "どっち"
+        subtitle: "iOS,Android,WordPress,サーバーサイド"
+        desc: "どっちがいい？を投票するサイト。"
+        image: "../assets/images/performance/docchi300.jpg"
         url:
    - item:
-        title:
-        desc:
-        image: "../assets/images/company/header_logo.png"
-        url:
-   - item:
-        title:
-        desc:
-        image: "../assets/images/company/header_logo.png"
+        title: "ずっ友＆今だけBBS for パズドラ"
+        subtitle: "iOS,Android,サーバーサイド"
+        desc: "パズルアンドドラゴンズの友達募集用BBS.イベントタイマーです"
+        image: "../assets/images/performance/icon114.jpg"
         url:
