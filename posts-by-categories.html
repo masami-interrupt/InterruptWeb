@@ -1,0 +1,61 @@
+---
+layout: post
+title: "ブログ"
+landing-title: 'ブログ'
+nav-menu: true
+description: ""
+image: null
+author: null
+show_tile: false
+---
+   <!-- Plugin CSS -->
+    <link rel="stylesheet" href="/assets/css/animate.min.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/simple-line-icons.css">
+
+
+<div class="container-fluid index">
+  <div class="row index all-posts">
+
+    <h1 class="header author-header">{{ site.author_name }}</h1>
+    <h2 class="header categories" itemprop="headline"><small>
+
+      <div class="dropdown btn-group">
+        <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">カテゴリ
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="/blog.html">新着順</a></li>
+        </ul>
+      </div>
+
+    </small></h2>
+
+      {% for category in site.categories %}
+      <div class="col-md-12 content-panel articles">
+        <h2 id="{{ category | first }}-ref">{{ category | first }}</h2>
+        <ul style="list-style: none;">
+          {% for posts in category %}
+            {% for post in posts %}
+              <li>
+                <hr>
+                <!-- problem of for cycle can't use images <img src="/{{ post.header-img | prepend: site.baseurl }}" class="img-responsive" alt="{{ post.title }}"> -->
+                <h5 style="color:#777;"><a href="">{{post.title}}</a></h3>
+                <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
+              </li>
+            {% endfor %}
+          {% endfor %}
+
+        </ul>
+      </div>
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/assets/js/bootstrap.min.js"></script> 
+

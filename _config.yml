@@ -3,7 +3,7 @@ title: Interrupt LLC.
 subtitle:
 email: info@interrupt.technology
 description: 経験豊富なメンバーが<br /> ITに関するベストソリューションをご提案します.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.interrupt.technology" # the base hostname & protocol for your site
 author: Naoko Kubo
 #street_address:
@@ -12,7 +12,7 @@ author: Naoko Kubo
 #zip_code: 191-0041
 #country: 日本
 #phone:
-
+future: true
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 7
