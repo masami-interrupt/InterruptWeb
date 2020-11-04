@@ -2,7 +2,7 @@
 layout: post
 title: "ブログ"
 landing-title: 'ブログ'
-nav-menu: true
+nav-menu: false
 description: ""
 image: null
 author: null
@@ -11,8 +11,6 @@ show_tile: false
    <!-- Plugin CSS -->
     <link rel="stylesheet" href="/assets/css/animate.min.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/simple-line-icons.css">
-
-
 <div class="container-fluid index">
   <div class="row index all-posts">
 
@@ -32,14 +30,14 @@ show_tile: false
 
       {% for category in site.categories %}
       <div class="col-md-12 content-panel articles">
-        <h2 id="{{ category | first }}-ref">{{ category | first }}</h2>
+        <h3 style="color:#888;" id="{{ category | first }}-ref">{{ category | first }}</h3>
         <ul style="list-style: none;">
           {% for posts in category %}
             {% for post in posts %}
               <li>
                 <hr>
                 <!-- problem of for cycle can't use images <img src="/{{ post.header-img | prepend: site.baseurl }}" class="img-responsive" alt="{{ post.title }}"> -->
-                <h5 style="color:#777;"><a href="">{{post.title}}</a></h3>
+                <h5 style="color:#777;"><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h3>
                 <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
               </li>
             {% endfor %}

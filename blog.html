@@ -12,7 +12,6 @@ show_tile: false
     <link rel="stylesheet" href="/assets/css/animate.min.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/simple-line-icons.css">
 
-
 <div class="container-fluid index">
   <div class="row index all-posts">
 
@@ -44,8 +43,8 @@ show_tile: false
             <hr>
             <div>
             <a href="{{ post.url | prepend: site.baseurl }}">
-              <div style="width: 100px;display: inline-block;">
-              <img src="{{ post.header-img | prepend: site.baseurl }}" class="img-responsive" alt="{{ post.title }}">
+              <div style="width: 100%;height:170px;display: inline-block;">
+              <img style="width: 90%;height:100%;object-fit: cover;" src="{{ post.header-img | prepend: site.baseurl }}" class="img-responsive" alt="{{ post.title }}">
               </div>
             </a>
               <div style="display: inline-block;margin-left: 10px;">
