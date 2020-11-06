@@ -1,6 +1,6 @@
 ---
 layout: price
-title: コンサルタント
+title: 顧問プログラマ
 landing-title: 'コンサルタント'
 nav-menu: true
 description: 
