@@ -10,10 +10,9 @@ image: assets/images/construction.jpg
 ---
 
 <h4 class="blogtitle">Wordpressをやめました</h4>
-<p>初期のWebは、HTMLを直に書いて同じコードが発生する部分はphpでincludeして、みたいな感じでした。
-それが、Wordpressが出て、管理画面から入力すればHTMLがわからない担当者でも、ページの更新ができるようになった。というのが利点でした。</p>
-<p>一時期LAMPが流行って、（Linux,Apache,MySQL,PHP/Perl/Python）サーバーサイドのプログラムで処理をして画面を表示するという仕組みがほとんどでした。Wordpressもそこに含まれます。</p>
-<p>うちのサーバーが何度目かに落ちて、しかも表示に時間がかかるーとSNSでぼやいてたらセミナーでよくご一緒させていただく<a href="https://www.ey-office.com/blog_archive/2020/11/04/ey-office-site-will-try-to-get-into-jamstack-4/?fbclid=IwAR2OEJ3v2pO_jn8Z2cRQPT_UIy1URBeaA0P2tVXpdhrA-fsJlnqM3fg3CAA" target=_blank >EY-Officeの吉田さん</a>から、Jamstackにしなよーとアドバイスをいただきました。</p>
+<p>初期のWebは、HTMLを直接書いていました。その後、Wordpressが登場して、管理画面から入力すればHTMLがわからない担当者でも、ページの更新が簡単にできるようになりました。</p>
+<p>現在も多く使われているのはLAMPで、（Linux,Apache,MySQL,PHP/Perl/Python）サーバーサイドのプログラムで処理をして画面を表示します。Wordpressもそこに含まれます。</p>
+<p>我が社ののサーバーが何度目かに落ちて、しかも表示に時間がかかるーとSNSでぼやいてたらセミナーでよくご一緒させていただく<a href="https://www.ey-office.com/blog_archive/2020/11/04/ey-office-site-will-try-to-get-into-jamstack-4/?fbclid=IwAR2OEJ3v2pO_jn8Z2cRQPT_UIy1URBeaA0P2tVXpdhrA-fsJlnqM3fg3CAA" target=_blank >EY-Officeの吉田さん</a>から、Jamstackにしなよーとアドバイスをいただきました。</p>
 <h4 class="blogtitle">JamStackとは</h4>
 <p>Qiitaに記事がありました<a href="https://qiita.com/ozaki25/items/4075d03278d1fb51cc37" target=_blank >Jamstackって何なの？何がいいの？</a></p>
 <p>最近よく聞くサーバーレスの仕組みです。AWSにEC2立てたり、さくらサーバー借りたり、お名前サーバー借りたりする必要がありません。</p>
