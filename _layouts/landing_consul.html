@@ -7,29 +7,38 @@
 <link rel="stylesheet" type="text/css" href="/assets/css/consult.css" />
 <html>
 
-{% include head.html %}
+    {% include head.html %}
 
-<body>
-    {% include header.html %}
+    <body>
 
-        <section id="banner" class="one">
+        {% include header.html %}
+
+        <section id="banner" class="style2">
             <div class="inner">
+                <span class="image">
+                    <img src="{{ page.image }}" alt="">
+                </span>
                 <header class="major">
 
                     <h1>{{ page.title }}</h1>
 
                 </header>
-                <div class="content" style="color:#fff;">
+                <div class="content" style="color: #fff;">
 
-                <p>{{ content }}</p>
+                    {{ page.description }}
 
                 </div>
+
+{% if page.show_ribbon == true %}
+<span class="ribbon">
+  初回３０日間無料
+</span>
+{% endif %}
             </div>
         </section>
-  {% include pricetbl.html %}
 
+    {{ content }}
 
-    {% include contact.html %}
     {% include footer.html %}
 
 </body>

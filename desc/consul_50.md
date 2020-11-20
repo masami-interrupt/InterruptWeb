@@ -1,10 +1,11 @@
 ---
-layout: landing
-title: コンサルタント50
+layout: landing_consul
+title: 顧問プログラマ50
 description: 　チャットサポートに加えて、簡易的な業務のお手伝いや、調査を含むコースです。１ヶ月内に1人日の作業工数を確保します
 image: /assets/images/kari-shea-vGgaESc2M1Y-unsplash.jpg
 nav-menu: false
 show_tile: false
+show_ribbon: true
 ---
 
 <div id="main" markdown="1">

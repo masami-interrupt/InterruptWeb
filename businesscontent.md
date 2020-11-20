@@ -32,6 +32,7 @@ nav-menu: true
 			<div class="inner">
 				<header class="major">
 					<h3>コンサルティング</h3>
+                    <p>(顧問プログラマ)</p>
 				</header>
 				<p style="color:#fff;">小さなアドバイスや調査から、業務全体にわたるコンサルティングまで、お気軽に使えるコンサルティングのコースを作りました。プログラミング学習から、コンサルタント、保守業務、小さなツール開発まで承ります。</p>
 				<ul class="actions">

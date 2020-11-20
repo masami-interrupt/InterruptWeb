@@ -1,10 +1,11 @@
 ---
-layout: landing
-title: コンサルタント150
+layout: landing_consul
+title: 顧問プログラマ150
 description: 　チャットサポートに加えて、簡易的な業務のお手伝いや、工数内で実現可能な業務ツールなどを新規作成する作業も含みます。１ヶ月内に４人日の作業工数を確保します
 image: /assets/images/linkedin-sales-navigator-0QvTyp0gH3A-unsplash.jpg
 nav-menu: false
 show_tile: false
+show_ribbon: false
 ---
 
 <div id="main" markdown="1">

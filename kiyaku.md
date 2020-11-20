@@ -3,7 +3,7 @@ layout: page
 title: 利用規約
 description: 
 image: assets/images/kari-shea-k09UjFzAFbE-unsplash.jpg
-nav-menu: true
+nav-menu: false
 show_tile: false
 ---
 
@@ -160,6 +160,46 @@ show_tile: false
         <h5 style="color:#212529;">第12条（利用規約の変更）</h5>
         <p>当社は，必要と判断した場合には，ユーザーに通知することなくいつでも本規約を変更することができるものとします。なお，本規約の変更後，本サービスの利用を開始した場合には，当該ユーザーは変更後の規約に同意したものとみなします。</p>
     </div>
+    <!-- Break -->
+</div>
+
+<hr class="major" />
+
+<div class="row">
+    <div class="6u 12u$(small)">
+    <hr class="major" />
+        <h5 style="color:#212529;">第13条（個人情報の取扱い）</h5>
+        <p>当社は，本サービスの利用によって取得する個人情報については，当社「プライバシーポリシー」に従い適切に取り扱うものとします。</p>
+    </div>
+    <div class="6u$ 12u$(small)">
+    <hr class="major" />
+        <h5 style="color:#212529;">第14条（通知または連絡）</h5>
+        <p>ユーザーと当社との間の通知または連絡は，当社の定める方法によって行うものとします。当社は,ユーザーから,当社が別途定める方式に従った変更届け出がない限り,現在登録されている連絡先が有効なものとみなして当該連絡先へ通知または連絡を行い,これらは,発信時にユーザーへ到達したものとみなします。</p>
+    </div>
+    <!-- Break -->
+</div>
+
+<hr class="major" />
+
+<div class="row">
+    <div class="6u 12u$(small)">
+    <hr class="major" />
+        <h5 style="color:#212529;">第15条（権利義務の譲渡の禁止）</h5>
+        <p>前の承諾なく，利用契約上の地位または本規約に基づく権利もしくは義務を第三者に譲渡し，または担保に供することはできません。</p>
+    </div>
+    <div class="6u$ 12u$(small)">
+    <hr class="major" />
+        <h5 style="color:#212529;">第16条（準拠法・裁判管轄）</h5>
+        <p>本規約の解釈にあたっては，日本法を準拠法とします。</p>
+        <p>本サービスに関して紛争が生じた場合には，当社の本店所在地を管轄する裁判所を専属的合意管轄とします。</p>
+    </div>
+    <!-- Break -->
+</div>
+
+<hr class="major" />
+
+<div class="row">
+ <p>以上</p>
     <!-- Break -->
 </div>
 

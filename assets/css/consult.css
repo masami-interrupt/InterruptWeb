@@ -64,8 +64,17 @@ i{
   text-align: left;
   margin-bottom:10px
 }
+.ribbon {
+  color: #fff;
+  position: relative;
+  padding: 0.4rem 0.7rem;
+  font-size:1.0em;
+  font-weight: bold;
+  border: 6px double #fff;
+  background-color: #ffc107;
+}
 
-@media screen and (max-width: 600px) {
+ 
   .wrap{
      overflow-x: scroll;
   }
