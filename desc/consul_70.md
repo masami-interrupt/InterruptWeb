@@ -1,7 +1,7 @@
 ---
 layout: landing_consul
 title: 顧問プログラマ70
-description: 　チャットサポートに加えて、簡易的な業務のお手伝いや、工数内で実現可能な業務ツールなどを新規作成する作業も含みます。１ヶ月内に２人日の作業工数を確保します
+description: 　チャットサポートに加えて、簡易的な業務のお手伝いや、工数内で実現可能な業務ツールなどを新規作成する作業も含みます。１ヶ月内に２人日の作業工数を確保します<br/>ご契約は３ヶ月単位となります
 image: /assets/images/william-iven-SpVHcbuKi6E-unsplash.jpg
 nav-menu: false
 show_tile: false

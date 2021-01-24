@@ -44,17 +44,11 @@ appli:
    - item:
         title: "子供用アプリ"
         subtitle: "iOS"
-        desc: "エンドユーザ：開発会社<br>鬼からでんわに似た、子供のための教育アプリ。"
+        desc: "エンドユーザ：開発会社<br>鬼から電話に似た、子供のための教育アプリ。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
         title: "動画会議室"
-        subtitle: "Java,Node.js"
-        desc: "エンドユーザ：開発会社<br>AndroidにUSBカメラをつないで、動画の会議室を作成するシステム。"
-        image: "../assets/images/no_image_square.jpg"
-        url:
-   - item:
-        title: "WebRTC"
         subtitle: "Java,Node.js"
         desc: "エンドユーザ：開発会社<br>AndroidにUSBカメラをつないで、動画の会議室を作成するシステム。"
         image: "../assets/images/no_image_square.jpg"

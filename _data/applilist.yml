@@ -1,8 +1,14 @@
 appli:
    - item:
+        title: "SWEET CARD　年賀状"
+        subtitle: "iOS,Objective-C,CoreGraphics.framework"
+        desc: "おしゃれな年賀状を簡単作成、注文できる年賀状アプリです。"
+        image: "../assets/images/performance/sweetcard.jpg"
+        url:
+   - item:
         title: "【最強】スラング英会話"
         subtitle: "iOS,CoreData"
-        desc: "オール無料】学校で教えてくれないスラング英語を学べるアプリがついに登場！よく使われる英会話スラングが3択クイズで学べます。"
+        desc: "【オール無料】学校で教えてくれないスラング英語を学べるアプリがついに登場！よく使われる英会話スラングが3択クイズで学べます。"
         image: "../assets/images/performance/english.jpg"
         url:
    - item:

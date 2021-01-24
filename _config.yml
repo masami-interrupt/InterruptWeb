@@ -18,17 +18,6 @@ future: true
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 7
 
-# social settings
-500px_url: 
-facebook_url: https://www.facebook.com/interrupt.technology
-github_url: https://github.com/NaokoKubo
-#gitlab_url:
-#instagram_url:
-#linkedin_url:
-#pinterest_url:
-#slack_url:
-twitter_url: https://twitter.com/naochi___
-
 # build settings
 markdown: kramdown
 kramdown:

@@ -26,6 +26,6 @@ appli:
    - item:
         title: "ずっ友＆今だけBBS for パズドラ"
         subtitle: "iOS,Android,サーバーサイド"
-        desc: "パズルアンドドラゴンズの友達募集用BBS.イベントタイマーです"
+        desc: "パズル&ドラゴンズの友達募集用BBS.イベントタイマーです"
         image: "../assets/images/performance/icon114.jpg"
         url:

@@ -2,7 +2,7 @@
 layout: price
 title: 顧問プログラマ
 landing-title: 'コンサルタント'
-nav-menu: true
+nav-menu: commings
 description: 
 image: null
 author: null

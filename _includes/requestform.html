@@ -1,0 +1,96 @@
+  <section class="page-section" id="{{ site.data.sitetext.contact.section | default: "contact" }}">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script>
+    window.addEventListener("beforeunload", function (event) {
+      var confirmationMessage = "入力内容を破棄します。";
+
+      event.returnValue = confirmationMessage;
+      return confirmationMessage;
+    });
+  </script>
+  <div class="container">
+    <div class="navbar">
+      <h1>申し込みフォーム</h1>
+    </div>
+
+    <form>
+
+      <div class="form-row" style="color: #fff;">
+        <label class="col-sm-3 col-form-label">お名前 <span class="badge badge-danger">必須</span></label>
+        <div class="col-sm-9">
+          <p>
+            <input type="text" name="name" autocomplete="name" class="form-control" placeholder="お名前" required />
+          </p>
+        </div>
+      </div>
+
+      <div class="form-row" style="color: #fff;">
+        <label class="col-sm-3 col-form-label">電話番号 <span class="badge badge-danger">必須</span></label>
+        <div class="col-sm-9">
+          <p>
+            <input type="tel" name="tel" autocomplete="tel" class="form-control" placeholder="電話番号" required />
+          </p>
+        </div>
+      </div>
+
+      <div class="form-row" style="color: #fff;">
+        <label class="col-sm-3 col-form-label">郵便番号 <span class="badge badge-danger">必須</span></label>
+        <div class="col-sm-9">
+          <p>
+            <input type="text" name="postal-code" autocomplete="postal-code" class="form-control" placeholder="郵便番号"
+              required />
+          </p>
+        </div>
+      </div>
+
+      <div class="form-row" style="color: #fff;">
+        <label class="col-sm-3 col-form-label">住所 <span class="badge badge-danger">必須</span></label>
+        <div class="col-sm-9">
+          <p>
+            <input type="text" name="address-level1" autocomplete="address-level1" class="form-control"
+              placeholder="都道府県" required />
+          </p>
+          <p>
+            <input type="text" name="address-level2" autocomplete="address-level2" class="form-control"
+              placeholder="市区町村" required />
+          </p>
+          <p>
+            <input type="text" name="address-line1" autocomplete="address-line1" class="form-control" placeholder="番地等"
+              required />
+          </p>
+          <p>
+            <input type="text" name="address-line2" autocomplete="address-line2" class="form-control"
+              placeholder="アパート／マンション名等" />
+          </p>
+        </div>
+      </div>
+
+      <div class="form-row" style="color: #fff;">
+        <label class="col-sm-3 col-form-label">メールアドレス <span class="badge badge-danger">必須</span></label>
+        <div class="col-sm-9">
+          <p>
+            <input type="email" name="email" autocomplete="email" class="form-control" placeholder="メールアドレス" required />
+          </p>
+        </div>
+      </div>
+
+      <div class="form-row" style="color: #fff;">
+        <label class="col-sm-3 col-form-label">会社名</label>
+        <div class="col-sm-9">
+          <p>
+            <input type="text" name="organization" autocomplete="organization" autocorrect="off" autocapitalize="off"
+              class="form-control" placeholder="お勤め先" />
+          </p>
+        </div>
+      </div>
+
+      <div class="text-center my-5">
+        <button type="submit" class="btn btn-primary">申込する</button>
+      </div>
+
+    </form>
+  </div>
+  </section>
+<!-- End Contact -->
