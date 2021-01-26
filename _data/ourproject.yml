@@ -2,7 +2,7 @@ appli:
    - item:
         title: "ことぽけ"
         subtitle: "iOS,FacebookSDK"
-        desc: "特定のFacebookページを閲覧するためのアプリです。Facebookページを作成して、更新するだけでアプリの内容を更新することができます。サーバーの管理が不要です。アーキテクチャについてはブログを参照してください。"
+        desc: "特定のFacebookページを閲覧するためのアプリです。Facebookページを作成して、更新するだけでアプリの内容を更新することができます。サーバーの管理が不要です。"
         image: "../assets/images/performance/icon114-3.jpg"
         url:
    - item:
