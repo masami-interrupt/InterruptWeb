@@ -12,14 +12,18 @@
 .bubble04 {
 	position: relative;
 	display: inline-block;
-	width: 100px; 
-	text-align: center;
+	width: 80px; 
+	top:7px;
+	vertical-align: center;
 	color:#FFF;
 	padding: 5px;
 	background-color: #067ab1;
 	border-radius: 5px;
-	left: 30px;
+	left: -10px;
 	line-height: 22px;
+	float: right;
+	text-align: center;
+	letter-spacing: .015em;
 }
 .bubble04:before {
 	content: '';
@@ -47,7 +51,7 @@
 		        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
 		    {% endif %}
 		        {% if page.nav-menu == "commings" %}
-		        <li><a href="">{{ page.title }}<span class="bubble04" >作成中</span></a></li>
+		        <li><a href="">{{ page.title }}<span class="bubble04" >近日公開</span></a></li>
   		        {% endif %}
 		{% endfor %}
 	</ul>
