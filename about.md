@@ -3,6 +3,7 @@ layout: page
 title: Interruptについて
 image: assets/images/pic100.jpg
 nav-menu: true
+show_tile: false
 ---
 
 <!-- Main -->
