@@ -1,7 +1,10 @@
 ---
 layout: landing
-title: 実績
-description: 
+title: 実績一覧
+description: "自社プロジェクト：当社で開発したiOS,Androidのアプリや、Web上の実績です。<br>
+受託開発：外部よりご依頼を受けて開発しましたアプリ製品の実績です。<br>
+非公開実績：守秘義務契約のため公表できない実績の業務内容のみご紹介します。<br>
+その他の実績：Webサイトやセミナー講師、技術コンサルなど、その他実績です。"
 image: assets/images/kari-shea-k09UjFzAFbE-unsplash.jpg
 nav-menu: true
 ---
@@ -52,7 +55,7 @@ nav-menu: true
                 <header class="major">
                     <h3>非公開実績</h3>
                 </header>
-                <p style="color:#fff;">守秘義務契約のためWEBで公開できない実績の概要です</p>
+                <p style="color:#fff;">守秘義務契約のため公表できないご依頼で行なった業務内容のみご紹介します。</p>
                 <ul class="actions">
                     <li><a href="/desc/performance_work.html" class="button">詳しくはこちら</a></li>
                 </ul>

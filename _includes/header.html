@@ -51,7 +51,10 @@
 		        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
 		    {% endif %}
 		        {% if page.nav-menu == "commings" %}
-		        <li><a href="">{{ page.title }}<span class="bubble04" >近日公開</span></a></li>
+		        <li><span style="color:#ff0000;border: 0;border-top: solid 1px rgba(212,212,255,0.1);display: block;font-size: 0.8em;font-weight: 600;letter-spacing: .25em;line-height: 4em;text-decoration: none !important;text-transform: uppercase;text-align: left;">{{ page.title }}<span class="bubble04" >近日公開</span></span></li>
+  		        {% endif %}
+		        {% if page.nav-menu == "contact" %}
+		        <li><a href="/#contact">{{ page.title }}</a></li>
   		        {% endif %}
 		{% endfor %}
 	</ul>

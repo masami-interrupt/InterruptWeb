@@ -1,31 +1,34 @@
 appli:
    - item:
         title: "ことぽけ"
-        subtitle: "iOS,FacebookSDK"
-        desc: "特定のFacebookページを閲覧するためのアプリです。Facebookページを作成して、更新するだけでアプリの内容を更新することができます。サーバーの管理が不要です。"
+        subtitle: "アプリ(iOS,FacebookSDK使用)"
+        desc: "特定のFacebookページを閲覧するためのアプリです。<br>
+Facebookページを作成して、更新するだけでアプリの内容を更新することができます。<br>"
         image: "../assets/images/performance/icon114-3.jpg"
         url:
    - item:
         title: "チェインヒーローズ攻略アプリ"
-        subtitle: "iOS,Android,サーバーサイド"
-        desc: "サーバーサイド- PHPスクリプトによるBBS,WordPress攻略日記、広告ページ <br>クライアント-タイマー機能など"
+        subtitle: "アプリ(iOS,Android)"
+        desc: "ゲーム「チェインヒーローズ」のPHPスクリプトによるBBS、WordPress攻略日記、<br>
+広告ページクライアント、イベントタイマーアプリです。"
         image: "../assets/images/performance/icon_chen.jpg"
         url:
    - item:
         title: "肉カメラ"
-        subtitle: "iOS"
-        desc: "スタンプ機能、フィルター機能を持つカメラアプリです。GPUImageを使用して写真にフィルター加工をしています"
+        subtitle: "アプリ(iOS)"
+        desc: "スタンプ機能、フィルター機能を持つカメラアプリです。<br>
+GPUImageを使用して写真にフィルター加工をしています。"
         image: "../assets/images/performance/icon120.jpg"
         url:
    - item:
         title: "どっち"
-        subtitle: "iOS,Android,WordPress,サーバーサイド"
-        desc: "どっちがいい？を投票するサイト。"
+        subtitle: "アプリ(iOS,Android),Webサイト(WordPress)"
+        desc: "どっちがいい？を投票するアプリ、Webサイトです。"
         image: "../assets/images/performance/docchi300.jpg"
         url:
    - item:
         title: "ずっ友＆今だけBBS for パズドラ"
-        subtitle: "iOS,Android,サーバーサイド"
-        desc: "パズル&ドラゴンズの友達募集用BBS.イベントタイマーです"
+        subtitle: "アプリ(iOS,Android)"
+        desc: "ゲーム「パズル＆ドラゴンズ」の友達募集用BBS、イベントタイマーアプリです。"
         image: "../assets/images/performance/icon114.jpg"
         url:

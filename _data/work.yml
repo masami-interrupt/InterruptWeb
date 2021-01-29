@@ -13,8 +13,8 @@ appli:
         url:
    - item:
         title: "通信速度計測用ツール"
-        subtitle: "iOS"
-        desc: "エンドユーザ：通信会社<br>回線速度の測定をするアプリです。"
+        subtitle: "アプリ(iOS)"
+        desc: "通信会社<br>回線速度を測定するアプリの開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
@@ -37,14 +37,14 @@ appli:
         url:
    - item:
         title: "QRコードアプリ"
-        subtitle: "iOS"
-        desc: "エンドユーザ：スタートアップ企業<br>QRコードを読み取って、URLを表示するアプリ。"
+        subtitle: "アプリ(iOS)"
+        desc:"スタートアップ企業<br>QRコードを読み取り、URLを表示するアプリの開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
         title: "子供用アプリ"
-        subtitle: "iOS"
-        desc: "エンドユーザ：開発会社<br>鬼から電話に似た、子供のための教育アプリ。"
+        subtitle: "アプリ(iOS)"
+        desc:"開発会社<br>「鬼から電話」をベンチマークとした子育て支援アプリの開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
@@ -61,13 +61,13 @@ appli:
         url:
    - item:
         title: "管理画面サーバーサイド"
-        subtitle: "Java,spring-boot"
-        desc: "エンドユーザ：キャラクター販売会社<br>会員用アプリの管理画面のサーバーサイド。"
+        subtitle:"システムツール(Java,spring-boot)"
+        desc:"キャラクター販売会社<br>会員用アプリの管理画面の開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
         title: "フレームワーク"
-        subtitle: "iOS,Android"
-        desc: "エンドユーザ：通信会社<br>通信システムに接続するための共通フレームワーク。"
+        subtitle:"アプリ(iOS,Android)"
+        desc:"通信会社通信システムに接続するための共通フレームワークの開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:

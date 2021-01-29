@@ -1,6 +1,6 @@
 ---
 layout: price
-title: 顧問プログラマ
+title: with D
 landing-title: 'コンサルタント'
 nav-menu: commings
 description: 

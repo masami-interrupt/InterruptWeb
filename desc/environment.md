@@ -6,9 +6,10 @@ image: assets/images/daniel-korpai-vHVfpi3h5xk-unsplash.jpg
 nav-menu: false
 show_tile: false
 ---
-プログラミングで特に難しいのは環境構築です。私たちは、数々のシステムを作り続けてきましたので、多くの環境も構築してきました。
-テスト用にもう一つの環境を作りたい、本番機にエラーなくリリース作業を実施したいなど、ご要望を伺った上で最適なご提案をすることができます。
-
+プログラミングで特に難しいのは環境構築です。<br>
+ですが私たちは、数々のシステムを作り続けてきたと同時に、多くの環境も構築してきました。<br>
+テスト用にもう一つの環境を作りたい、本番機にエラーなくリリース作業を実施したいなど、<br>
+ご要望を伺った上で最適なご提案をすることができます。<br>
 <div class="table-wrapper" style="width: 100%;">
     <table class="alt" style="table-layout: fixed;">
         <thead>

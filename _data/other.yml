@@ -1,26 +1,32 @@
 appli:
    - item:
+        title: "終末のハーレム"
+        subtitle: "Webサイト(php,WordPress)"
+        desc: "AWS上の環境構築と、WordPressによるサイト設計、製造と保守を実施しています。"
+        image: "../assets/images/performance/shumatsu_harem_OGP.jpg"
+        url: "https://end-harem.com/"
+   - item:
         title: "URECCO work"
-        subtitle: "php,"
-        desc: "検索部分のロジック修正と、jQueryを使用した検索ダイアログなどを作成しました。"
+        subtitle: "Webサイト(php)"
+        desc: "検索部分のロジック修正とjQueryを使用した検索ダイアログなどの開発を行いました。"
         image: "../assets/images/performance/urecco.jpg"
         url: "https://www.caba2.jp"
    - item:
         title: "http://shintaro.com"
-        subtitle: "WordPress"
-        desc: "HTMLページを、WordPress用のテーマに最適化し、編集がしやすい形にしました"
+        subtitle: "Webサイト(WordPress)"
+        desc: "HTMLページを編集しやすいWordPress用のテーマに最適化しました。"
         image: "../assets/images/performance/shintaro.jpg"
         url: "http://shintaro.com"
    - item:
         title: "フジテレビドラマ"
-        subtitle: "Visual Basic"
-        desc: "テレビドラマで使用する、動きの必要なアプリを作成しました"
+        subtitle: "モックアップ(Visual Basic)"
+        desc: "テレビドラマ内で登場する、実際に動作するアプリを作成しました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
         title: "新人研修"
-        subtitle: "C,C++,Visual Basic"
-        desc: "ソフトウェア開発会社の新人研修の講師を担当しました"
+        subtitle: "セミナー講師(C,C++,Visual Basic)"
+        desc: "ソフトウェア開発会社の新人研修の講師を担当しました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
@@ -31,8 +37,9 @@ appli:
         url:
    - item:
         title: "技術コンサル"
-        subtitle: "iOS"
-        desc: "安定稼働ができずにリリースが伸びていたプロジェクトの技術的サポートを実施しました。"
+        subtitle: "コンサルティング(iOS)
+"
+        desc: "安定稼働ができずにリリースが延期となっていたプロジェクトの技術的サポートを実施しました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:

@@ -6,8 +6,9 @@ image: assets/images/goran-ivos-T8LMIN09-mo-unsplash.jpg
 nav-menu: false
 show_tile: false
 ---
-私たちは、２０年以上の実績で、小さな社内システムから大手のシステムまで多岐にわたり開発を続けてきました。多くのシステムを世に出し、今も使われています。その豊富な実績でお客様に最適なシステムをご提案、実現することが可能です。まずはご相談ください。
-
+私たちは、２０年以上の実績で小さな社内システムから大手のシステムまで多岐にわたり開発を続けてきました。<br>
+多くのシステムを世に出し、今も使われています。<br>
+その豊富な実績でお客様に最適なシステムをご提案、実現することが可能です。まずはご相談ください。<br>
 <div class="table-wrapper" style="width: 100%;">
     <table class="alt" style="table-layout: fixed;">
         <thead>
