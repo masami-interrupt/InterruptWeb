@@ -1,7 +1,7 @@
 ---
 title: 業務内容
 layout: landing
-description: '主な業務内容の一覧です。詳しくはお問い合わせください'
+description: ''
 image: assets/images/altumcode-zE007SNgcdE-unsplash.jpg
 nav-menu: true
 ---

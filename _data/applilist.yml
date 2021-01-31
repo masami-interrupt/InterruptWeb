@@ -1,98 +1,98 @@
 appli:
    - item:
         title: "SWEET CARD　年賀状"
-        subtitle: "iOS,Objective-C,CoreGraphics.framework"
+        subtitle: "アプリ(iOS,Objective-C,CoreGraphics.framework使用)"
         desc: "おしゃれな年賀状を簡単作成、注文できる年賀状アプリです。"
         image: "../assets/images/performance/sweetcard.jpg"
         url:
    - item:
         title: "【最強】スラング英会話"
-        subtitle: "iOS,CoreData"
-        desc: "【オール無料】学校で教えてくれないスラング英語を学べるアプリがついに登場！よく使われる英会話スラングが3択クイズで学べます。"
+        subtitle: "アプリ(iOS,CoreData使用)"
+        desc: "学校で教えてくれないスラング英語を学べるアプリがついに登場！よく使われる英会話スラングが3択クイズで学べます。"
         image: "../assets/images/performance/english.jpg"
         url:
    - item:
         title: "無課金攻略・０円でゲーム極めようと思うんだが【０円攻略】"
-        subtitle: "iOS,KiiCloud,サーバーサイド"
-        desc: "ゲーム攻略BBSまとめ、ポイントアプリです。サーバーにはKiiCloudを使用しています"
+        subtitle: "アプリ(iOS,KiiCloud使用)"
+        desc: "ゲーム攻略BBSまとめ、ポイントアプリです。"
         image: "../assets/images/performance/icon114-1.jpg"
         url:
    - item:
         title: "すぎちゃんの押せばしゃべ〜る"
-        subtitle: "iOS"
-        desc: "AppStoreで無料総合１位を記録しました"
+        subtitle: "アプリ(iOS)"
+        desc: "お笑いタレント「スギちゃん」の押せばしゃべ〜るシリーズです。<br>AppStoreで無料総合１位を記録しました。"
         image: "../assets/images/performance/sugi-icon114.jpg"
         url:
    - item:
         title: "すぎちゃん電卓"
-        subtitle: "iOS"
-        desc: "電卓アプリです"
+        subtitle: "アプリ(iOS)"
+        desc: "お笑いタレント「スギちゃん」の電卓アプリです。"
         image: "../assets/images/performance/Icon@2x.jpg"
         url:
    - item:
         title: "稲川淳二の押せばしゃべ〜る"
-        subtitle: "iOS"
-        desc: "押せばしゃべ〜るシリーズです"
+        subtitle: "アプリ(iOS)"
+        desc: "怪談でお馴染み稲川淳二さんの押せばしゃべ〜るシリーズです。"
         image: "../assets/images/performance/icon_114.jpg"
         url:
    - item:
         title: "柳沢慎吾の押せばしゃべ〜る"
-        subtitle: "iOS"
-        desc: "押せばしゃべ〜るシリーズです"
+        subtitle: "アプリ(iOS)"
+        desc: "人気タレント柳沢慎吾さんの押せばしゃべ〜るシリーズです。"
         image: "../assets/images/performance/shingo.jpg"
         url:
    - item:
         title: "スナップショット家計簿"
-        subtitle: "iOS"
-        desc: "レシートを写真に撮ると内容をスキャンして保存する家計簿アプリです。<br>詳細設計、プログラマ（プログラマチーム４名） 未経験者へのレクチャーを含む"
+        subtitle: "アプリ(iOS)"
+        desc:  "レシートを写真に撮ると内容をスキャンして保存する家計簿アプリです。詳細設計からプログラマチーム内未経験者へのレクチャーまで行いました。"
         image: "../assets/images/performance/taiyaki.jpg"
         url:
    - item:
         title: "略奪愛と復縁の可能性診断！別れさせ屋、復縁屋"
-        subtitle: "iOS,Android"
-        desc: "診断アプリです"
+        subtitle: "アプリ(iOS,Android)"
+        desc: "恋愛系診断アプリです。"
         image: "../assets/images/performance/ic_launcher114.jpg"
         url:
    - item:
         title: "コレスゴ！"
-        subtitle: "iOS,Andrord"
-        desc: "Webサービスのアプリ版です"
+        subtitle: "アプリ(iOS,Android)"
+        desc: "情報サイトのアプリ版です。"
         image: "../assets/images/performance/icon180.jpg"
         url:
    - item:
         title: "集中力プラス！"
-        subtitle: "iOS"
+        subtitle: "アプリ(iOS)"
         desc: "集中力を高めるためのBGMアプリです"
         image: "../assets/images/performance/musicAppA1_114.jpg"
         url:
    - item:
         title: "こどもカメラ"
-        subtitle: "iOS"
+        subtitle: "アプリ(iOS)"
         desc: "子供を可愛らしく移す、ポージングのフィルター付きカメラです"
         image: "../assets/images/performance/icon114-2.jpg"
         url:
    - item:
         title: "笑ったらシェアのアプリ"
-        subtitle: "iOS"
+        subtitle: "アプリ(iOS)"
         desc: "笑ったらシェアのFacebookページを閲覧、投稿するためのアプリです"
         image: "../assets/images/performance/icon_1024x1024.jpg"
         url:
    - item:
         title: "LIST"
-        subtitle: "iOS"
+        subtitle: "アプリ(iOS)"
         desc: "LISTは”あの人が読んでる”記事を読むためのアプリです。"
         image: "../assets/images/performance/icon_list.jpg"
         url:
    - item:
         title: "カミアプ"
-        subtitle: "iOS"
-        desc: "iPhoneアプリのレビューや神アプリの解説を含むiOSの総合ニュースサイト。iPhoneの無料アプリの情報や小技の紹介も！"
+        subtitle: "アプリ(iOS)"
+        desc: "iPhoneアプリのレビューや神アプリの解説を含むiOSの総合ニュースサイトのアプリ版です。"
         image: "../assets/images/performance/Icon-App-83.5x83.5@2x.jpg"
         url:
    - item:
         title: "PICOL"
         subtitle: "iOS"
-        desc: "ゲーム、CD、本をバーコードで売る即金アプリ"
+        desc: "ゲーム、CD、本をバーコードで売る即金アプリです。"
         image: "../assets/images/performance/icon1024.jpg"
         url:
 

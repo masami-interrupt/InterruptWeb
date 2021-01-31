@@ -1,6 +1,6 @@
 ---
 layout: price
-title: with D
+title: With D
 landing-title: 'コンサルタント'
 nav-menu: commings
 description: 
