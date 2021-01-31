@@ -1,7 +1,11 @@
 .thumbbox { 
    width: 30%;height:100px;float: left;
  }
- 
+.clearfix:after {
+  content:" ";
+  display:block;
+  clear:both;
+} 
 @media only screen and (max-width: 750px) {
 .thumbbox { 
    width: 30%;height:50px;float: left;
