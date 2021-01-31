@@ -11,6 +11,7 @@ show_tile: false
    <!-- Plugin CSS -->
     <link rel="stylesheet" href="/assets/css/animate.min.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/simple-line-icons.css">
+    <link rel="stylesheet" href="/assets/css/bloglist.css">
 
 <div class="container-fluid index">
   <div class="row index all-posts">
@@ -41,13 +42,13 @@ show_tile: false
 
           <li>
             <hr>
-            <div>
-            <a href="{{ post.url | prepend: site.baseurl }}">
-              <div style="width: 100%;height:170px;display: inline-block;">
-              <img style="width: 90%;height:100%;object-fit: cover;" src="{{ post.header-img | prepend: site.baseurl }}" class="img-responsive" alt="{{ post.title }}">
+            <div class="clearfix">
+              <div class="thumbbox">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                  <img style="width: 90%;height:100%;object-fit: cover;" src="{{ post.header-img | prepend: site.baseurl }}" class="img-responsive" alt="{{ post.title }}">
+                </a>
               </div>
-            </a>
-              <div style="display: inline-block;margin-left: 10px;">
+              <div style="margin-left: 10px;">
             <h3 style="color: #777;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
             <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
               </div>
