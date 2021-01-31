@@ -14,7 +14,7 @@ show_tile: false
 <div class="row">
     {% endif %}
     <div class="6u 12u$(small)">
-    <a href="{{ comp.item.url }}">
+    <a href="{{ comp.item.url }}" target="_blank">
     <h3 style="color:#000;">{{ comp.item.title }}</h3>
     </a>
     <h5 style="color:#777;">{{ comp.item.subtitle }}</h5>
