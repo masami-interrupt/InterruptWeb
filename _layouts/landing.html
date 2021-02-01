@@ -23,8 +23,8 @@
         var js, fjs = d.getElementsByTagName(s)[0];
         console.log('comming1js=' + js);
         console.log('comming1id=' + id);
-        console.log('comming1d=' + d.objectName);
-        console.log('comming1d==' + d.getElementById(id).objectName);
+        console.log('comming1d=' + d.name);
+        console.log('comming1d==' + d.getElementById(id).name);
         if (d.getElementById(id)) return;
         console.log('comming2');
         js = d.createElement(s); js.id = id;
