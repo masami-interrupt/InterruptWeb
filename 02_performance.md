@@ -52,7 +52,7 @@ nav-menu: true
                 <header class="major">
                     <h3>非公開実績</h3>
                 </header>
-                <p style="color:#fff;">守秘義務契約のため公表できないご依頼で行なった業務内容のみご紹介します。</p>
+                <p style="color:#fff;">守秘義務契約のため公表できない実績の業務内容のみご紹介します。</p>
                 <ul class="actions">
                     <li><a href="/desc/performance_work.html" class="button">詳しくはこちら</a></li>
                 </ul>
@@ -66,9 +66,9 @@ nav-menu: true
 <div class="content">
     <div class="inner">
         <header class="major">
-            <h2>Web その他の実績</h2>
+            <h2>その他の実績</h2>
         </header>
-        <p style="color:#fff;">Webや、業務用アプリなど、その他の実績の概要です</p>
+        <p style="color:#fff;">Webサイトやセミナー講師、技術コンサルなど、その他実績です</p>
         <ul class="actions">
             <li><a href="/desc/performance_other.html" class="button next">詳しくはこちら</a></li>
         </ul>
