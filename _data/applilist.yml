@@ -91,7 +91,7 @@ appli:
         url:
    - item:
         title: "PICOL"
-        subtitle: "iOS"
+        subtitle: "アプリ(iOS)"
         desc: "ゲーム、CD、本をバーコードで売る即金アプリです。"
         image: "../assets/images/performance/icon1024.jpg"
         url:

@@ -1,14 +1,14 @@
 appli:
    - item:
         title: "電子書籍アプリ"
-        subtitle: "iOS"
-        desc: "エンドユーザ：大手出版社<br>人気少年雑誌のアプリ版の開発。"
+        subtitle: "アプリ(iOS)"
+        desc: "大手出版社<br>人気少年雑誌のアプリ版の開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
         title: "カメラアプリ"
-        subtitle: "iOS,Android"
-        desc: "エンドユーザ：大手食品会社<br>顔認証をしてセリフを表示する、トイカメラアプリです。"
+        subtitle: "アプリ(iOS,Android)"
+        desc: "大手食品会社<br>顔認証をしてセリフを表示するトイカメラアプリの開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
@@ -19,20 +19,20 @@ appli:
         url:
    - item:
         title: "倉庫搬出・搬入作業用アプリ"
-        subtitle: "iOS"
-        desc: "エンドユーザ：倉庫会社<br>倉庫内で荷物を集めるための、ツールアプリ。"
+        subtitle: "アプリ(iOS)"
+        desc: "倉庫会社<br>倉庫内で荷物を集めるための業務用アプリの開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
         title: "アイドル写真集アプリ"
-        subtitle: "iOS"
-        desc: "エンドユーザ：開発会社<br>有名アイドルグループの写真集アプリ"
+        subtitle: "アプリ(iOS)"
+        desc: "開発会社<br>有名アイドルグループの写真集アプリの開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
         title: "占いアプリの写真撮影おまけ部分"
-        subtitle: "iOS"
-        desc: "エンドユーザ：開発会社<br>写真を撮影するとランダムでセリフがでる、占いアプリのおまけ部分"
+        subtitle: "アプリ(iOS)"
+        desc: "開発会社<br>占いアプリのおまけ部分で、写真を撮影するとランダムでセリフが表示される機能の開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
@@ -49,14 +49,14 @@ appli:
         url:
    - item:
         title: "動画会議室"
-        subtitle: "Java,Node.js"
-        desc: "エンドユーザ：開発会社<br>AndroidにUSBカメラをつないで、動画の会議室を作成するシステム。"
+        subtitle: "Java,Node.js,WebRTC"
+        desc: "開発会社<br>AndroidOSの端末にUSBカメラをつないで、動画の会議室を作成するシステムの開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
         title: "運行状況表示アプリサーバーサイド"
         subtitle: "Python,Django"
-        desc: "エンドユーザ：鉄道会社<br>鉄道会社の運行状況アプリの状況表示部分、サーバーサイド"
+        desc: "鉄道会社<br>鉄道会社の運行状況アプリの状況表示部分の開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
@@ -68,6 +68,6 @@ appli:
    - item:
         title: "フレームワーク"
         subtitle: "アプリ(iOS,Android)"
-        desc: "通信会社通信システムに接続するための共通フレームワークの開発を行いました。"
+        desc: "通信会社<br>通信システムに接続するための共通フレームワークの開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:

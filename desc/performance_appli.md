@@ -1,6 +1,6 @@
 ---
 layout: post
-title: アプリ実績
+title: 受託開発
 image: assets/images/app.jpg
 nav-menu: false
 show_tile: false
