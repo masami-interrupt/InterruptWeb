@@ -1,6 +1,6 @@
 ---
 title: 業務内容
-layout: landing
+layout: landing_chat
 description: ''
 image: assets/images/altumcode-zE007SNgcdE-unsplash.jpg
 nav-menu: true
