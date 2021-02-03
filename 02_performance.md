@@ -20,7 +20,7 @@ nav-menu: true
                 <header class="major">
                     <h3>自社プロジェクト</h3>
                 </header>
-                <p style="color:#fff;">iOS,Android,Web</p>
+                <p style="color:#fff;">当社で開発したiOS,Androidのアプリや、Web上の実績です。</p>
                 <ul class="actions">
                     <li><a href="/desc/performance_us.html" class="button">詳しくはこちら</a></li>
                 </ul>
@@ -36,7 +36,7 @@ nav-menu: true
                 <header class="major">
                     <h3>受託開発</h3>
                 </header>
-                <p style="color:#fff;">スマホアプリの受託開発実績です。</p>
+                <p style="color:#fff;">外部よりご依頼を受けて開発しましたアプリ製品の実績です。</p>
                 <ul class="actions">
                     <li><a href="/desc/performance_appli.html" class="button">詳しくはこちら</a></li>
                 </ul>
@@ -68,7 +68,7 @@ nav-menu: true
         <header class="major">
             <h2>その他の実績</h2>
         </header>
-        <p style="color:#fff;">Webサイトやセミナー講師、技術コンサルなど、その他実績です</p>
+        <p style="color:#fff;">Webサイトやセミナー講師、技術コンサルなど、その他実績です。</p>
         <ul class="actions">
             <li><a href="/desc/performance_other.html" class="button next">詳しくはこちら</a></li>
         </ul>
