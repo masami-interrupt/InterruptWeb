@@ -74,7 +74,7 @@ show_tile: false
 		<tbody>
 			<tr>
 				<td>Value</td>
-				<td>お客様が求める最適なシステムを構築します</td>
+				<td>最適なシステムを提案、構築し要望に応える。</td>
 			</tr>
 			<tr>
 				<td>Vision</td>

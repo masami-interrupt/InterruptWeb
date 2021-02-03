@@ -49,13 +49,13 @@ appli:
         url:
    - item:
         title: "動画会議室"
-        subtitle: "Java,Node.js,WebRTC"
+        subtitle: "システムツール(Java,Node.js,WebRTC)"
         desc: "開発会社<br>AndroidOSの端末にUSBカメラをつないで、動画の会議室を作成するシステムの開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:
    - item:
         title: "運行状況表示アプリサーバーサイド"
-        subtitle: "Python,Django"
+        subtitle: "システムツール(Python,Django)"
         desc: "鉄道会社<br>鉄道会社の運行状況アプリの状況表示部分の開発を行いました。"
         image: "../assets/images/no_image_square.jpg"
         url:

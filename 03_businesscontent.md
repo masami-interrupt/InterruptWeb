@@ -40,7 +40,6 @@ nav-menu: true
 			<div class="inner">
 				<header class="major">
 					<h3>コンサルティング</h3>
-                    <p>(顧問プログラマ)</p>
 				</header>
 				<p style="color:#fff;">小さなアドバイスや調査から、業務上での問題解決策のご提案まで、<br>
                 お気軽に使える月額制コンサルティングサービスを企画中です。<br>

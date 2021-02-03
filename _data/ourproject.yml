@@ -2,15 +2,13 @@ appli:
    - item:
         title: "ことぽけ"
         subtitle: "アプリ(iOS,FacebookSDK使用)"
-        desc: "特定のFacebookページを閲覧するためのアプリです。<br>
-Facebookページを作成して、更新するだけでアプリの内容を更新することができます。<br>"
+        desc: "特定のFacebookページを閲覧するためのアプリです。<br>Facebookページを作成して、更新するだけでアプリの内容を更新することができます。<br>"
         image: "../assets/images/performance/icon114-3.jpg"
         url:
    - item:
         title: "チェインヒーローズ攻略アプリ"
         subtitle: "アプリ(iOS,Android)"
-        desc: "ゲーム「チェインヒーローズ」のPHPスクリプトによるBBS、WordPress攻略日記、<br>
-広告ページクライアント、イベントタイマーアプリです。"
+        desc: "ゲーム「チェインヒーローズ」のPHPスクリプトによるBBS、WordPress攻略日記、<br>広告ページクライアント、イベントタイマーアプリです。"
         image: "../assets/images/performance/icon_chen.jpg"
         url:
    - item:

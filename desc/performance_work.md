@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 非公開実績
-description: 守秘義務契約のため公表できないご依頼で行なった業務内容のみご紹介します。
+description: 守秘義務契約のため公表できない実績の業務内容のみご紹介します。
 image: assets/images/hikoukai.jpg
 nav-menu: false
 show_tile: false

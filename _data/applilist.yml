@@ -62,19 +62,19 @@ appli:
    - item:
         title: "集中力プラス！"
         subtitle: "アプリ(iOS)"
-        desc: "集中力を高めるためのBGMアプリです"
+        desc: "集中力を高めるためのBGMアプリです。"
         image: "../assets/images/performance/musicAppA1_114.jpg"
         url:
    - item:
         title: "こどもカメラ"
         subtitle: "アプリ(iOS)"
-        desc: "子供を可愛らしく移す、ポージングのフィルター付きカメラです"
+        desc: "子供を可愛らしく移す、ポージングのフィルター付きカメラです。"
         image: "../assets/images/performance/icon114-2.jpg"
         url:
    - item:
         title: "笑ったらシェアのアプリ"
         subtitle: "アプリ(iOS)"
-        desc: "笑ったらシェアのFacebookページを閲覧、投稿するためのアプリです"
+        desc: "笑ったらシェアのFacebookページを閲覧、投稿するためのアプリです。"
         image: "../assets/images/performance/icon_1024x1024.jpg"
         url:
    - item:

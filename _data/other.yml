@@ -31,7 +31,7 @@ appli:
         url:
    - item:
         title: "ママのわいがやネット"
-        subtitle: "Perl,HTML"
+        subtitle: "Webサイト(Perl,HTML)"
         desc: "赤ちゃん用品の口コミサイトです"
         image: "../assets/images/performance/waigaya.jpg"
         url:
@@ -44,7 +44,7 @@ appli:
         url:
    - item:
         title: "クラウドファウンディング連携サイト"
-        subtitle: "Ruby on rails,PHP"
+        subtitle: "Webサイト(Ruby on rails,PHP)"
         desc: "クラウドファウンディングサイトから、情報を取得して、限定オリジナルファッションアイテムを扱う支援型ECプラットフォームWebページ作成"
         image: "../assets/images/performance/FACTRYogp.jpg"
         url: "http://www.factry.jp"
