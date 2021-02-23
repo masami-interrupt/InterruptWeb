@@ -1,0 +1,12 @@
+<script type="text/javascript">
+  $(function () {
+    $('.tooltip_c').hide();
+    $('.tooltip_p').hover(
+    function () {
+        $(this).children('.tooltip_c').fadeIn('fast');
+    },
+    function () {
+        $(this).children('.tooltip_c').fadeOut('fast');
+    });
+});
+</script>

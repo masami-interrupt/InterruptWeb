@@ -1,6 +1,6 @@
 ---
 layout: price
-title: With D
+title: With DO 
 landing-title: 'コンサルタント'
 nav-menu: commings
 description: 
@@ -8,10 +8,12 @@ image: null
 author: null
 show_tile: false
 ---
-{:.list-inline}
-- チャットサポート：時間制限なく、疑問点をチャットでお答えします
-- 環境構築：サーバー作成、ツールの導入、セットアップなど
-- 業務サポート：既存システム、既存Webサイトの改修
-- ソフトウェア相談：業務改善の提案、Saas導入支援、サポート
-- 業務ツール開発：Saasを連携した、独自ツールの開発、運用支援
-- アプリ、Web開発：独自アプリ、Webサイトの開発
+<span style="font-weight:bold;font-size:1.5em;">ー共に創り、育てます</span>
+<span style="font-weight:normal;font-size:1.2em;">
+小さなアドバイスや調査から、業務上での問題解決策のご提案まで、 <br>
+お気軽に使える月額制コンサルティングサービスです。<br>
+「システム専門の部署を持ちたいけど、人員を確保するのが難しい…！」 <br>
+そんな時は私たちがシステム部となることも可能です。<br>
+ ご要望に応じて、プログラミング学習からアプリやサイトの立ち上げ、運用、 <br>
+保守業務に業務ツール開発まで、最適なコースをお選び頂けます。<br>
+</span>
