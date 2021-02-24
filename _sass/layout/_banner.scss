@@ -110,6 +110,10 @@
 		&.style4 { &:after { background-color: _palette(accent4); } }
 		&.style5 { &:after { background-color: _palette(accent5); } }
 		&.style6 { &:after { background-color: _palette(accent6); } }
+		&.styledo1 { &:after { background-color: _palette(accentdo1); } }
+		&.styledo2 { &:after { background-color: _palette(accentdo2); } }
+		&.styledo3 { &:after { background-color: _palette(accentdo3); } }
+		&.styledo4 { &:after { background-color: _palette(accentdo4); } }
 
 		body.is-loading & {
 			&:after {

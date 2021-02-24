@@ -13,7 +13,7 @@
 
         {% include header.html %}
 
-        <section id="banner" class="style2">
+        <section id="banner" class="{{page.header_class}}">
             <div class="inner">
                 <span class="image">
                     <img src="{{ page.image }}" alt="">
@@ -28,12 +28,21 @@
                     {{ page.description }}
 
                 </div>
+                <div class="content" style="color: #fff;">
 
-{% if page.show_ribbon == true %}
-<span class="ribbon">
-  初回３０日間無料
-</span>
-{% endif %}
+                    {% case page.tablename %}
+                        {% when 'table_develop' %}
+                            {% include table_develop.html %}
+                        {% when 'table_develop_min' %}
+                            {% include table_develop_min.html %}
+                        {% when 'table_adjust' %}
+                            {% include table_adjust.html %}
+                        {% when 'table_mentor' %}
+                            {% include table_mentor.html %}
+                    {% else %}
+                    {% endcase %}
+                </div>
+
             </div>
         </section>
 
