@@ -60,7 +60,7 @@ text-align: center;
   padding: .35em;
 }
 .prise-table_min td {
-  padding: .7em;
+  padding: 1.7em;
   vertical-align:middle;
   text-align: center;
 }
@@ -69,7 +69,8 @@ text-align: center;
 text-align: center;
 }
 .prise-table_min td {
-  font-size: .30em;
+  font-size: .70em;
+  font-weight: 800;
   background-color: #eee;
   text-align: center;
 }
