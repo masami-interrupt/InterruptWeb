@@ -4,44 +4,79 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<link rel="stylesheet" type="text/css" href="/assets/css/qanda.css" />
 <html>
 
-{% include head.html %}
+    {% include head.html %}
 
-<body>
+    <body>
 
-    {% include header.html %}
+        {% include header.html %}
 
-    <!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1>{{ page.landing-title }}</h1>
-            </header>
-            <div class="content">
-                <p style="text-transform: uppercase;color:#fff">{{ site.description }}</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Main -->
-    <div id="main">
-
-
-        <!-- Two -->
-        <section id="two">
-            <div class="inner" style="color:#fff;">
+        <section id="banner" class="{{page.header_class}}">
+            <div class="inner">
+                <span class="image">
+                    <img src="{{ page.image }}" alt="">
+                </span>
                 <header class="major">
-                    <h2>ブログ</h2>
+
+                    <h1>{{ page.title }}</h1>
+
                 </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="/05_blog.html" class="button next">詳しく見る</a></li>
-                </ul>
+                <div class="content" style="color: #fff;">
+
+                    {{ page.description }}
+
+                </div>
+                <div class="content" style="color: #fff;">
+                </div>
+
             </div>
         </section>
 
+<!-- Main -->
+<div id="main" class="alt" style="background-color: #2a2f4a;">
+
+<!-- One -->
+<section id="one">
+    <div class="inner">
+    {% for aquestion in site.qanda %}
+
+<div id="accordion" class="accordion-container">
+  <p class="accordion-title js-accordion-title">{{ aquestion.question }}</p>
+  <div class="accordion-content">
+    <p>{{ aquestion.answer }}</p>
+  </div>
+</div>
+    {% endfor %}
+</section>
+
     </div>
+</section>
+
+</div>
+
+<!-- for jqueryui -->
+<script src="/assets/js/jquery.min.js"></script>
+
+    <script>
+
+$(function () {
+  // 最初のコンテンツ以外は非表示
+  $(".accordion-content").css("display", "none");
+  // 矢印の向きを変えておく
+  $(".accordion-title:first-of-type").addClass("open");
+ 
+  $(".js-accordion-title").click(function () {
+    $(".open").not(this).removeClass("open").next().slideUp(300);
+    $(this).toggleClass("open").next().slideToggle(300);
+  });
+});
+        
+    </script>
+
+    {% include footer.html %}
+
 </body>
 
 </html>
