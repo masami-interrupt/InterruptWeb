@@ -1,6 +1,18 @@
+.styledo1{
+    background-color: #3379e7;
+  }
+.styledo2{
+    background-color: #cda1df;
+  }
+.styledo3{
+    background-color: #efba47;
+  }
+.styledo4{
+    background-color: #8fcb54;
+  }
 
 .prise-table{
-  width: 1200px;
+  min-width: 1200px;
   border-collapse: collapse;
   margin: 0 auto;
   padding: 0;
@@ -15,7 +27,7 @@
 }
 .prise-table  tr {
   background-color: #fff;
-  padding: .35em;
+  padding: .20em;
 }
 .prise-table tr:nth-child(even){
   background-color: #fcfcfc;
@@ -24,14 +36,15 @@
   padding: .7em;
   vertical-align:middle;
   text-align: center;
+  border-right: solid #ccc 1px;
 }
 .prise-table th {
- font-size: .65em;
+ font-size: .55em;
  position:relative;
 text-align: center;
 }
 .prise-table td {
-  font-size: .30em;
+  font-size: .50em;
   text-align: center;
 }
 .prise-table tr th{
@@ -42,7 +55,7 @@ text-align: center;
 }
 
 .prise-table_min{
-  width: 1200px;
+  min-width: 1200px;
   border-collapse: collapse;
   margin: 0 auto;
   padding: 0;
@@ -78,8 +91,11 @@ text-align: center;
   color: #fff;
 }
 
-i{
-  font-size:2em
+.prise-table i{
+  font-size:1.8em !important;
+}
+.prise-table_min i{
+  font-size:1.3em !important;
 }
 .plan1{
   line-height: 3.5em;
@@ -287,7 +303,14 @@ content: "";
 
 .sale_text {
     color: #ff0000;
-    width:160px;
+    width:130px;
+    font-size:10%;
+    text-align: center;
+    position:absolute;
+    border-bottom: solid 1px;
+}
+.sale_text2 {
+    color: #ff0000;
     font-size:10%;
     text-align: center;
     position:absolute;

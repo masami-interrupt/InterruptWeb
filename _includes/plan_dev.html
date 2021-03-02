@@ -1,0 +1,28 @@
+        <section class="{{cource.header_class}}">
+            <div class="inner">
+                <header class="major">
+
+                    <h1>{{ cource.name }}</h1>
+
+                </header>
+                <div class="content" style="color: #fff;">
+
+                    {{ cource.description }}
+
+                </div>
+
+            </div>
+                <div class="wrap" style="color: #fff;padding-bottom: 20px; ">
+                    {% case cource.table_include %}
+                        {% when 'table_develop' %}
+                            {% include table_develop.html %}
+                        {% when 'table_develop_min' %}
+                            {% include table_develop_min.html %}
+                        {% when 'table_adjust' %}
+                            {% include table_adjust.html %}
+                        {% when 'table_mentor' %}
+                            {% include table_mentor.html %}
+                    {% else %}
+                    {% endcase %}
+                </div>
+        </section>

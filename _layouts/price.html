@@ -12,7 +12,7 @@
 <body>
     {% include header.html %}
 
-        <section id="banner" class="one">
+        <section id="banner" class="major">
             <div class="inner">
                 <header class="major">
 
@@ -28,7 +28,10 @@
             </div>
         </section>
   {% include pricetbl.html %}
-
+    {% for acource in site.course %}
+        {% assign cource = acource %}
+        {% include plan_dev.html %}
+    {% endfor %}
 
     {% include contact.html %}
     {% include footer.html %}
