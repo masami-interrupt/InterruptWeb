@@ -1,4 +1,16 @@
-        <section class="{{cource.header_class}}">
+        {% case cource.table_include %}
+            {% when 'table_develop' %}
+                {% assign link = 'developer' %}
+            {% when 'table_develop_min' %}
+                {% assign link = 'developermin' %}
+            {% when 'table_adjust' %}
+                {% assign link = 'adjust' %}
+            {% when 'table_mentor' %}
+                {% assign link = 'mentor' %}
+        {% else %}
+        {% endcase %}
+
+        <section class="{{cource.header_class}}" id="{{link}}">
             <div class="inner">
                 <header class="major">
 

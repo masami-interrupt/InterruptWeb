@@ -1,0 +1,42 @@
+<!-- Drawer -->
+<nav id="drawer">
+   <section class="major">
+            <div class="inner">
+                <header class="major">
+
+                    <h1 id="helpTitle">たいとる</h1>
+
+                </header>
+                <div id="helpConcent" class="content" style="color: #fff;">
+
+                    説明
+
+                </div>
+                <div class="content" style="color: #fff;">
+                </div>
+
+            </div>
+    </section>
+</nav>
+
+<script type="text/javascript">
+  var paramTitle = "";
+  var paramContent = "";
+      $(".showdrawer").on('click',function(){
+        $("#drawer").css('pointer-events','auto');
+        $("#drawer").animate({ opacity: 1 });
+        $("#helpTitle").html(paramTitle);
+        $("#helpConcent").html(paramContent);
+      });
+
+      $("#drawer").on("click", function () {
+        $("#drawer").css('pointer-events','none');
+        $("#drawer").animate({ opacity: 0 });
+      });
+      
+      function setParam(title,content) {
+        paramTitle = title;
+        paramContent = content;
+      }
+
+  </script>

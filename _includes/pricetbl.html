@@ -4,23 +4,24 @@
             <tr>
               <th width="10%">コース名</th>
               <th width="7%">月額料金</th>
-              <th width="5%">稼働工数<i class="fas fa-question-circle"></i></th>
-              <th>チャットサポート<i class="fas fa-question-circle"></i></th>
-              <th>環境構築<i class="fas fa-question-circle"></i></th>
-              <th>業務サポート<i class="fas fa-question-circle"></i></th>
-              <th>ソフトウェア相談<i class="fas fa-question-circle"></i></th>
-              <th>業務ツール開発<i class="fas fa-question-circle"></i></th>
-              <th>WEBアプリ新規開発<i class="fas fa-question-circle"></i></th>
-              <th width="8%">追加工数料金<br>（翌月）<i class="fas fa-question-circle"></i></th>
-              <th width="8%">追加工数料金<br>（当月）<i class="fas fa-question-circle"></i></th>
+              <th width="5%"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.tooltip[0].name }}','{{ site.tooltip[0].description }}');">
+                稼働工数<i class="fas fa-question-circle"></i></span></th>
+              <th><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.tooltip[1].name }}','{{ site.tooltip[1].description }}');">チャットサポート<i class="fas fa-question-circle"></i></span></th>
+              <th><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.tooltip[2].name }}','{{ site.tooltip[2].description }}');">環境構築<i class="fas fa-question-circle"></i></span></th>
+              <th><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.tooltip[3].name }}','{{ site.tooltip[3].description }}');">業務サポート<i class="fas fa-question-circle"></i></span></th>
+              <th><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.tooltip[4].name }}','{{ site.tooltip[4].description }}');">ソフトウェア相談<i class="fas fa-question-circle"></i></span></th>
+              <th><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.tooltip[5].name }}','{{ site.tooltip[5].description }}');">業務ツール開発<i class="fas fa-question-circle"></i></span></th>
+              <th><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.tooltip[6].name }}','{{ site.tooltip[6].description }}');">WEBアプリ新規開発<i class="fas fa-question-circle"></i></span></th>
+              <th width="8%"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.tooltip[7].name }}','{{ site.tooltip[7].description }}');">追加工数料金<br>（翌月）<i class="fas fa-question-circle"></i></span></th>
+              <th width="8%"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.tooltip[8].name }}','{{ site.tooltip[8].description }}');">追加工数料金<br>（当月）<i class="fas fa-question-circle"></i></span></th>
               <th width="12%">契約更新</th>
               
             </tr>
   </thead>
   <tbody>
             <tr>
-              <th class="plan1">デベロッパーコース<br><a href="/desc/developer.html" class="button" style="margin:2px;">詳細を確認</a></th>
-              <td class="plan1_i">150,000円/月</td>
+              <th class="plan1">デベロッパーコース<br><a href="#developer" class="button" style="margin:2px;">詳細を確認</a></th>
+              <td class="plan1_i"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.plan[0].pricedesc.title }}','{{ site.plan[0].pricedesc.description }}');">150,000円/月</span></td>
               <td class="plan_desc">４人日/月</td>
               <td class="plan1_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
               <td class="plan1_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
@@ -28,41 +29,41 @@
               <td class="plan1_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
               <td class="plan1_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
               <td class="plan1_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
-              <td class="plan1_t">30,000円/１人日</td>
-              <td class="plan1_t">33,000円/１人日</td>
-              <td class="plan_desc">１ヶ月毎<i class="fas fa-question-circle"></i></td>
+              <td class="plan1_t"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.plan[0].addition1.title }}','{{ site.plan[0].addition1.description }}');">30,000円/１人日</span></td>
+              <td class="plan1_t"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.plan[0].addition2.title }}','{{ site.plan[0].addition2.description }}');">33,000円/１人日</span></td>
+              <td class="plan_desc"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.plan[0].update.title }}','{{ site.plan[0].update.description }}');">１ヶ月毎<i class="fas fa-question-circle"></i></span></td>
             </tr>
             <tr>
-              <th class="plan2">デベロッパーコースmin<br><a href="/desc/developermin.html" class="button" style="margin:2px;">詳細を確認</a></th>
-              <td class="plan2_i tooltip_p">90,000円/月</td>
-              <td class="plan_desc tooltip_p">２人日/月</td>
+              <th class="plan2">デベロッパーコースmin<br><a href="#developermin" class="button" style="margin:2px;">詳細を確認</a></th>
+              <td class="plan2_i"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.plan[1].pricedesc.title }}','{{ site.plan[1].pricedesc.description }}');">90,000円/月</span></td>
+              <td class="plan_desc">２人日/月</td>
               <td class="plan2_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
               <td class="plan2_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
               <td class="plan2_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
               <td class="plan2_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
               <td class="plan2_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
               <td class="plan2_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
-              <td class="plan2_t">33,000円/１人日</td>
-              <td class="plan2_t">36,000円/１人日</td>
-              <td class="plan_desc">３ヶ月毎<i class="fas fa-question-circle"></i><div class="sale_text">※初回1ヶ月無料キャンペーン中</div></td>
+              <td class="plan2_t"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.plan[1].addition1.title }}','{{ site.plan[1].addition1.description }}');">33,000円/１人日</span></td>
+              <td class="plan2_t"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.plan[1].addition2.title }}','{{ site.plan[1].addition2.description }}');">36,000円/１人日</span></td>
+              <td class="plan_desc"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.plan[1].update.title }}','{{ site.plan[1].update.description }}');">３ヶ月毎<i class="fas fa-question-circle"></i></span><div class="sale_text">※初回1ヶ月無料キャンペーン中</div></td>
             </tr>
             <tr>
-              <th class="plan3">アジャストコース<br><a href="/desc/adjust.html" class="button" style="margin:2px;">詳細を確認</a></th>
-              <td class="plan3_i tooltip_p">50,000円/月</td>
-              <td class="plan_desc tooltip_p">２人日/月</td>
+              <th class="plan3">アジャストコース<br><a href="#adjust" class="button" style="margin:2px;">詳細を確認</a></th>
+              <td class="plan3_i"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.plan[2].pricedesc.title }}','{{ site.plan[2].pricedesc.description }}');">50,000円/月</span></td>
+              <td class="plan_desc">２人日/月</td>
               <td class="plan3_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
               <td class="plan3_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
               <td class="plan3_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
               <td class="plan3_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
               <td class="plan3_t">ー</td>
               <td class="plan3_t">ー</td>
-              <td class="plan3_t tooltip_p">22,000円/１人日</td>
-              <td class="plan3_t tooltip_p">24,000円/１人日<</td>
-              <td class="plan_desc tooltip_p">３ヶ月毎<i class="fas fa-question-circle"></i><div class="sale_text">※初回1ヶ月無料キャンペーン中</div></td>
+              <td class="plan3_t tooltip_p"><span class="showdrawer text_button color_ddd" onclick="javascript:setParam('{{ site.plan[2].addition1.title }}','{{ site.plan[2].addition1.description }}');">22,000円/１人日</span></td>
+              <td class="plan3_t tooltip_p"><span class="showdrawer text_buttoncolor_ddd" onclick="javascript:setParam('{{ site.plan[2].addition2.title }}','{{ site.plan[2].addition2.description }}');">24,000円/１人日</span></td>
+              <td class="plan_desc tooltip_p"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.plan[2].update.title }}','{{ site.plan[2].update.description }}');">３ヶ月毎<i class="fas fa-question-circle"></i></span><div class="sale_text">※初回1ヶ月無料キャンペーン中</div></td>
             </tr>
             <tr>
-              <th class="plan4">メンターコース<br><a href="/desc/mentor.html" class="button" style="margin:2px;">詳細を確認</a></th>
-              <td class="plan4_i tooltip_p">30,000円/月</td>
+              <th class="plan4">メンターコース<br><a href="#mentor" class="button" style="margin:2px;">詳細を確認</a></th>
+              <td class="plan4_i"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.plan[3].pricedesc.title }}','{{ site.plan[3].pricedesc.description }}');">30,000円/月</span></td>
               <td class="plan4_t">ー</i></td>
               <td class="plan4_t"><i class="fa fa-check-circle" aria-hidden="true"></i></td>
               <td class="plan4_t">ー</td>
@@ -72,7 +73,7 @@
               <td class="plan4_t">ー</td>
               <td class="plan4_t">ー</td>
               <td class="plan4_t">ー</td>
-              <td class="plan_desc tooltip_p">３ヶ月毎<i class="fas fa-question-circle"></i><div class="sale_text">※初回1ヶ月無料キャンペーン中</div></td>
+              <td class="plan_desc"><span class="showdrawer text_button" onclick="javascript:setParam('{{ site.plan[3].update.title }}','{{ site.plan[3].update.description }}');">３ヶ月毎<i class="fas fa-question-circle"></i></span><div class="sale_text">※初回1ヶ月無料キャンペーン中</div></td>
             </tr>
       </tbody>
     </table>
