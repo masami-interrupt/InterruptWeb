@@ -10,8 +10,9 @@
         {% else %}
         {% endcase %}
 
-        <section class="{{cource.header_class}}" id="{{link}}">
-            <div class="inner">
+        <section id="{{link}}" style="background-image: url(..{{cource.image}})">
+            <div class="planbanner {{cource.header_class}}">
+            <div class="inner" style="padding: 0 2em;">
                 <header class="major">
 
                     <h1>{{ cource.name }}</h1>
@@ -22,7 +23,7 @@
                     {{ cource.description }}
 
                 </div>
-
+                <br>
             </div>
                 <div class="wrap" style="color: #fff;padding-bottom: 20px; ">
                     {% case cource.table_include %}
@@ -37,4 +38,5 @@
                     {% else %}
                     {% endcase %}
                 </div>
+            </div>
         </section>
