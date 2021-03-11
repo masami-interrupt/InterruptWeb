@@ -1,0 +1,42 @@
+        {% case cource.table_include %}
+            {% when 'table_develop' %}
+                {% assign link = 'developer' %}
+            {% when 'table_develop_min' %}
+                {% assign link = 'developermin' %}
+            {% when 'table_adjust' %}
+                {% assign link = 'adjust' %}
+            {% when 'table_mentor' %}
+                {% assign link = 'mentor' %}
+        {% else %}
+        {% endcase %}
+
+        <section id="plan_all">
+            <div class="planbanner">
+            <div class="inner" style="padding: 0 2em;">
+                <header class="major">
+
+                    <h1>プラン一覧</h1>
+
+                </header>
+                <div class="content" style="color: #fff;">
+
+                    全てのプランの比較です
+
+                <div style="font-weight: bold;font-size: 1.2em;margin-top: 1em; ">
+
+
+                </div>
+
+        {% include pricetbl.html %}
+
+
+
+                </div>
+                <br>
+            </div>
+            </div>
+        </section>
+        <div class="leftarea"><p class="buttoncenter"><span><i class="fas fa-chevron-circle-left"></i></span></p>
+</div>
+        <div class="rightarea"><p class="buttoncenter"><span><i class="fas fa-chevron-circle-right"></i></div>
+

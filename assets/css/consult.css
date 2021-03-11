@@ -106,19 +106,18 @@
   background-color: #fcfcfc;
 }
 .price-table td {
-  padding: .7em;
+  padding: .4em;
   vertical-align:middle;
   text-align: center;
   border-right: solid #ccc 1px;
+  font-size: .60em;
+  text-align: center;
+  height: 86px;
 }
 .price-table th {
  font-size: .55em;
  position:relative;
 text-align: center;
-}
-.price-table td {
-  font-size: .50em;
-  text-align: center;
 }
 .price-table tr th{
   color: #fff;

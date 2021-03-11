@@ -14,7 +14,7 @@
     {% include facebookchat.html %}
     {% include header.html %}
 
-        <section id="banner" class="major">
+        <section id="banner" class="major" style="height:600px;">
             <div class="inner">
                 <header class="major">
 
@@ -35,6 +35,7 @@
                 </header>
             </div>
         </section>
+        <div>
 <div class="tab-wrap">
     {% assign checked = "checked"%}
     {% for acource in site.course %}
@@ -49,9 +50,10 @@
     <input id="TAB-all" type="radio" name="TAB" class="tab-switch" />
     <label class="tab-label colordo5" for="TAB-all">プラン一覧</label>
     <div class="tab-content">
-        {% include pricetbl.html %}
+        {% include plan_all.html %}
     </div>
     
+</div>
 </div>
     {% include contact.html %}
     {% include footer.html %}
@@ -70,6 +72,9 @@
                 $('#TAB-mentor').prop('checked', true);
                 break;
             case "TAB-mentor" :
+                $('#TAB-all').prop('checked', true);
+                break;
+            case "TAB-all" :
                 $('#TAB-develop').prop('checked', true);
                 break;
         }
@@ -78,7 +83,7 @@
         var current = $('input:radio[name="TAB"]:checked').attr('id');
         switch (current) {
             case "TAB-develop" :
-                $('#TAB-mentor').prop('checked', true);
+                $('#TAB-all').prop('checked', true);
                 break;
             case "TAB-developmin" :
                 $('#TAB-develop').prop('checked', true);
@@ -88,6 +93,9 @@
                 break;
             case "TAB-mentor" :
                 $('#TAB-adjust').prop('checked', true);
+                break;
+            case "TAB-all" :
+                $('#TAB-mentor').prop('checked', true);
                 break;
         }
       });
