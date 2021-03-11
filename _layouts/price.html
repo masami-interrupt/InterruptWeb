@@ -5,6 +5,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <link rel="stylesheet" type="text/css" href="/assets/css/consult.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/consul_tab.css" />
 <html>
 
 {% include head_chat.html %}
@@ -25,19 +26,37 @@
                 <p>{{ content }}</p>
 
                 </div>
+
 <a href="https://withdo.jp/forms/developer.html" class="button next" style="font-size:1.3em;" target="_blank">申込フォームへ</a>
+                <header class="major" style="padding-top: 3em;">
+
+                    <h1>プラン紹介</h1>
+
+                </header>
             </div>
         </section>
-    {% include pricetbl.html %}
+<div class="tab-wrap">
+    {% assign checked = "checked"%}
     {% for acource in site.course %}
+    <input id="TAB-{{acource.name_en}}" type="radio" name="TAB" class="tab-switch" {{checked}} />
+    <label class="tab-label {{acource.color}}" for="TAB-{{acource.name_en}}">{{acource.name}}</label>
+        {% assign checked = "" %}
+    <div class="tab-content">
         {% assign cource = acource %}
         {% include plan_dev.html %}
+    </div>
     {% endfor %}
+    <input id="TAB-all" type="radio" name="TAB" class="tab-switch" />
+    <label class="tab-label colordo5" for="TAB-all">プラン一覧</label>
+    <div class="tab-content">
+        {% include pricetbl.html %}
+    </div>
+    
+</div>
 
     {% include contact.html %}
     {% include footer.html %}
     {% include drawer.html %}
-
 </body>
 
 </html>

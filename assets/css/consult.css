@@ -84,90 +84,90 @@
     background-color: #8fcb54;
   }
 
-.prise-table{
+.price-table{
   min-width: 1200px;
   border-collapse: collapse;
   margin: 0 auto;
   padding: 0;
   table-layout: fixed;
 }
-.prise-table thead th{
+.price-table thead th{
   padding: 1em .8em;
   border-right: 1px solid #5c67a2;
   vertical-align:middle;
   text-align: center;
   background-color: #2a2f4a;
 }
-.prise-table  tr {
+.price-table  tr {
   background-color: #fff;
   padding: .20em;
 }
-.prise-table tr:nth-child(even){
+.price-table tr:nth-child(even){
   background-color: #fcfcfc;
 }
-.prise-table td {
+.price-table td {
   padding: .7em;
   vertical-align:middle;
   text-align: center;
   border-right: solid #ccc 1px;
 }
-.prise-table th {
+.price-table th {
  font-size: .55em;
  position:relative;
 text-align: center;
 }
-.prise-table td {
+.price-table td {
   font-size: .50em;
   text-align: center;
 }
-.prise-table tr th{
+.price-table tr th{
   color: #fff;
 }
-.prise-table tr:nth-child(even) th{
+.price-table tr:nth-child(even) th{
   color:#fff;
 }
 
-.prise-table_min{
-  min-width: 1200px;
+.price-table_min{
+  width: 90%;
   border-collapse: collapse;
   margin: 0 auto;
   padding: 0;
   table-layout: fixed;
 }
-.prise-table_min thead th{
+.price-table_min thead th{
   padding: 0.3em .4em;
   border-right: 1px solid #5c67a2;
   vertical-align:middle;
   text-align: center;
   background-color: #2a2f4a;
 }
-.prise-table_min  tr {
+.price-table_min  tr {
   background-color: #fff;
   padding: .35em;
 }
-.prise-table_min td {
+.price-table_min td {
   padding: 1.7em;
   vertical-align:middle;
   text-align: center;
 }
-.prise-table_min th {
+.price-table_min th {
  font-size: .65em;
 text-align: center;
 }
-.prise-table_min td {
+.price-table_min td {
   font-size: .70em;
   font-weight: 800;
   background-color: #eee;
   text-align: center;
 }
-.prise-table_min tr th{
+.price-table_min tr th{
   color: #fff;
 }
 
-.prise-table i{
+.price-table i{
   font-size:1.8em !important;
 }
-.prise-table_min i{
+.price-table_min i{
   font-size:1.3em !important;
 }
 .plan1{
@@ -226,10 +226,10 @@ text-align: center;
   font-weight: bold;
   color:#777;
 }
-.prise-table {
+.price-table {
   color:#C6D626;
 }
-.prise-table .price{
+.price-table .price{
   color: #fff;
   font-weight: bold;
   font-size: 1.8em;

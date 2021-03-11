@@ -22,10 +22,39 @@
 
                     {{ cource.description }}
 
+                <div style="font-weight: bold;font-size: 1.2em;margin-top: 1em; ">
+
+                    <p>{{ cource.price }}</p>
+                    <p>{{ cource.man-days }}</p>
+
+                </div>
+                    {% case cource.table_include %}
+                        {% when 'table_develop' %}
+                            {% assign plan = site.plan[0] %}
+                        {% when 'table_develop_min' %}
+                            {% assign plan = site.plan[1] %}
+                        {% when 'table_adjust' %}
+                            {% assign plan = site.plan[2] %}
+                        {% when 'table_mentor' %}
+                            {% assign plan = site.plan[3] %}
+                    {% else %}
+                    {% endcase %}
+
+                <p class="showdrawer text_button" onclick="javascript:setParam('{{ plan.pricedesc.title }}','{{ plan.pricedesc.description }}');" style="font-size:0.7em;">　　<i class="fas fa-question-circle"></i>料金内訳</p>
+                <div style="font-weight: bold;font-size: 0.9em;margin-top: 1em; ">
+
+                    <p>{{ cource.update }}</p>
+                    <p>■ 追加工数料金</p>
+                    <p>　　　{{ cource.addition1 }}</p>
+                    <p>　　　{{ cource.addition2 }}</p>
+                </div>
+
+                    <p class="showdrawer text_button" onclick="javascript:setParam('{{ site.tooltip[8].name }}','{{ site.tooltip[8].description }}');" style="font-size:0.7em;">　　<i class="fas fa-question-circle"></i>追加工数について</p>
                 </div>
                 <br>
             </div>
                 <div class="wrap" style="color: #fff;padding-bottom: 20px; ">
+                    <p>■ 対応業務一覧</p>
                     {% case cource.table_include %}
                         {% when 'table_develop' %}
                             {% include table_develop.html %}
