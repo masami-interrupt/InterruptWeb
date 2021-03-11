@@ -100,8 +100,40 @@
 	display: none;
 }
 
-.tab-leftbutton {
+.buttoncenter {
+	-webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    color: #fff;
+	font-size: 1.3em;
+	text-align: center;
+	height: 100%;
+	line-height: 30em;
+	vertical-align: middle;
+	opacity: 0;
+}
+.leftarea{
 	position: absolute;
+	width: 50px;
+	top:100px;
+	height: 100%;
+	z-index: 1;
+}
+.leftarea:hover p.buttoncenter{
+	opacity: 0.7;
+}
+.rightarea{
+	position: absolute;
+	width: 50px;
+	top:100px;
+	right: 1px;
+	height: 100%;
+	z-index: 1;
+}
+.rightarea:hover p.buttoncenter{
+	opacity: 0.7;
 }
 
 /* ============================== 

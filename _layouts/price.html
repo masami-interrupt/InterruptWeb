@@ -53,10 +53,46 @@
     </div>
     
 </div>
-
     {% include contact.html %}
     {% include footer.html %}
     {% include drawer.html %}
+<script type="text/javascript">
+      $(".rightarea").on('click',function(){
+        var current = $('input:radio[name="TAB"]:checked').attr('id');
+        switch (current) {
+            case "TAB-develop" :
+                $('#TAB-developmin').prop('checked', true);
+                break;
+            case "TAB-developmin" :
+                $('#TAB-adjust').prop('checked', true);
+                break;
+            case "TAB-adjust" :
+                $('#TAB-mentor').prop('checked', true);
+                break;
+            case "TAB-mentor" :
+                $('#TAB-develop').prop('checked', true);
+                break;
+        }
+      });
+      $(".leftarea").on('click',function(){
+        var current = $('input:radio[name="TAB"]:checked').attr('id');
+        switch (current) {
+            case "TAB-develop" :
+                $('#TAB-mentor').prop('checked', true);
+                break;
+            case "TAB-developmin" :
+                $('#TAB-develop').prop('checked', true);
+                break;
+            case "TAB-adjust" :
+                $('#TAB-developmin').prop('checked', true);
+                break;
+            case "TAB-mentor" :
+                $('#TAB-adjust').prop('checked', true);
+                break;
+        }
+      });
+
+  </script>
 </body>
 
 </html>
