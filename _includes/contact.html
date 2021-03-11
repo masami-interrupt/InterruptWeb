@@ -32,7 +32,7 @@
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <select id="contactType" style="font-size:inherit;padding: 20px;" class="form-control" name="contactType" size="1">
+                <select id="contactType" style="-webkit-appearance: none;font-size:inherit;padding: 20px;" class="form-control" name="contactType" size="1">
                   {% for type in site.contactType %}
                     <option value="{{ type.name }}">{{ type.name }}</option>
                   {% endfor %}
