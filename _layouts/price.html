@@ -59,6 +59,18 @@
     {% include footer.html %}
     {% include drawer.html %}
 <script type="text/javascript">
+    $("#developdiv").on('click',function(){
+        $('#TAB-develop').prop('checked', true);
+    });
+    $("#developmindiv").on('click',function(){
+        $('#TAB-developmin').prop('checked', true);
+    });
+    $("#adjustdiv").on('click',function(){
+        $('#TAB-adjust').prop('checked', true);
+    });
+    $("#mentordiv").on('click',function(){
+        $('#TAB-mentor').prop('checked', true);
+    });
       $(".rightarea").on('click',function(){
         var current = $('input:radio[name="TAB"]:checked').attr('id');
         switch (current) {
