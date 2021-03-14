@@ -48,14 +48,15 @@ contactType:
 ###Course
 course:
 - name: デベロッパープラン
-  description: アプリやWebサイト、社内用システムツールの新規開発や大型アップデートなど、大きな工数が必要な開発のご依頼にオススメなコースです。<br>稼働工数も月に4人日と全コース内で最も多く、全てのサービスがご利用可能となっているため、私たちが最もお力になれるコースです。<br>ご依頼の開発物が「4人日では足りないかもしれない…！」という場合には、他のコースよりお安く工数の追加をご検討頂けますとです。
+  description: アプリやWebサイト、社内用システムツールの新規開発や大型アップデートなど、大きな工数が必要な開発のご依頼にオススメなコースです。<br>稼働工数も月に4人日と全コース内で最も多く、全てのサービスがご利用可能となっているため、私たちが最もお力になれるコースです。<br>ご依頼の開発物が「4人日では足りないかもしれない…！」という場合には、他のコースよりお安く工数の追加をご検討頂けます。
   header_class: styledo1
   table_include: table_develop
   image: /assets/images/develop.jpg
   name_en: develop
   color: colordo1
+  tabclass: tab-label1
   price: ■ 月額：150,000円/月
-  man-days: ■ 可動工数：4人日/月
+  man-days: ■ 稼働工数：4人日/月
   update: ■ 契約更新：１ヶ月単位
   addition1: 30,000円 + 税 / 1人日
   addition2: 33,000円 + 税 / 1人日
@@ -67,8 +68,9 @@ course:
   image: /assets/images/developmin.jpg
   name_en: developmin
   color: colordo2
+  tabclass: tab-label2
   price: ■ 月額：90,000円/月
-  man-days: ■ 可動工数：2人日/月
+  man-days: ■ 稼働工数：2人日/月
   update: ■ 契約更新：３ヶ月毎
   addition1: 33,000円 + 税 / 1人日
   addition2: 36,000円 + 税 / 1人日
@@ -80,8 +82,9 @@ course:
   image: /assets/images/adjust.jpg
   name_en: adjust
   color: colordo3
+  tabclass: tab-label3
   price: ■ 月額：50,000円/月
-  man-days: ■ 可動工数 2人日/月
+  man-days: ■ 稼働工数 2人日/月
   update: ■ 契約更新：３ヶ月毎
   addition1: 22,000円 + 税 / 1人日
   addition2: 24,000円 + 税 / 1人日
@@ -92,6 +95,7 @@ course:
   image: /assets/images/mentor.jpg
   name_en: mentor
   color: colordo4
+  tabclass: tab-label4
   price: ■ 月額：30,000円/月
   man-days: ー
   update: ■ 契約更新：３ヶ月毎
@@ -118,6 +122,8 @@ tooltip:
   description: 各コースで用意されている工数では不足が懸念される場合、事前にご予約頂くことで<br>翌月の工数を確保することが可能です。工数の確保は契約中チャットやMTGでご相談ください。<br>※当社スケジュールによって、ご予約頂けない場合がございます。ご了承ください。
 - name: 追加工数料金<br>（当月）
   description: 実作業に当たってみたら予定よりも工数が必要な場合や、不具合が発生し急遽修正が必要な場合、<br>工数を追加することが可能です。工数の追加は契約中チャットやMTGでご相談ください。<br>※当社スケジュールによって、承れない場合がございます。ご了承ください。<br>
+- name: ビデオMTG
+  description: 開発作業の進捗や使用確認、ご報告をオンラインで実施します。<br>
 
 plan:
 - name: develop

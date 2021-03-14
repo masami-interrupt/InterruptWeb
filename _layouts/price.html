@@ -6,6 +6,7 @@
 -->
 <link rel="stylesheet" type="text/css" href="/assets/css/consult.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/consul_tab.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/information.css" />
 <html>
 
 {% include head_chat.html %}
@@ -13,9 +14,17 @@
 <body>
     {% include facebookchat.html %}
     {% include header.html %}
-
-        <section id="banner" class="major" style="height:600px;">
-            <div class="inner">
+<style type="text/css">
+.inner2 {
+    padding: 4em 0 2em 0;
+    margin: 0 auto;
+    max-width: 65em;
+    width: calc(100% - 6em);    
+}   
+</style>
+        <section style="background-image: url(/assets/images/3_2.jpg);background-size: cover;height: 760px;">
+        <div style="background-color:#444444;opacity:0.7;width: 100%;height: 100%;">
+            <div class="inner2">
                 <header class="major">
 
                     <h1>{{ page.title }}&nbsp;<span style="font-size:0.4em"> - With Develop & Operation - </span></h1>
@@ -27,20 +36,21 @@
 
                 </div>
 
-<a href="https://withdo.jp/forms/developer.html" class="button next" style="font-size:1.3em;" target="_blank">申込フォームへ</a>
+<a href="https://withdo.jp/forms/developer.html" class="button next" style="font-size:1.3em;margin-bottom:2em; " target="_blank">申込フォームへ</a>
                 <header class="major" style="padding-top: 3em;">
 
                     <h1>プラン紹介</h1>
 
                 </header>
             </div>
+        </div>
         </section>
         <div>
 <div class="tab-wrap">
     {% assign checked = "checked"%}
     {% for acource in site.course %}
     <input id="TAB-{{acource.name_en}}" type="radio" name="TAB" class="tab-switch" {{checked}} />
-    <label class="tab-label {{acource.color}}" for="TAB-{{acource.name_en}}">{{acource.name}}</label>
+    <label class="{{acource.tabclass}} {{acource.color}}" for="TAB-{{acource.name_en}}">{{acource.name}}</label>
         {% assign checked = "" %}
     <div class="tab-content">
         {% assign cource = acource %}
@@ -48,13 +58,14 @@
     </div>
     {% endfor %}
     <input id="TAB-all" type="radio" name="TAB" class="tab-switch" />
-    <label class="tab-label colordo5" for="TAB-all">プラン一覧</label>
+    <label class="tab-label5 colordo5" for="TAB-all">プラン一覧</label>
     <div class="tab-content">
         {% include plan_all.html %}
     </div>
     
 </div>
 </div>
+    {% include information.html %}
     {% include contact.html %}
     {% include footer.html %}
     {% include drawer.html %}

@@ -25,8 +25,9 @@
                 <div style="font-weight: bold;font-size: 1.2em;margin-top: 1em; ">
 
                     <p>{{ cource.price }}</p>
-                    <p>{{ cource.man-days }}</p>
-
+                    {% if cource.table_include != 'table_mentor' %}
+                    <p class="{{cource.color}}" style="background-color: #fff;">{{ cource.man-days }}</p>
+                    {% endif %}
                 </div>
                     {% case cource.table_include %}
                         {% when 'table_develop' %}
@@ -44,12 +45,17 @@
                 <div style="font-weight: bold;font-size: 0.9em;margin-top: 1em; ">
 
                     <p>{{ cource.update }}</p>
+                    <p class="showdrawer text_button" onclick="javascript:setParam('{{ plan.update.title }}','{{ plan.update.description }}');" style="font-size:0.7em;">　　<i class="fas fa-question-circle"></i>契約更新について</p>                    
+                    {% if cource.table_include != 'table_mentor' %}
                     <p>■ 追加工数料金</p>
-                    <p>　　　{{ cource.addition1 }}</p>
-                    <p>　　　{{ cource.addition2 }}</p>
+                    <p>　　前月予約：{{ cource.addition1 }}</p>
+                    <p>　　当月追加：{{ cource.addition2 }}</p>
+                    {% endif %}
                 </div>
 
+                    {% if cource.table_include != 'table_mentor' %}
                     <p class="showdrawer text_button" onclick="javascript:setParam('{{ site.tooltip[8].name }}','{{ site.tooltip[8].description }}');" style="font-size:0.7em;">　　<i class="fas fa-question-circle"></i>追加工数について</p>
+                    {% endif %}
                 </div>
                 <br>
             </div>

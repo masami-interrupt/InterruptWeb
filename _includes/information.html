@@ -1,0 +1,47 @@
+
+<!-- Main -->
+<div id="main" class="alt" style="background-color: #2a2f4a;">
+
+<!-- One -->
+<section id="one">
+    <div class="inner">
+        <header class="major">
+
+                    <h1>Information</h1>
+
+        </header>
+    {% for aquestion in site.qanda %}
+
+<div id="accordion" class="accordion-container">
+  <p class="accordion-title js-accordion-title">{{ aquestion.question }}</p>
+  <div class="accordion-content">
+    <p>{{ aquestion.answer }}</p>
+  </div>
+</div>
+    {% endfor %}
+</section>
+
+    </div>
+</section>
+
+</div>
+
+<!-- for jqueryui -->
+<script src="/assets/js/jquery.min.js"></script>
+
+    <script>
+
+$(function () {
+  // 最初のコンテンツ以外は非表示
+  $(".accordion-content").css("display", "none");
+  // 矢印の向きを変えておく
+  $(".accordion-title:first-of-type").addClass("open");
+ 
+  $(".js-accordion-title").click(function () {
+    $(".open").not(this).removeClass("open").next().slideUp(300);
+    $(this).toggleClass("open").next().slideToggle(300);
+  });
+});
+        
+    </script>
+
