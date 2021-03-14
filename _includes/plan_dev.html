@@ -44,7 +44,7 @@
                 <p class="showdrawer text_button" onclick="javascript:setParam('{{ plan.pricedesc.title }}','{{ plan.pricedesc.description }}');" style="font-size:0.7em;">　　<i class="fas fa-question-circle"></i>料金内訳</p>
                 <div style="font-weight: bold;font-size: 0.9em;margin-top: 1em; ">
 
-                    <p>{{ cource.update }}</p>
+                    <p class="{{cource.color}}" style="background-color: #fff;">{{ cource.update }}</p>
                     <p class="showdrawer text_button" onclick="javascript:setParam('{{ plan.update.title }}','{{ plan.update.description }}');" style="font-size:0.7em;">　　<i class="fas fa-question-circle"></i>契約更新について</p>                    
                     {% if cource.table_include != 'table_mentor' %}
                     <p>■ 追加工数料金</p>
