@@ -1,3 +1,29 @@
+/*スマホ*/
+@media all and (max-width: 480px) { 
+.withdoHeader {
+  background-image: url(/assets/images/3_2_s.png);
+  background-size: cover;
+  height: 1160px;
+}
+}
+
+/*タブレット縦*/
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+.withdoHeader {
+  background-image: url(/assets/images/3_2.jpg);
+  background-size: cover;
+  height: 1260px;
+}
+}
+/*PC*/
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+ .withdoHeader {
+  background-image: url(/assets/images/3_2.jpg);
+  background-size: cover;
+  height: 760px;
+}
+}
 #drawer {
     -moz-transition: -moz-transform .15s ease,opacity .15s ease,visibility .15s;
     -webkit-transition: -webkit-transform .15s ease,opacity .15s ease,visibility .15s;
