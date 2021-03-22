@@ -1,3 +1,27 @@
+/*スマホ*/
+@media all and (max-width: 480px) { 
+.caution {
+  padding:0 1em;
+  text-align:left;
+}
+}
+
+/*タブレット縦*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+.caution {
+  padding:0 10em;
+  text-align:left;
+}
+}
+/*PC*/
+@media all and (min-width: 1024px) { 
+ .caution {
+  padding:0 10em;
+  text-align:left;
+}
+}
+
 .checkmark__circle {
   stroke-dasharray: 166;
   stroke-dashoffset: 166;

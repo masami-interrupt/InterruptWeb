@@ -11,9 +11,8 @@ nav-menu: false
 
 <!--  -->
 <section id="two" class="spotlights">
-    <section>
-        <div class="content">
-            <div class="inner">
+    <section style="text-align:center;">
+            <div class="inner caution" >
                 <p style="color:#ff3369;font-size: 0.8em;">【ご注意】迷惑メール対策などで、「アドレス指定受信」・「ドメイン指定受信」・「メールフィルター」など、
 メールの拒否設定を行っていると「@interrupt.technology 」のご案内を受信できない場合がございます。<br>
 迷惑メール防止対策のためドメイン指定を行っている場合は「@interrupt.technology」を指定して下さい。<br>
@@ -23,7 +22,6 @@ nav-menu: false
                     <li><a href="/desc/04_withdo.html" class="button">WithDo Topに戻る</a></li>
                 </ul>
             </div>
-        </div>
     </section>
 
 </section>
