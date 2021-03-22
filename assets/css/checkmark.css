@@ -1,8 +1,11 @@
 /*スマホ*/
 @media all and (max-width: 480px) { 
 .caution {
-  padding:0 1em;
+  padding:2em 1em;
   text-align:left;
+}
+.banner-height {
+  height: 800px !important;
 }
 }
 
@@ -10,15 +13,21 @@
 @media all and (min-width: 768px) and (max-width: 1024px) {
 
 .caution {
-  padding:0 10em;
+  padding:2em 10em;
   text-align:left;
+}
+.banner-height {
+  height: 800px !important;
 }
 }
 /*PC*/
 @media all and (min-width: 1024px) { 
  .caution {
-  padding:0 10em;
+  padding:2em 10em;
   text-align:left;
+}
+.banner-height {
+  height: 800px !important;
 }
 }
 
