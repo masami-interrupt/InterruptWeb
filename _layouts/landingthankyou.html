@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+    {% include head.html %}
+  <link href="/assets/css/checkmark.css" rel="stylesheet" type="text/css">
+    <body>
+    
+    {% include header.html %}
+
+
+        <section id="banner" class="style7">
+            <div class="inner">
+                <span class="image">
+                    <img src="{{ page.image }}" alt="">
+                </span>
+                <svg class="checkmark" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                    <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                    <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                </svg>
+                <header style="color: #fff;text-align: center;margin: 30px 0;">
+
+                    <h2>{{ page.title }}</h2>
+
+                </header>
+                <div style="color: #fff;text-align: center;margin: 60px 0;">
+
+                    {{ page.description }}
+
+                </div>
+            </div>
+        </section>
+
+    {{ content }}
+
+    {% include footer.html %}
+
+</body>
+
+</html>
