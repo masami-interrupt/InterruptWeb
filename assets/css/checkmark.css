@@ -17,7 +17,7 @@
   text-align:left;
 }
 .banner-height {
-  height: 800px !important;
+  height: 400px !important;
 }
 }
 /*PC*/
@@ -25,9 +25,10 @@
  .caution {
   padding:2em 10em;
   text-align:left;
+  width: 100% !important;
 }
 .banner-height {
-  height: 800px !important;
+  height: 430px !important;
 }
 }
 
@@ -49,7 +50,7 @@
   stroke-width: 2;
   stroke: #fff;
   stroke-miterlimit: 10;
-  margin: 10% auto;
+  margin: 0 auto;
   box-shadow: inset 0px 0px 0px #7ac142;
   animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
 }
