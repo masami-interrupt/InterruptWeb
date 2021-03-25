@@ -31,16 +31,38 @@
   border-bottom-color: #fff;
 }
 
-/*CSS for CodePen*/
+.accordion-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*スマホ*/
+@media all and (max-width: 480px) { 
+.accordion-content {
+  padding-left: 0em;
+  color: #fff;
+  margin: 0.5em;
+/*  border: 1px solid #0079c1;*/
+}
+}
+
+/*タブレット縦*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
 
 .accordion-content {
-  padding-left: 2.3125em;
+  padding-left: 3em;
+  color: #fff;
+  margin: 0em;
+/*  border: 1px solid #0079c1;*/
+}
+}
+/*PC*/
+@media all and (min-width: 1024px) { 
+.accordion-content {
+  padding-left: 3em;
   color: #fff;
   margin: 3em;
 /*  border: 1px solid #0079c1;*/
 }
-.accordion-container {
-  width: 100%;
-  margin: 0 auto;
 }
 
