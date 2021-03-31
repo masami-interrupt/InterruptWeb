@@ -2,7 +2,7 @@
 layout: price
 title: With DO 
 landing-title: 'コンサルタント'
-nav-menu: commings
+nav-menu: true
 description: 
 image: null
 author: null
