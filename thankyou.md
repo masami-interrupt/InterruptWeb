@@ -4,6 +4,7 @@ title: お申し込みありがとうございます
 description: "WithDOへのお申し込みが完了致しました！<br>info@interrupt.technologyから入金のご案内メールをお送り致します。<br>いましばらくお待ちください。"
 image: assets/images/thankyou.jpg
 nav-menu: false
+show_tile: false
 ---
 
 <!-- Main -->
