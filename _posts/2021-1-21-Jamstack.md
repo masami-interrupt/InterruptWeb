@@ -1,12 +1,15 @@
 ---
 layout: post
 title: 当サイトの技術構成
-description: 
+description: サイトをリニューアルしました。
 categories: Web It
 date:       2021-1-21 12:00:00
 author:     "Naoko Kubo"
-header-img: assets/images/construction.jpg
-image: assets/images/construction.jpg
+author-icon: "/assets/images/default.jpg"
+author-desc: "合同会社 Interrupt CEO"
+header-img: /assets/images/construction.jpg
+author-image: /assets/images/construction.jpg
+image: /assets/images/construction.jpg
 ---
 
 <h4 class="blogtitle">Wordpressをやめました</h4>
