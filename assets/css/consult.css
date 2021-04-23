@@ -1,9 +1,9 @@
 /*スマホ*/
 @media all and (max-width: 480px) { 
 .withdoHeader {
-  background-image: url(/assets/images/3_2_s.png);
+  background-image: url(/assets/images/3_3_s.jpg);
   background-size: cover;
-  height: 1160px;
+  height: 1030px;
 }
 }
 
@@ -13,7 +13,7 @@
 .withdoHeader {
   background-image: url(/assets/images/3_2_s.png);
   background-size: cover;
-  height: 760px;
+  height: 690px;
 }
 }
 /*PC*/
@@ -21,7 +21,7 @@
  .withdoHeader {
   background-image: url(/assets/images/3_2.jpg);
   background-size: cover;
-  height: 760px;
+  height: 630px;
 }
 }
 #drawer {
