@@ -23,3 +23,10 @@ companies:
    - company:
         image: "../assets/images/company/pocke.png"
         url: "https://www.pocke.co.jp"
+withdocompanies:
+   - company:
+        image: "../assets/images/company/header_logo.png"
+        url: "https://archinc.jp"
+   - company:
+        image: "../assets/images/company/logo.gif"
+        url: "https://www.gmo.jp"
