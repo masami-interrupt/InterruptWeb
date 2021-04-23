@@ -3,7 +3,7 @@
 .withdoHeader {
   background-image: url(/assets/images/3_3_s.jpg);
   background-size: cover;
-  height: 1030px;
+  height: 490px;
 }
 }
 
@@ -13,7 +13,7 @@
 .withdoHeader {
   background-image: url(/assets/images/3_2_s.png);
   background-size: cover;
-  height: 690px;
+  height: 580px;
 }
 }
 /*PC*/
@@ -21,7 +21,7 @@
  .withdoHeader {
   background-image: url(/assets/images/3_2.jpg);
   background-size: cover;
-  height: 630px;
+  height: 500px;
 }
 }
 #drawer {
