@@ -3,10 +3,10 @@ layout: price
 title: With DO 
 landing-title: 'コンサルタント'
 nav-menu: true
-description: 
-image: null
+description: 小さなアドバイスや調査から、業務上での問題解決策のご提案まで、 <br>お気軽に使える月額制コンサルティングサービスです。<br>
+image: assets/images/3_2.jpg
 author: null
-show_tile: false
+show_tile: true
 ---
 <span style="font-weight:bold;font-size:1.5em;margin-bottom:40px;">ー共に創り、育てます</span><br>
 <span style="font-weight:normal;font-size:1.2em;line-height:2.1em;">
