@@ -2,7 +2,7 @@
 layout: post
 title: 環境構築
 description: 
-image: assets/images/daniel-korpai-vHVfpi3h5xk-unsplash.jpg
+image: /assets/images/daniel-korpai-vHVfpi3h5xk-unsplash.jpg
 nav-menu: false
 show_tile: false
 ---

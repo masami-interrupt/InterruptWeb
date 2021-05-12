@@ -2,7 +2,7 @@
 layout: post
 title: 言語:開発ツール:フレームワーク
 description: 
-image: assets/images/goran-ivos-T8LMIN09-mo-unsplash.jpg
+image: /assets/images/goran-ivos-T8LMIN09-mo-unsplash.jpg
 nav-menu: false
 show_tile: false
 ---

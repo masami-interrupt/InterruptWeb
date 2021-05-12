@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 受託開発
-image: assets/images/app.jpg
+image: /assets/images/app.jpg
 nav-menu: false
 show_tile: false
 ---

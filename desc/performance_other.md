@@ -2,7 +2,7 @@
 layout: post
 title: その他の実績
 subtitle: 
-image: assets/images/project.jpg
+image:  /assets/images/project.jpg
 nav-menu: false
 show_tile: false
 ---

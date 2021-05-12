@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 自社プロジェクト
-image: assets/images/jisha.jpg
+image: /assets/images/jisha.jpg
 nav-menu: false
 show_tile: false
 ---
