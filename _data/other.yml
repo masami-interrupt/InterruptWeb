@@ -18,6 +18,12 @@ appli:
         image: "../assets/images/performance/shintaro.jpg"
         url: "http://shintaro.com"
    - item:
+        title: "クラウドファウンディング連携サイト-Factry"
+        subtitle: "Webサイト(Ruby on rails,PHP)"
+        desc: "Webサイト(Ruby on rails,PHP)<br>クラウドファウンディングサイトから、情報を取得して、限定オリジナルファッションアイテムを扱う支援型ECプラットフォームのWebページ作成を行いました。"
+        image: "../assets/images/performance/FACTRYogp.jpg"
+        url: "http://www.factry.jp"
+   - item:
         title: "フジテレビドラマ"
         subtitle: "モックアップ(Visual Basic)"
         desc: "テレビドラマ内で登場する、実際に動作するアプリを作成しました。"
@@ -37,14 +43,7 @@ appli:
         url:
    - item:
         title: "技術コンサル"
-        subtitle: "コンサルティング(iOS)
-"
+        subtitle: "コンサルティング(iOS)"
         desc: "安定稼働ができずにリリースが延期となっていたプロジェクトの技術的サポートを実施しました。"
         image: "../assets/images/no_image_square.jpg"
         url:
-   - item:
-        title: "クラウドファウンディング連携サイト"
-        subtitle: "Webサイト(Ruby on rails,PHP)"
-        desc: "Webサイト(Ruby on rails,PHP)<br>クラウドファウンディングサイトから、情報を取得して、限定オリジナルファッションアイテムを扱う支援型ECプラットフォームのWebページ作成を行いました。"
-        image: "../assets/images/performance/FACTRYogp.jpg"
-        url: "http://www.factry.jp"
