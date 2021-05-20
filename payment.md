@@ -3,7 +3,7 @@ layout: page
 title: 特定商取引法に基づく表記
 description: 
 image: assets/images/kari-shea-k09UjFzAFbE-unsplash.jpg
-nav-menu: true
+nav-menu: false
 show_tile: false
 ---
 <style type="text/css">
@@ -94,7 +94,7 @@ table {
   <tr class="last">
     <th>返品・キャンセ</th>
     <td>１.お客様のご都合による返品・キャンセル
-商品の性質上、各アプリケーションご購入後の返金・返品はできかねます。あらかじめ月額コース対象コンテンツ、利用環境をよくお確かめの上、お申込み、もしくはご購入願います。
+商品の性質上、各コンテンツご契約後の返金はできかねます。あらかじめ月額コース対象コンテンツ、利用環境をよくお確かめの上、お申込み願います。
 </td>
   </tr>
 </table>
