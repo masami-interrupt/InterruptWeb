@@ -68,7 +68,7 @@ jQuery(function($){
     event.preventDefault();
     //トークンを取得
     grecaptcha.ready(function() {
-      grecaptcha.execute('サイトキー', {action: 'submit'}).then(function(token) {
+      grecaptcha.execute('6LeEBeAaAAAAACZsequqxHYV4DRf47LB4LEvPiuA', {action: 'submit'}).then(function(token) {
         //input 要素を生成して値にトークンを設定
         $('#rc_form').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
         //input 要素を生成して値にアクション名を設定
