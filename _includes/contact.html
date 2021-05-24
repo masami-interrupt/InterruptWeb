@@ -49,7 +49,10 @@
             <div class="col-lg-12 text-center">
               <div id="success"></div>
               <div id="recaptcha"></div>
-              <button id="sendMessageButton" class="special" type="submit">問い合わせする</button>
+              <button id="sendMessageButton" class="special g-recaptcha" 
+        data-sitekey="reCAPTCHA_site_key" 
+        data-callback='onSubmit' 
+        data-action='submit'>問い合わせする</button>
             </div>
           </div>
         </form>
@@ -59,52 +62,21 @@
 </section>
 <!-- End Contact -->
 <script>
-  var onloadCallback = function() {
-    //ウィジェットを表示するメソッド
-    grecaptcha.render('recaptcha', {
-      'sitekey' : "6LeEBeAaAAAAACZsequqxHYV4DRf47LB4LEvPiuA",
-      'callback' : verifyCallback,
-      'expired-callback' : expiredCallback
-    });
-  };
-  //チェックを入れて成功した場合に呼び出されるコールバック関数
-  var verifyCallback = function(response) { 
-    //ウィジェットの要素に verified クラスを設定
-    document.getElementById('recaptcha').className = "verified";
-    //エラーメッセージを表示する要素
-    var recaptchaError = document.getElementById('recaptcha_error');
-    if(recaptchaError != null) {
-       //エラーメッセージを表示する要素が存在すれば削除
-       recaptchaError.parentNode.removeChild(recaptchaError);
-    } 
-  };
-  //期限切れの場合に呼び出されるコールバック関数
-  var expiredCallback = function() {
-    //verified クラスを削除
-    document.getElementById('recaptcha').classList.remove('verified');
-  };
+   function onSubmit(token) {
+     document.getElementById("rc_form").submit();
+   }
+ </script>
+
 </script> 
-<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script> 
+<script src="https://www.google.com/recaptcha/api.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
 <script>
-jQuery(function($){
-  //送信ボタンがクリックされた場合の処理
-  $("#rc_form").submit(function(){
-    //エラー表示の初期化
-    $("p.error").remove();
-    //reCAPTCHA にチェックが入っているかを確認
-    //ウィジェットの要素に verified クラスが付与されていない場合
-    if(!$('#recaptcha').hasClass('verified')) {
-      //エラーメッセージの要素を追加
-      $('#recaptcha').append("<p class='error' id='recaptcha_error'>チェックを入れてください</p>");
-    }
-    //実際のフォームではその他の input 要素などの検証処理も一緒に記述
-    
-    //.error があれば送信しない
-    if($(".error").length > 0){
-      //alert("Error");
-      return false;
-    }
-  });
-})
-</script>
+      function onClick(e) {
+        e.preventDefault();
+        grecaptcha.ready(function() {
+          grecaptcha.execute('6LeEBeAaAAAAACZsequqxHYV4DRf47LB4LEvPiuA', {action: 'submit'}).then(function(token) {
+              // Add your logic to submit to your backend server here.
+          });
+        });
+      }
+  </script>
