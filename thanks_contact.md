@@ -20,7 +20,7 @@ show_tile: false
                 メールアドレスをご確認の上、もう一度フォームよりお問合せ頂きますようお願い申し上げます。</p>
 <br>
                 <ul  style="text-align: center;" class="actions">
-                    <li><a href="/desc/04_withdo.html" class="button" style="text-transform:none !important;">TOPに戻る</a></li>
+                    <li><a href="https://interrupt.technology/" class="button" style="text-transform:none !important;">TOPに戻る</a></li>
                 </ul>
             </div>
     </section>
