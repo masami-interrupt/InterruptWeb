@@ -1,3 +1,50 @@
+<style type="text/css">
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+/*スマホ*/
+@media all and (max-width: 480px) { 
+.salescheck {
+  font-weight: bold;
+  color: #ff0000;
+  padding: 1em 1em;
+}
+}
+
+/*タブレット縦*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+.salescheck {
+  font-weight: bold;
+  color: #ff0000;
+  padding: 1em 5em;
+}
+}
+/*PC*/
+@media all and (min-width: 1024px) { 
+.salescheck {
+  font-weight: bold;
+  color: #ff0000;
+  padding: 1em 5em;
+}
+}
+
+
+/*** custom checkboxes ***/
+
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow space for check mark */
+ 
+</style>
+
 <!-- Contact -->
 <section class="page-section" id="{{ site.data.sitetext.contact.section | default: " contact" }}">
   <div class="container">
@@ -9,6 +56,9 @@
     </div>
     <div class="row">
       <div class="col-lg-12">
+        <div class="salescheck">
+          最近、営業のメールが激増しており、大切なお客様からのメールが埋もれてしまい、大変迷惑しています。営業やPRのメールは一切返信しませんし、そのサービスを使うこともありません。複数回送ってきた場合には消費者庁に通報いたします。
+        </div>
         <form action="https://getform.io/f/482945ab-79b5-49fe-a0a6-05bf9701b638"
           novalidate="novalidate" method="POST" id="rc_form">
           <!--name="sentMessage"-->
@@ -46,6 +96,9 @@
             </div>
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center">
+              <div class="form-group">
+                <input type="checkbox" id="salescheck" name="salescheck"><label for="salescheck" style="font-weight: bold;color: #fff;margin: 1em;" required="required">営業メールではございません</label>
+              </div>
               <button id="sendMessageButton" class="special" type="submit">問い合わせする</button>
             </div>
           </div>
@@ -61,6 +114,9 @@
 jQuery(function($){
   //フォーム要素に submit イベントを設定
   $('#rc_form').submit(function(event) {
+    if ( $("#salescheck").prop("checked") == false ) {
+      return false;
+    }
     //デフォルトの動作（送信）を停止
     event.preventDefault();
     //トークンを取得
