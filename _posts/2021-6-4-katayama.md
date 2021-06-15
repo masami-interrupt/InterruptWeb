@@ -3,20 +3,19 @@ layout: post
 title: はじめまして！ディレクション担当片山です！
 description: 
 categories: It Chat
-date:       2021-06-15 00:00:00
+date:       2021-06-16 12:00:00
 author:     "片山 賢人"
 author-icon: "/assets/images/icon/Kempi.jpg"
 author-desc: "合同会社 Interrupt ディレクション担当"
 header-img: "/assets/images/KempiLOGO.jpg"
 image: "/assets/images/KempiLOGO.jpg"
 ---
-
 <h4 class="blogtitle">Interrupt最年少にして随一の精鋭ディレクション(自称) 片山です！</h4>
 <p>Interruptのブログをご愛読の皆様こんにちは！</p>
 <p>今年からひっそりとInterruptにてお世話になっております、ディレクションの片山と申します！</p>
 <p>我らがCEOから、「片山くんもブログ書いて！なんでもいいから！」との御達しを頂いたので、いざ執筆！と思い立ちましたが、いきなり出てきても「誰だ…」ってなるなぁと思ったので、まずは自己紹介をとこちらのブログを書かせて頂いている次第です！</p>
 <p>CEOのような専門的なものは書けませんが、お時間ある時にでも是非ご一読頂けましたら幸いですm(_ _)m</p>
-</p>
+<p></p>
 <h4 class="blogtitle">エピソード0 片山とCEO 運命の始まり</h4>
 <p>まずは片山とCEOの馴れ初めから。</p>
 <p>実は、全くIT関係ないんですよねぇ…。</p>
