@@ -23,7 +23,7 @@
 @media all and (min-width: 1024px) { 
 .salescheck {
   font-weight: bold;
-  color: #ff0000;
+  color: #ff5500;
   padding: 1em 5em;
 }
 }
@@ -97,7 +97,11 @@ input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow sp
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center">
               <div class="form-group">
-                <input type="checkbox" id="salescheck" name="salescheck"><label for="salescheck" style="font-weight: bold;color: #fff;margin: 1em;" required="required">営業メールではございません</label>
+        <div class="salescheck">
+          ※営業・PRメールは受け付けておりません。なお、ご返信は控えさせて頂いております。<br>
+          ※悪質ないたずら・執拗な営業・PRメールなどの迷惑行為は警察・消費者庁などに通報致します。
+        </div>
+                <input type="checkbox" id="salescheck" name="salescheck"><label for="salescheck" style="font-weight: bold;color: #fff;margin: 1em;" required="required">営業メールではございません。</label>
               </div>
               <button id="sendMessageButton" class="special" type="submit">問い合わせする</button>
             </div>
