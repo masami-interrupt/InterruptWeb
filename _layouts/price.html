@@ -66,50 +66,6 @@ font-size:2.9em;padding-top:0px;
             </div>
         </div>
         </section>
-        <div style="background: #242943;padding: 4em 0 0 0;margin: 0 auto;">
-                <header class="major" style="padding: 1.5em;">
-
-                    <h1 style="background: #242943;font-size: 2.0em;font-weight: bolder;">プラン紹介</h1>
-
-                </header>
-<div class="tab-wrap">
-    {% assign checked = "checked"%}
-    {% for acource in site.course %}
-    <input id="TAB-{{acource.name_en}}" type="radio" name="TAB" class="tab-switch" {{checked}} />
-    <label class="{{acource.tabclass}} {{acource.color}}" for="TAB-{{acource.name_en}}">{{acource.name}}</label>
-        {% assign checked = "" %}
-    <div class="tab-content">
-        {% assign cource = acource %}
-        {% include plan_dev.html %}
-    </div>
-    {% endfor %}
-    <input id="TAB-all" type="radio" name="TAB" class="tab-switch" />
-    <label class="tab-label5 colordo5" for="TAB-all">プラン一覧</label>
-    <div class="tab-content">
-        {% include plan_all.html %}
-    </div>
-</div>
-<div style="position:relative;top:-60px;text-align: center;">
-    <!--Pagenation -->
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice" viewBox="0 0 800 600">
-<defs>
- <mask id="radioMask"></mask>
-</defs>
-  <g id="mainGroup">
-    <g id="circleGroup" fill="transparent" stroke-width="2" stroke-miterlimit="10" >
-    <circle id="c_dev" cx="340" cy="300" r="6"/>    
-    <circle id="c_devm" cx="370" cy="300" r="6"/>
-    <circle id="c_adj" cx="400" cy="300" r="6"/>
-    <circle id="c_men" cx="430" cy="300" r="6"/>  
-    <circle id="c_all" cx="460" cy="300" r="6"/>    
-  </g>  
-    <line id="joinLine" fill="none" stroke-width="6" stroke-linecap="round" stroke-miterlimit="2" x1="340" y1="300" x2="340" y2="300"/>
-  </g>
-</svg>
-  
-    <!--Pagenation end-->
-
-</div>
 
 
 
