@@ -1,7 +1,7 @@
 /*スマホ*/
 @media all and (max-width: 480px) { 
 .withdoHeader {
-  background-image: url(/assets/images/3_3_s.jpg);
+  background-image: url(/assets/images/ian-dooley-DJ7bWa-Gwks-unsplash.jpg);
   background-size: cover;
   height: 490px;
 }
@@ -11,7 +11,7 @@
 @media all and (min-width: 768px) and (max-width: 1024px) {
 
 .withdoHeader {
-  background-image: url(/assets/images/3_2_s.png);
+  background-image: url(/assets/images/ian-dooley-DJ7bWa-Gwks-unsplash.png);
   background-size: cover;
   height: 580px;
 }
@@ -19,7 +19,7 @@
 /*PC*/
 @media all and (min-width: 1024px) { 
  .withdoHeader {
-  background-image: url(/assets/images/3_2.jpg);
+  background-image: url(/assets/images/ian-dooley-DJ7bWa-Gwks-unsplash.jpg);
   background-size: cover;
   height: 500px;
 }

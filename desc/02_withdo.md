@@ -3,17 +3,14 @@ layout: price
 title: With DO 
 landing-title: 'コンサルタント'
 nav-menu: true
-description: 小さなアドバイスや調査から、業務上での問題解決策のご提案まで、 <br>お気軽に使える月額制コンサルティングサービスです。<br>
+description: 月額制IT業務サポートサービス
 image: assets/images/3_2.jpg
 author: null
 show_tile: false
 ---
 <span style="font-weight:bold;font-size:1.5em;margin-bottom:40px;">ー共に創り、育てます</span><br>
-<span style="font-weight:normal;font-size:1.2em;line-height:2.1em;">
-小さなアドバイスや調査から、業務上での問題解決策のご提案まで、 <br>
-お気軽に使える月額制コンサルティングサービスです。<br>
-「システム専門の部署を持ちたいけど、人員を確保するのが難しい…！」 <br>
-そんな時は私たちがシステム部となることも可能です。<br>
- ご要望に応じて、プログラミング学習からアプリやサイトの立ち上げ、運用、 <br>
-保守業務に業務ツール開発まで、最適なコースをお選び頂けます。<br>
+<span style="font-weight:normal;font-size:1.2em;line-height:1.6em;">
+ITに関する業務を一挙に任せられる月額制IT業務サポートサービスです。<br>
+Webサイトやホームページ、アプリの開発から運用、ソフトの導入・環境構築、調査やデバッグにテストプレイ、プログラミング学習メンターまで。<br>
+オプション追加型のサービスで自由自在に、ご要望に応じた最適なプランをご提供致します。<br>
 </span><br>
