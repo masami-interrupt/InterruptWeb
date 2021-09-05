@@ -5,6 +5,10 @@
   background-size: cover;
   height: 490px;
 }
+.br_pc {
+    display: none;
+
+}
 }
 
 /*タブレット縦*/
@@ -22,6 +26,36 @@
   background-image: url(/assets/images/ian-dooley-DJ7bWa-Gwks-unsplash.jpg);
   background-size: cover;
   height: 500px;
+}
+.br_sp {
+    display: none;
+
+}
+}
+/*スマホ*/
+@media all and (max-width: 480px) { 
+.withdoPrice {
+  background-image: url(/assets/images/FlPc9_VocJ4-unsplash.jpg);
+  background-size: cover;
+  height: 790px;
+}
+}
+
+/*タブレット縦*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+.withdoPrice {
+  background-image: url(/assets/images/FlPc9_VocJ4-unsplash.png);
+  background-size: cover;
+  height: 880px;
+}
+}
+/*PC*/
+@media all and (min-width: 1024px) { 
+ .withdoPrice {
+  background-image: url(/assets/images/FlPc9_VocJ4-unsplash.jpg);
+  background-size: cover;
+  height: 800px;
 }
 }
 #drawer {
@@ -110,7 +144,6 @@
   }
 
 .price-table{
-  min-width: 1200px;
   background-color: #fff;
   border-collapse: collapse;
   margin: 0 auto;
@@ -118,7 +151,7 @@
   table-layout: fixed;
 }
 .price-table thead th{
-/*  padding: 1em .8em;*/
+  padding: 1.6em 1.8em;
   border-right: 1px solid #5c67a2;
   vertical-align:middle;
   text-align: center;
@@ -126,32 +159,32 @@
   font-size: .55em;
 }
 .price-table  tr {
-  background-color: #fff;
+  background-color: #eee;
   padding: .20em;
 }
-.price-table tr:nth-child(even){
-  background-color: #eee;
-}
 .price-table td {
-  padding: .4em;
+  padding: .2em;
+  color: white;
   vertical-align:middle;
   text-align: center;
   border-right: solid #ccc 1px;
-  font-size: .60em;
+  font-size: 1.0em;
   text-align: center;
-  height: 96px;
+  height: 5em;
 }
 .price-table th {
- font-size: .75em;
+ font-size: .55em;
  position:relative;
  text-align: center;
  vertical-align: middle;
 }
-.price-table tr th{
+.price-table tbody tr th{
   color: #fff;
+  background-color: #777;
 }
-.price-table tr:nth-child(even) th{
-  color:#fff;
+.price-table tbody td {
+  border: solid #ccc 1px;
+  background-color: #777;
 }
 
 .price-table_min{
@@ -168,12 +201,19 @@
   text-align: center;
   background-color: #2a2f4a;
 }
+.price-table_min tbody th{
+  padding: 0.3em .4em;
+  border-right: 1px solid #5c67a2;
+  vertical-align:middle;
+  text-align: center;
+  background-color: #ccc;
+}
 .price-table_min  tr {
   background-color: #fff;
   padding: .35em;
 }
 .price-table_min td {
-  padding: 1.7em;
+  color: white;
   vertical-align:middle;
   text-align: center;
 }
@@ -197,58 +237,7 @@ text-align: center;
 .price-table_min i{
   font-size:1.3em !important;
 }
-.plan1{
-  line-height: 3.5em;
-  background: #044dcb !important;
-}
-.plan1_i{
-  background:#3379e7;
-  font-weight: bold;
-  color: #fff;
-}
-.plan1_t{
-  font-weight: bold;
-  color:#3379e7;
-}
-.plan2{
-  line-height: 3.5em;
-  background: #bc6db1 !important;
-}
-.plan2_i{
-  background:#cda1df;
-  font-weight: bold;
-  color: #fff;
-}
-.plan2_t{
-  font-weight: bold;
-  color:#cda1df;
-}
-.plan3{
-  line-height: 3.5em;
-  background: #f4ab3a !important;
-}
-.plan3_i{
-  background:#efba47;
-  font-weight: bold;
-  color: #fff;
-}
-.plan3_t{
-  font-weight: bold;
-  color:#efba47;
-}
-.plan4{
-  line-height: 3.5em;
-  background: #85bc4f !important;
-}
-.plan4_i{
-  background:#8fcb54;
-  font-weight: bold;
-  color: #fff;
-}
-.plan4_t{
-  font-weight: bold;
-  color:#8fcb54;
-}
+
 .plan_desc{
   font-weight: bold;
   color:#777;
@@ -415,4 +404,24 @@ border:2px solid #ff3693;
     text-align: center;
     position:absolute;
     border-bottom: solid 1px;
+}
+
+.price1 {
+  text-align: center;
+  color: #fff;
+  opacity: 1.0;
+  font-size: 1.9em;
+  font-weight:600;
+}
+.desc1 {
+  font-size: 0.6em;
+}
+.canpain {
+  margin-top: 3em;
+  padding: 1em 2em;
+  border: solid 2px #fff;
+  color: #fff;
+  opacity: 1.0;
+  font-size: 1.2em;
+  font-weight:600;
 }
