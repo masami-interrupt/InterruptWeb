@@ -7,12 +7,16 @@
                     <h1 id="helpTitle">たいとる</h1>
 
                 </header>
-                <div id="helpConcent" class="content" style="color: #fff;">
+                <div id="helpConcent" class="content" style="font-size: 1.2em;font-weight: bold; color: #fff;">
 
                     説明
 
                 </div>
-                <div class="content" style="color: #fff;">
+                <div id="content" style="margin-top: 5em;font-size: 0.8em;color: #fff;">
+                  注釈のところ
+                </div>
+                <div style="margin-top: 5em;text-align: center;">
+                  <span class="text_button"><img id="closeButton" src="/assets/images/close.png" width="69px"></span>
                 </div>
 
             </div>
@@ -22,21 +26,24 @@
 <script type="text/javascript">
   var paramTitle = "";
   var paramContent = "";
+  var paramText = "";
       $(".showdrawer").on('click',function(){
-        $("#drawer").css('pointer-events','auto');
+        $("#closeButton").css('pointer-events','auto');
         $("#drawer").animate({ opacity: 1 });
         $("#helpTitle").html(paramTitle);
         $("#helpConcent").html(paramContent);
+        $("#content").html(paramText);
       });
 
-      $("#drawer").on("click", function () {
-        $("#drawer").css('pointer-events','none');
+      $("#closeButton").on("click", function () {
+        $("#closeButton").css('pointer-events','none');
         $("#drawer").animate({ opacity: 0 });
       });
       
-      function setParam(title,content) {
+      function setParam(title,content,text) {
         paramTitle = title;
         paramContent = content;
+        paramText = text;
       }
 
   </script>
