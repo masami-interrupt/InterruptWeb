@@ -53,6 +53,7 @@
 /*PC*/
 @media all and (min-width: 1024px) { 
  .withdoPrice {
+  margin-top: 0.3em;
   background-image: url(/assets/images/FlPc9_VocJ4-unsplash.jpg);
   background-size: cover;
   height: 800px;
@@ -148,6 +149,7 @@
   border-collapse: collapse;
   margin: 0 auto;
   padding: 0;
+  font-weight: 800;
   table-layout: fixed;
 }
 .price-table thead th{
@@ -169,11 +171,10 @@
   text-align: center;
   border-right: solid #ccc 1px;
   font-size: 1.0em;
-  text-align: center;
   height: 5em;
 }
 .price-table th {
- font-size: .55em;
+ font-size: .6em;
  position:relative;
  text-align: center;
  vertical-align: middle;
