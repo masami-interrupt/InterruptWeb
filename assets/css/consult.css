@@ -233,49 +233,61 @@ color: #fff;
 .styledo4{
     background-color: #8fcb54;
   }
-
+.border-right{
+  border-right: solid 1px #fff;  
+}
+.border-bottom{
+  border-bottom: solid 1px #fff;  
+}
+.border-left{
+  border-left: solid 1px #fff;  
+}
 .price-table{
   background-color: #fff;
-  border-collapse: collapse;
+  opacity: 1.0;
   margin: 0 auto;
   padding: 0;
+  color: white;
   font-weight: 800;
   table-layout: fixed;
 }
 .price-table thead th{
   padding: 1.6em 1.8em;
-  border-right: 1px solid #5c67a2;
   vertical-align:middle;
   text-align: center;
   background-color: #2a2f4a;
   font-size: .55em;
 }
-.price-table  tr {
+.price-table thead tr {
   background-color: #eee;
   padding: .20em;
 }
-.price-table td {
+.price-table thead td {
   padding: .2em;
-  color: white;
   vertical-align:middle;
   text-align: center;
-  border-right: solid #ccc 1px;
   font-size: 1.0em;
   height: 5em;
 }
-.price-table th {
+.price-table tbody th {
  font-size: .6em;
  position:relative;
  text-align: center;
  vertical-align: middle;
 }
 .price-table tbody tr th{
+  line-height: 8em;
+}
+.price-table tbody tr th{
   color: #fff;
   background-color: #777;
 }
 .price-table tbody td {
-  border: solid #ccc 1px;
-  background-color: #777;
+/*  border-bottom: solid #fff 1px;*/
+
+ text-align: center;
+ vertical-align: middle;
+background-color: #999;
 }
 
 .price-table_min{
@@ -332,9 +344,6 @@ text-align: center;
 .plan_desc{
   font-weight: bold;
   color:#777;
-}
-.price-table {
-  color:#C6D626;
 }
 .price-table .price{
   color: #fff;
