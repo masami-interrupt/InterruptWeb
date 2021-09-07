@@ -1,3 +1,5 @@
+
+/*** WithDOHeader ***/
 /*スマホ*/
 @media all and (max-width: 480px) { 
 .withdoHeader {
@@ -53,6 +55,7 @@
 
 }
 }
+/*** WithDOPrice ***/
 /*スマホ*/
 @media all and (max-width: 480px) { 
 .withdoPrice {
@@ -78,13 +81,96 @@
   background-size: cover;
   height: 800px;
 }
-.help-content {
-  font-size: 1.0em;
-  font-weight: 300;
-  color: #fff;  
+}
+
+/*** information ***/
+/*スマホ*/
+@media all and (max-width: 480px) { 
+.information {
+  background-image: url(/assets/images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
+  background-size: cover;
+  height: 390px;
+}
+.information-box{
+  width : calc(100% / 3) ;
+  float: left;
+  padding: 2em 2em 4em 2em;
+}
+.information-text{
+  padding: 0px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em;
+  overflow: visible;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
+/*タブレット縦*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+.information {
+  background-image: url(/assets/images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
+  background-size: cover;
+  height: 540px;
+}
+.information-box{
+  width : calc(100% / 3) ;
+  float: left;
+  padding: 3em 3em 7em 3em;
+}
+.information-text{
+  padding: 0px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.7em;
+  overflow: visible;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
+/*PC*/
+@media all and (min-width: 1024px) { 
+.information {
+  background-image: url(/assets/images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
+  background-size: cover;
+  height: 560px;
+}
+.information-box{
+  width : calc(100% / 3) ;
+  float: left;
+}
+.information-box img{
+  padding: 1em 4em;
+}
+.information-text{
+  padding: 0px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.7em;
+  overflow: visible;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 }
 
+
+.information-Container{
+  padding: 2em 3em;
+  text-align: center;
+  overflow: hidden;
+}
+
+/*** Help ***/
 /*スマホ*/
 @media all and (max-width: 480px) { 
 .help-inner {
@@ -107,7 +193,6 @@ font-size: 0.8em;
 color: #fff;  
 }
 }
-
 /*タブレット縦*/
 @media all and (min-width: 768px) and (max-width: 1024px) {
 .help-inner {
@@ -142,13 +227,18 @@ color: #fff;
   font-weight: bold;
   color: #fff;  
 }
+.help-content {
+  font-size: 1.0em;
+  font-weight: 300;
+  color: #fff;  
+}
 .help-text {
 margin-top: 5em;
 font-size: 0.8em;
 color: #fff;  
 }
 }
-
+/*** help ***/
 #drawer {
     -moz-transition: -moz-transform .15s ease,opacity .15s ease,visibility .15s;
     -webkit-transition: -webkit-transform .15s ease,opacity .15s ease,visibility .15s;
