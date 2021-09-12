@@ -92,9 +92,13 @@
   height: 390px;
 }
 .information-box{
-  width : calc(100% / 3) ;
+  width : calc(30%) ;
   float: left;
   padding: 2em 2em 4em 2em;
+}
+.information-box-sp{
+  width : calc(5%) ;
+  float: left;
 }
 .information-text{
   padding: 0px;
@@ -118,9 +122,16 @@
   height: 540px;
 }
 .information-box{
-  width : calc(100% / 3) ;
+  width : calc(30%) ;
   float: left;
   padding: 3em 3em 7em 3em;
+}
+.information-box-sp{
+  width : calc(5%) ;
+  float: left;
+}
+.information-box img{
+  padding: 5em 4em;
 }
 .information-text{
   padding: 0px;
@@ -143,11 +154,15 @@
   height: 560px;
 }
 .information-box{
-  width : calc(100% / 3) ;
+  width : calc(30%) ;
+  float: left;
+}
+.information-box-sp{
+  width : calc(5%) ;
   float: left;
 }
 .information-box img{
-  padding: 1em 4em;
+  padding: 3em 5em;
 }
 .information-text{
   padding: 0px;
