@@ -387,6 +387,9 @@ color: #fff;
   color: #fff;
   background-color: #777;
 }
+.noborder{
+  border: 0px !important;
+}
 .price-table tbody td {
 /*  border-bottom: solid #fff 1px;*/
 
@@ -614,7 +617,7 @@ border:2px solid #ff3693;
 .price1 {
   text-align: center;
   color: #fff;
-  opacity: 1.0;
+  opacity: 1.0 !important;
   font-size: 1.9em;
   font-weight:600;
 }
@@ -626,7 +629,7 @@ border:2px solid #ff3693;
   padding: 1em 2em;
   border: solid 2px #fff;
   color: #fff;
-  opacity: 1.0;
+  opacity: 1.0 !important;
   font-size: 1.2em;
   font-weight:600;
 }
