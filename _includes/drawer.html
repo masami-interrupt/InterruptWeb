@@ -39,6 +39,7 @@
         $("#helpConcent").html(paramContent);
         $("#content").html(paramText);
         $(".showdrawer").css('pointer-events','none');
+        $(".button").css('pointer-events','none');
         $("#closeButton").css('pointer-events','auto');
         $(".clickablediv").css('pointer-events','auto');
         $("#drawer").animate({ opacity: 1 });
@@ -57,6 +58,7 @@
 
       $("#closeButton").on("click", function () {
         $(".showdrawer").css('pointer-events','auto');
+        $(".button").css('pointer-events','auto');
         $(".clickablediv").css('pointer-events','none');
         $("#closeButton").css('pointer-events','none');
         $("#drawer").animate({ opacity: 0 });
