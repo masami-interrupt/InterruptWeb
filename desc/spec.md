@@ -23,7 +23,7 @@ show_tile: false
             <tr>
                 <td >言語</td>
                 <td style="">Java, Objective-C, C, C++, JavaScript, 
-Swift, ShellScript, Perl, PHP, Python,  VisualBasic, Google Apps Script, Ruby, HTML, CSS</td>
+Swift, Kotlin, ShellScript, Perl, PHP, Python,  VisualBasic, Google Apps Script, Ruby, HTML, CSS</td>
             </tr>
             <tr>
                 <td>環境サーバーサイドなど</td>
@@ -31,7 +31,7 @@ Swift, ShellScript, Perl, PHP, Python,  VisualBasic, Google Apps Script, Ruby, H
             </tr>
             <tr>
                 <td>開発ツール</td>
-                <td>Jenkins, GitHub, Bitbucket, GitLab, XCode, Ecripse, AndroidStudio, Redmine, Backlog, Trello, VSS, Visual Studio</td>
+                <td>Jenkins, GitHub, Bitbucket, GitLab, XCode, Ecripse, AndroidStudio, Redmine, Backlog, VSS, Visual Studio</td>
             </tr>
             <tr>
                 <td>フレームワークなど</td>
@@ -43,7 +43,7 @@ Swift, ShellScript, Perl, PHP, Python,  VisualBasic, Google Apps Script, Ruby, H
             </tr>
             <tr>
                 <td>サービス</td>
-                <td>Google Developer, Apple Developer, Twitter Developer, Facebook Developer, Repro, Crashlytics,Grouth Push </td>
+                <td>Google Developer, Apple Developer, Twitter Developer, Facebook Developer, Repro, Crashlytics, Grouth Push, Trello</td>
             </tr>
         </tbody>
         <tfoot>
