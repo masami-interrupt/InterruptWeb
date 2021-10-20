@@ -1,18 +1,44 @@
+<style type="text/css">
+  .clickablediv{
+    height: 1.5em;
+    margin: 1em 0;
+    cursor : pointer;
+    color:#0077cc;
+  }
+  .userselect_none {
+    user-select: none; /* CSS3 */
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Safari、Chromeなど */
+    -ms-user-select: none; /* IE10かららしい */
+    
+  }
+  .userselect_true {
+    user-select: true; /* CSS3 */
+    -moz-user-select: true; /* Firefox */
+    -webkit-user-select: true; /* Safari、Chromeなど */
+    -ms-user-select: true; /* IE10かららしい */
+    
+  }
+</style>
 <!-- Drawer -->
 <nav id="drawer">
    <section class="major">
-            <div class="inner">
+            <div class="inner help-inner">
                 <header class="major">
 
-                    <h1 id="helpTitle">たいとる</h1>
+                    <h1 id="helpTitle" class="help-title">たいとる</h1>
 
                 </header>
-                <div id="helpConcent" class="content" style="color: #fff;">
+                <div id="helpConcent" class="help-content">
 
                     説明
 
                 </div>
-                <div class="content" style="color: #fff;">
+                <div id="content"  class="help-text">
+                  注釈のところ
+                </div>
+                <div style="margin-top: 5em;text-align: center;">
+                  <span class="text_button"><img id="closeButton" src="/assets/images/close.png" width="69px"></span>
                 </div>
 
             </div>
@@ -22,21 +48,41 @@
 <script type="text/javascript">
   var paramTitle = "";
   var paramContent = "";
+  var paramText = "";
       $(".showdrawer").on('click',function(){
-        $("#drawer").css('pointer-events','auto');
-        $("#drawer").animate({ opacity: 1 });
         $("#helpTitle").html(paramTitle);
         $("#helpConcent").html(paramContent);
+        $("#content").html(paramText);
+        $(".showdrawer").css('pointer-events','none');
+        $(".button").css('pointer-events','none');
+        $("#closeButton").css('pointer-events','auto');
+        $(".clickablediv").css('pointer-events','auto');
+        $("#drawer").animate({ opacity: 1 });
+      });
+      $(document).on('click', '.clickablediv', function(){
+          var url = $(this).data('url');
+          var win = window.open(url, '_blank');
+          if (win) {
+            //Browser has allowed it to be opened
+            win.focus();
+          } else {
+            //Browser has blocked it
+            alert('Please allow popups for this website');
+          }
       });
 
-      $("#drawer").on("click", function () {
-        $("#drawer").css('pointer-events','none');
+      $("#closeButton").on("click", function () {
+        $(".showdrawer").css('pointer-events','auto');
+        $(".button").css('pointer-events','auto');
+        $(".clickablediv").css('pointer-events','none');
+        $("#closeButton").css('pointer-events','none');
         $("#drawer").animate({ opacity: 0 });
       });
       
-      function setParam(title,content) {
+      function setParam(title,content,text) {
         paramTitle = title;
         paramContent = content;
+        paramText = text;
       }
 
   </script>

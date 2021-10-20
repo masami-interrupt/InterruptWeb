@@ -1,9 +1,22 @@
+
+/*** WithDOHeader ***/
 /*スマホ*/
 @media all and (max-width: 480px) { 
 .withdoHeader {
-  background-image: url(/assets/images/3_3_s.jpg);
+  background-image: url(/assets/images/ian-dooley-DJ7bWa-Gwks-unsplash.jpg);
   background-size: cover;
-  height: 490px;
+  height: 420px;
+}
+.br_pc {
+    display: none;
+
+}
+.content {
+  color:#fff;
+  font-size: 0.8em;
+  font-weight: 300;
+  opacity: 1.0;  
+
 }
 }
 
@@ -11,19 +24,236 @@
 @media all and (min-width: 768px) and (max-width: 1024px) {
 
 .withdoHeader {
-  background-image: url(/assets/images/3_2_s.png);
+  background-image: url(/assets/images/ian-dooley-DJ7bWa-Gwks-unsplash.png);
   background-size: cover;
   height: 580px;
+}
+.content {
+  color:#fff;
+  font-size: 0.8em;
+  font-weight: 300;
+  opacity: 1.0;  
+
 }
 }
 /*PC*/
 @media all and (min-width: 1024px) { 
  .withdoHeader {
-  background-image: url(/assets/images/3_2.jpg);
+  background-image: url(/assets/images/ian-dooley-DJ7bWa-Gwks-unsplash.jpg);
   background-size: cover;
-  height: 500px;
+  height: 430px;
+}
+.br_sp {
+    display: none;
+
+}
+.content {
+  color:#fff;
+  font-size: 0.8em;
+  font-weight: 300;
+  opacity: 1.0;  
+
 }
 }
+/*** WithDOPrice ***/
+/*スマホ*/
+@media all and (max-width: 480px) { 
+.withdoPrice {
+  background-image: url(/assets/images/FlPc9_VocJ4-unsplash.jpg);
+  background-size: cover;
+  height: 790px;
+}
+}
+
+/*タブレット縦*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+.withdoPrice {
+  background-image: url(/assets/images/FlPc9_VocJ4-unsplash.png);
+  background-size: cover;
+  height: 880px;
+}
+}
+/*PC*/
+@media all and (min-width: 1024px) { 
+ .withdoPrice {
+  background-image: url(/assets/images/FlPc9_VocJ4-unsplash.jpg);
+  background-size: cover;
+  height: 800px;
+}
+}
+
+/*** information ***/
+/*スマホ*/
+@media all and (max-width: 480px) { 
+.information {
+  background-image: url(/assets/images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
+  background-size: cover;
+  height: 390px;
+}
+.information-box{
+  width : calc(30%) ;
+  float: left;
+  padding: 2em 2em 4em 2em;
+}
+.information-box-sp{
+  width : calc(5%) ;
+  float: left;
+}
+.information-text{
+  padding: 0px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em;
+  overflow: visible;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
+/*タブレット縦*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+.information {
+  background-image: url(/assets/images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
+  background-size: cover;
+  height: 540px;
+}
+.information-box{
+  width : calc(30%) ;
+  float: left;
+  padding: 3em 3em 7em 3em;
+}
+.information-box-sp{
+  width : calc(5%) ;
+  float: left;
+}
+.information-box img{
+  padding: 5em 4em;
+}
+.information-text{
+  padding: 0px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.7em;
+  overflow: visible;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
+/*PC*/
+@media all and (min-width: 1024px) { 
+.information {
+  background-image: url(/assets/images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
+  background-size: cover;
+  height: 560px;
+}
+.information-box{
+  width : calc(30%) ;
+  float: left;
+}
+.information-box-sp{
+  width : calc(5%) ;
+  float: left;
+}
+.information-box img{
+  padding: 3em 5em;
+}
+.information-text{
+  padding: 0px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.7em;
+  overflow: visible;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
+
+
+.information-Container{
+  padding: 2em 3em;
+  text-align: center;
+  overflow: hidden;
+}
+
+/*** Help ***/
+/*スマホ*/
+@media all and (max-width: 480px) { 
+.help-inner {
+  max-width: 93%;
+  margin: 0 auto;
+}
+.help-title {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #fff;  
+}
+.help-content {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #fff;  
+}
+.help-text {
+margin-top: 5em;
+font-size: 0.8em;
+color: #fff;  
+}
+}
+/*タブレット縦*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
+.help-inner {
+  max-width: 79%;
+  margin: 0 auto;
+}
+
+.help-title {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #fff;  
+}
+.help-content {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #fff;  
+}
+.help-text {
+margin-top: 5em;
+font-size: 0.8em;
+color: #fff;  
+}
+}
+/*PC*/
+@media all and (min-width: 1024px) { 
+.help-inner {
+  max-width: 73%;
+  margin: 0 auto;
+}
+.help-title {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #fff;  
+}
+.help-content {
+  font-size: 1.0em;
+  font-weight: 300;
+  color: #fff;  
+}
+.help-text {
+margin-top: 5em;
+font-size: 0.8em;
+color: #fff;  
+}
+}
+/*** help ***/
 #drawer {
     -moz-transition: -moz-transform .15s ease,opacity .15s ease,visibility .15s;
     -webkit-transition: -webkit-transform .15s ease,opacity .15s ease,visibility .15s;
@@ -45,7 +275,7 @@
     -webkit-pointer-events: none;
     -ms-pointer-events: none;
     pointer-events: none;
-    background: rgba(36,41,67,0.9);
+    background: rgba(36,41,67,0.95);
     box-shadow: none;
     height: 100%;
     left: 0;
@@ -108,50 +338,64 @@
 .styledo4{
     background-color: #8fcb54;
   }
-
+.border-right{
+  border-right: solid 1px #fff;  
+}
+.border-bottom{
+  border-bottom: solid 1px #fff;  
+}
+.border-left{
+  border-left: solid 1px #fff;  
+}
 .price-table{
-  min-width: 1200px;
   background-color: #fff;
-  border-collapse: collapse;
+  opacity: 0.8;
   margin: 0 auto;
   padding: 0;
+  color: white;
+  font-weight: 800;
   table-layout: fixed;
 }
 .price-table thead th{
-/*  padding: 1em .8em;*/
-  border-right: 1px solid #5c67a2;
+  padding: 1.6em 1.8em;
   vertical-align:middle;
   text-align: center;
   background-color: #2a2f4a;
   font-size: .55em;
 }
-.price-table  tr {
-  background-color: #fff;
+.price-table thead tr {
+  background-color: #eee;
   padding: .20em;
 }
-.price-table tr:nth-child(even){
-  background-color: #eee;
-}
-.price-table td {
-  padding: .4em;
+.price-table thead td {
+  padding: .2em;
   vertical-align:middle;
   text-align: center;
-  border-right: solid #ccc 1px;
-  font-size: .60em;
-  text-align: center;
-  height: 96px;
+  font-size: 1.0em;
+  height: 5em;
 }
-.price-table th {
- font-size: .75em;
+.price-table tbody th {
+ font-size: .6em;
  position:relative;
  text-align: center;
  vertical-align: middle;
 }
-.price-table tr th{
-  color: #fff;
+.price-table tbody tr th{
+  line-height: 8em;
 }
-.price-table tr:nth-child(even) th{
-  color:#fff;
+.price-table tbody tr th{
+  color: #fff;
+  background-color: #777;
+}
+.noborder{
+  border: 0px !important;
+}
+.price-table tbody td {
+/*  border-bottom: solid #fff 1px;*/
+
+ text-align: center;
+ vertical-align: middle;
+background-color: #999;
 }
 
 .price-table_min{
@@ -168,12 +412,19 @@
   text-align: center;
   background-color: #2a2f4a;
 }
+.price-table_min tbody th{
+  padding: 0.3em .4em;
+  border-right: 1px solid #5c67a2;
+  vertical-align:middle;
+  text-align: center;
+  background-color: #ccc;
+}
 .price-table_min  tr {
   background-color: #fff;
   padding: .35em;
 }
 .price-table_min td {
-  padding: 1.7em;
+  color: white;
   vertical-align:middle;
   text-align: center;
 }
@@ -197,64 +448,10 @@ text-align: center;
 .price-table_min i{
   font-size:1.3em !important;
 }
-.plan1{
-  line-height: 3.5em;
-  background: #044dcb !important;
-}
-.plan1_i{
-  background:#3379e7;
-  font-weight: bold;
-  color: #fff;
-}
-.plan1_t{
-  font-weight: bold;
-  color:#3379e7;
-}
-.plan2{
-  line-height: 3.5em;
-  background: #bc6db1 !important;
-}
-.plan2_i{
-  background:#cda1df;
-  font-weight: bold;
-  color: #fff;
-}
-.plan2_t{
-  font-weight: bold;
-  color:#cda1df;
-}
-.plan3{
-  line-height: 3.5em;
-  background: #f4ab3a !important;
-}
-.plan3_i{
-  background:#efba47;
-  font-weight: bold;
-  color: #fff;
-}
-.plan3_t{
-  font-weight: bold;
-  color:#efba47;
-}
-.plan4{
-  line-height: 3.5em;
-  background: #85bc4f !important;
-}
-.plan4_i{
-  background:#8fcb54;
-  font-weight: bold;
-  color: #fff;
-}
-.plan4_t{
-  font-weight: bold;
-  color:#8fcb54;
-}
+
 .plan_desc{
   font-weight: bold;
   color:#777;
-}
-.price-table {
-  color:#C6D626;
 }
 .price-table .price{
   color: #fff;
@@ -415,4 +612,24 @@ border:2px solid #ff3693;
     text-align: center;
     position:absolute;
     border-bottom: solid 1px;
+}
+
+.price1 {
+  text-align: center;
+  color: #fff;
+  opacity: 1.0 !important;
+  font-size: 1.9em;
+  font-weight:600;
+}
+.desc1 {
+  font-size: 0.6em;
+}
+.canpain {
+  margin-top: 3em;
+  padding: 1em 2em;
+  border: solid 2px #fff;
+  color: #fff;
+  opacity: 1.0 !important;
+  font-size: 1.2em;
+  font-weight:600;
 }
