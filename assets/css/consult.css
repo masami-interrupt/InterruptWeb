@@ -61,7 +61,64 @@
 .withdoPrice {
   background-image: url(/assets/images/FlPc9_VocJ4-unsplash.jpg);
   background-size: cover;
-  height: 790px;
+  height: 870px;
+}
+.canpain {
+position: absolute;
+  opacity: 1.0 !important;
+  font-size: 0.7em;
+  font-weight:500;
+  margin: 1em 1em;
+}
+
+.canpain p{
+position: relative;
+display: inline-block;
+padding: 0 20px;
+margin: 0 20px;
+border-top: 2px solid #fff;
+border-bottom: 2px solid #fff;
+}
+       
+.canpain p:before{
+position: absolute;
+content: '';
+top: 7px !important;
+left: -20px !important;
+width: 42px;
+height: 42px;
+border: 2px solid #fff;
+border-right: none;
+border-bottom: none;
+transform: rotate(-45deg)
+}
+.canpain p:after{
+position: absolute;
+content: '';
+top: 7px !important;
+right: -20px !important;
+width: 42px;
+height: 42px;
+border: 2px solid #fff;
+border-left: none;
+border-bottom: none;
+transform: rotate(45deg);
+
+}
+.canpain p:before {
+  left:0;
+}
+.canpain p:after {
+  right: 0;
+}
+.canpain2 {
+  position: relative;
+  margin: 8em 2em 2em 2em;
+  padding: 1em 2em;
+  font-size: 0.6em;
+  font-weight: 500;
+  border: solid 2px #fff;
+  text-align: left;
 }
 }
 
@@ -71,7 +128,64 @@
 .withdoPrice {
   background-image: url(/assets/images/FlPc9_VocJ4-unsplash.png);
   background-size: cover;
-  height: 880px;
+  height: 840px;
+}
+.canpain {
+position: absolute;
+  opacity: 1.0 !important;
+  font-size: 0.7em;
+  font-weight:500;
+  margin: 1em 1em;
+}
+
+.canpain p{
+position: relative;
+display: inline-block;
+padding: 0 20px;
+margin: 0 20px;
+border-top: 2px solid #fff;
+border-bottom: 2px solid #fff;
+}
+       
+.canpain p:before{
+position: absolute;
+content: '';
+top: 2px !important;
+left: -10px !important;
+width: 21px;
+height: 21px;
+border: 2px solid #fff;
+border-right: none;
+border-bottom: none;
+transform: rotate(-45deg)
+}
+.canpain p:after{
+position: absolute;
+content: '';
+top: 2px !important;
+right: -10px !important;
+width: 21px;
+height: 21px;
+border: 2px solid #fff;
+border-left: none;
+border-bottom: none;
+transform: rotate(45deg);
+
+}
+.canpain p:before {
+  left:0;
+}
+.canpain p:after {
+  right: 0;
+}
+.canpain2 {
+  position: relative;
+  margin: 5em 2em 2em 2em;
+  padding: 1em 2em;
+  font-size: 0.6em;
+  font-weight: 500;
+  border: solid 2px #fff;
+  text-align: left;
 }
 }
 /*PC*/
@@ -79,7 +193,64 @@
  .withdoPrice {
   background-image: url(/assets/images/FlPc9_VocJ4-unsplash.jpg);
   background-size: cover;
-  height: 800px;
+  height: 870px;
+}
+.canpain {
+position: absolute;
+  opacity: 1.0 !important;
+  font-size: 0.7em;
+  font-weight:500;
+  margin: 1em 1em;
+}
+
+.canpain p{
+position: relative;
+display: inline-block;
+padding: 0 20px;
+margin: 0 20px;
+border-top: 2px solid #fff;
+border-bottom: 2px solid #fff;
+}
+       
+.canpain p:before{
+position: absolute;
+content: '';
+top: 2px !important;
+left: -10px !important;
+width: 21px;
+height: 21px;
+border: 2px solid #fff;
+border-right: none;
+border-bottom: none;
+transform: rotate(-45deg)
+}
+.canpain p:after{
+position: absolute;
+content: '';
+top: 2px !important;
+right: -10px !important;
+width: 21px;
+height: 21px;
+border: 2px solid #fff;
+border-left: none;
+border-bottom: none;
+transform: rotate(45deg);
+
+}
+.canpain p:before {
+  left:0;
+}
+.canpain p:after {
+  right: 0;
+}
+.canpain2 {
+  position: relative;
+  margin: 5em 2em 2em 2em;
+  padding: 1em 2em;
+  font-size: 0.6em;
+  font-weight: 500;
+  border: solid 2px #fff;
+  text-align: left;
 }
 }
 
@@ -92,7 +263,7 @@
   height: 390px;
 }
 .information-box{
-  width : calc(30%) ;
+  width : calc(20%) ;
   float: left;
   padding: 2em 2em 4em 2em;
 }
@@ -122,7 +293,7 @@
   height: 540px;
 }
 .information-box{
-  width : calc(30%) ;
+  width : calc(20%) ;
   float: left;
   padding: 3em 3em 7em 3em;
 }
@@ -131,7 +302,7 @@
   float: left;
 }
 .information-box img{
-  padding: 5em 4em;
+  padding: 1em 2em;
 }
 .information-text{
   padding: 0px;
@@ -154,7 +325,7 @@
   height: 560px;
 }
 .information-box{
-  width : calc(30%) ;
+  width : calc(20%) ;
   float: left;
 }
 .information-box-sp{
@@ -162,7 +333,7 @@
   float: left;
 }
 .information-box img{
-  padding: 3em 5em;
+  padding: 1em 2em;
 }
 .information-text{
   padding: 0px;
@@ -231,7 +402,7 @@ font-size: 0.8em;
 color: #fff;  
 }
 }
-/*PC*/
+/**********PC************/
 @media all and (min-width: 1024px) { 
 .help-inner {
   max-width: 73%;
@@ -253,6 +424,8 @@ font-size: 0.8em;
 color: #fff;  
 }
 }
+/**********PC************/
+
 /*** help ***/
 #drawer {
     -moz-transition: -moz-transform .15s ease,opacity .15s ease,visibility .15s;
@@ -353,15 +526,15 @@ color: #fff;
   margin: 0 auto;
   padding: 0;
   color: white;
-  font-weight: 800;
+  font-size: 1em;
   table-layout: fixed;
 }
 .price-table thead th{
-  padding: 1.6em 1.8em;
+  padding: 1em 0.5em;
   vertical-align:middle;
   text-align: center;
   background-color: #2a2f4a;
-  font-size: .55em;
+  font-size: .5em;
 }
 .price-table thead tr {
   background-color: #eee;
@@ -381,7 +554,7 @@ color: #fff;
  vertical-align: middle;
 }
 .price-table tbody tr th{
-  line-height: 8em;
+  line-height: 3em;
 }
 .price-table tbody tr th{
   color: #fff;
@@ -392,7 +565,7 @@ color: #fff;
 }
 .price-table tbody td {
 /*  border-bottom: solid #fff 1px;*/
-
+  font-size: 0.6em;
  text-align: center;
  vertical-align: middle;
 background-color: #999;
@@ -623,13 +796,4 @@ border:2px solid #ff3693;
 }
 .desc1 {
   font-size: 0.6em;
-}
-.canpain {
-  margin-top: 3em;
-  padding: 1em 2em;
-  border: solid 2px #fff;
-  color: #fff;
-  opacity: 1.0 !important;
-  font-size: 1.2em;
-  font-weight:600;
 }
