@@ -368,7 +368,7 @@ WithDO プライバシーポリシー<br>
                 </div>
             </div>
                 <div style="text-align: center; margin-top: 1em;">
-                    <a href="javascript:history.back();" class="privacy_button"
+                    <a onclick="window.history.back(); return false;" class="privacy_button"
                         style="font-size:0.8em;margin-bottom:1em; " target="_blank">　戻　る　</a>　　
                     <a onclick="downloadPdfs()" class="privacy_button"
                         style="font-size:0.8em;margin-bottom:1em; " target="_blank"><i class="fas fa-download"></i>　PDFダウンロード</a>
