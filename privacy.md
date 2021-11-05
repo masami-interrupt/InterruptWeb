@@ -6,36 +6,51 @@ nav-menu: false
 show_tile: false
 ---
 <script>
-        function download() {
+    function download() {
+      var filename = ['/download/withdo_privacy.pdf','/download/withdo_kiyaku.pdf'];
+      for( i=0;i<2;i++){
+        let link = document.createElement('a');
+        link.href= url;
+        link.download = fileName[i];
 
-            var filename = ['withdo_privacy.pdf','withdo_kiyaku.pdf'];
-            for(let i = 1 ; i <= 2 ; i++) {  // 2ファイルをダウンロード
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+    }
+    // 一括画像ダウンロード
+function downloadPdfs(){
+  downloadPdf('withdo.pdf');
+//  downloadPdf('withdo_kiyaku.pdf');
+}
 
+// 画像ダウンロード
+function downloadPdf(fileName){
+  // ファイル情報
+  const url = '/download/' + fileName;
 
-                axios({
-                    url: '/download/'+ i,
-                    method: 'get',
-                    responseType: 'blob',
-                })
-                .then(response => {
+  // IE用
+  if(window.navigator.msSaveOrOpenBlob){
+    let xhr = new XMLHttpRequest();
+    xhr.open('GET', url);
+    xhr.responseType = 'blob';
+    xhr.onload = function(){
+      if(xhr.status !== 200){
+        return false;
+      }
+      window.navigator.msSaveOrOpenBlob(xhr.response, fileName);
+    }
+    xhr.send();
+  }else{ // Chromeなど
+    let link = document.createElement('a');
+    link.href= url;
+    link.download = fileName;
 
-                    const blob = new Blob([response.data]);
-                    const link = document.createElement('a');
-                    link.href = window.URL.createObjectURL(blob);
-                    link.setAttribute('download', filename[i]);
-                    document.body.appendChild(link);
-                    link.click();
-
-                })
-                .catch(error => {
-
-                    // エラー処理
-
-                });
-
-            }
-
-        }
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+}
 </script>
 <link href="/assets/css/privacy.css" rel="stylesheet" type="text/css">
 <!-- Main -->
@@ -355,7 +370,7 @@ WithDO プライバシーポリシー<br>
                 <div style="text-align: center; margin-top: 1em;">
                     <a href="javascript:history.back();" class="privacy_button"
                         style="font-size:0.8em;margin-bottom:1em; " target="_blank">　戻　る　</a>　　
-                    <a href="javascript:download();" class="privacy_button"
+                    <a onclick="downloadPdfs()" class="privacy_button"
                         style="font-size:0.8em;margin-bottom:1em; " target="_blank"><i class="fas fa-download"></i>　PDFダウンロード</a>
                 </div>
             <!-- Break -->
