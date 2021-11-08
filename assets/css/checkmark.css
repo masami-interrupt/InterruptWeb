@@ -2,7 +2,7 @@
 @media all and (max-width: 480px) { 
 .caution {
   padding:2em 1em;
-  text-align:cecnte;
+  text-align:left;
 }
 .banner-height {
   height: 800px !important;
@@ -14,7 +14,10 @@
 
 .caution {
   padding:2em 10em;
-  text-align:center;
+  text-align:left;
+  width: 95% !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 .banner-height {
   height: 400px !important;
@@ -23,9 +26,11 @@
 /*PC*/
 @media all and (min-width: 1024px) { 
  .caution {
-  padding:2em 14em;
-  text-align:center;
-  width: 100% !important;
+  padding:2em 10em;
+  text-align:left;
+  width: 83% !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 .banner-height {
   height: 430px !important;
