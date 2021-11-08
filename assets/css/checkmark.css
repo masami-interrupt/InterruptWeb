@@ -2,7 +2,7 @@
 @media all and (max-width: 480px) { 
 .caution {
   padding:2em 1em;
-  text-align:left;
+  text-align:cecnte;
 }
 .banner-height {
   height: 800px !important;
@@ -14,7 +14,7 @@
 
 .caution {
   padding:2em 10em;
-  text-align:left;
+  text-align:center;
 }
 .banner-height {
   height: 400px !important;
@@ -23,8 +23,8 @@
 /*PC*/
 @media all and (min-width: 1024px) { 
  .caution {
-  padding:2em 10em;
-  text-align:left;
+  padding:2em 14em;
+  text-align:center;
   width: 100% !important;
 }
 .banner-height {
