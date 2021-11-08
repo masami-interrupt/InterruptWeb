@@ -261,7 +261,7 @@ transform: rotate(45deg);
 .information {
   background-image: url(/assets/images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg);
   background-size: cover;
-  height: 420px;
+  height: 520px;
 }
 .information-box{
   width : calc(30%) ;
@@ -353,9 +353,10 @@ transform: rotate(45deg);
 
 
 .information-Container{
-  padding: 2em 1em;
+  padding: 2em 0;
   text-align: center;
   overflow: hidden;
+  margin-top: 6em;
 }
 
 /*** Help ***/
