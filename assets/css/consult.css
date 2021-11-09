@@ -201,7 +201,7 @@ position: absolute;
   font-size: 0.5em;
   font-weight:400;
   line-height: 1.8em;
-  margin: 1em 3em;
+  margin: 3em;
 }
 
 .canpain p{
@@ -245,7 +245,7 @@ transform: rotate(45deg);
 }
 .canpain2 {
   position: relative;
-  margin: 5em 1em 1em 1em;
+  margin: 8em 1em 1em 1em;
   padding: 1em;
   font-size: 0.5em;
   line-height: 1.3em;
@@ -531,6 +531,7 @@ color: #fff;
   color: white;
   font-size: 0.7em;
   table-layout: fixed;
+  margin-top: 1.5em;
 }
 .price-table thead th{
   padding: 1em 0.5em;
