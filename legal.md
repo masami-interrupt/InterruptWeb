@@ -1,6 +1,6 @@
 ---
 layout: page
-title: プライバシーポリシー
+title: サイトポリシー
 description: 
 image: assets/images/kari-shea-k09UjFzAFbE-unsplash.jpg
 nav-menu: true
@@ -14,7 +14,7 @@ show_tile: false
 <section id="one">
     <div class="inner">
         <header class="major">
-            <h1 style="color:#212529;">プライバシーポリシー</h1>
+            <h1 style="color:#212529;">サイトポリシー</h1>
         </header>
 
 <!-- Content -->
