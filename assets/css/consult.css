@@ -61,7 +61,7 @@
 .withdoPrice {
   background-image: url(/assets/images/FlPc9_VocJ4-unsplash.jpg);
   background-size: cover;
-  height: 1070px;
+  height: 1100px;
 }
 .canpain {
 position: absolute;
@@ -128,7 +128,7 @@ transform: rotate(45deg);
 .withdoPrice {
   background-image: url(/assets/images/FlPc9_VocJ4-unsplash.png);
   background-size: cover;
-  height: 970px;
+  height: 1000px;
 }
 .canpain {
 position: absolute;
@@ -193,7 +193,7 @@ transform: rotate(45deg);
  .withdoPrice {
   background-image: url(/assets/images/FlPc9_VocJ4-unsplash.jpg);
   background-size: cover;
-  height: 970px;
+  height: 1000px;
 }
 .canpain {
 position: absolute;
@@ -498,6 +498,7 @@ color: #fff;
     text-align: center;
     text-decoration: none !important;
     font-size: 0.7em;
+    vertical-align:-1pt;
 }
 .text_button:hover, .text_button:active {
     color: #ffcc57;
