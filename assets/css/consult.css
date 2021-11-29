@@ -75,6 +75,8 @@ position: relative;
 display: inline-block;
 padding: 0 20px;
 margin: 0 20px;
+font-size: 0.9em;
+padding: 0 4em;
 border-top: 2px solid #fff;
 border-bottom: 2px solid #fff;
 }
@@ -141,6 +143,8 @@ position: relative;
 display: inline-block;
 padding: 0 20px;
 margin: 0 20px;
+font-size: 0.9em;
+padding: 0 4em;
 border-top: 2px solid #fff;
 border-bottom: 2px solid #fff;
 }
@@ -205,6 +209,8 @@ transform: rotate(45deg);
 .canpain p{
 position: relative;
 display: inline-block;
+font-size: 0.9em;
+padding: 0 4em;
 padding: 0 20px;
 margin: 0 20px;
 border-top: 2px solid #fff;
