@@ -339,7 +339,7 @@ transform: rotate(45deg);
   float: left;
 }
 .information-box img{
-  padding: 1em 2em;
+  padding: 2em 4em;
 }
 .information-text{
   padding: 0px;
@@ -360,7 +360,6 @@ transform: rotate(45deg);
   padding: 2em 0;
   text-align: center;
   overflow: hidden;
-  margin-top: 6em;
 }
 
 /*** Help ***/
