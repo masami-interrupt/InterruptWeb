@@ -1,4 +1,10 @@
 
+@font-face {
+    font-family: 'DINCondensedBold';
+    font-style: normal;
+    font-weight: 100;
+    src: url('webfonts/D-DINCondensed-Bold.ttf') format('truetype');
+}
 /*** banner ***/
 /*スマホ*/
 @media all and (max-width: 480px) { 
@@ -8,7 +14,7 @@
     width: 80%;
   }
   #banner {
-    height: 80vh !important;
+    height: 100vh !important;
     padding-bottom: 0 !important;
   }
   #banner>.inner {
@@ -37,13 +43,13 @@
     left: -22px;
     -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
     animation-delay: 2s;
-    animation: come-down-anim 1.5s ease-in;
+    animation: opacity-anim  11.1s ease-in-out infinite;
   }
   .sm_more {
     font-size: 1.0em;
   font-weight:500;
   color: #fff;
-  background-color: #666666;
+  background:rgba(42,42,42,0.5);
   height: 2em;
 }
 .sm_more p {
@@ -56,8 +62,10 @@
 }
 .sm_more p > span{
   position: relative;
-  top: -10px;
+  top: -30px;
   font-weight: 700;
+  font-family: "DINCondensedBold";
+  font-size: 1.6em;
   display: block;
   margin: 1em 2em;
   left: -11px;
@@ -72,19 +80,22 @@
   left: 22px;
   border-style:solid;
   border-width: 40px 143px 0 143px;
-  border-color: #666666 transparent transparent transparent; 
+  border-color:rgba(42,42,42,0.5) transparent transparent transparent; 
 }
 #banner:after{
   background-color: #999;
   opacity: 0.75;
 }
 
-@keyframes come-down-anim {
+@keyframes opacity-anim {
   0% {
-    transform: translateY(-400%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
   }
   100% {
-    transform: translateY(0px);
+    opacity: 0;
   }
 }
 }
