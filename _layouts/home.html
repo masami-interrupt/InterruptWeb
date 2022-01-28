@@ -30,7 +30,7 @@
                 </a>
             </div>
             <div class="sm_more_wrap">
-                <a href="#main">
+                <a id="sm_more" href="#main">
                 <div class="sm_more">
                    <p><span>MORE</span></p>
                 </div>
@@ -42,19 +42,13 @@
     <!-- Main -->
     <div id="main">
 
-        <!-- WITHDO -->
-        <style type="text/css">
-            .tiles2 article:nth-child(6n - 5):before {
-                background-color: #e7b788;
-            }
-        </style>
-<section id="one" class="tiles tiles2">
+<section id="one_1" class="tiles tiles2">
   <article style="width: 100%;">
     <span class="image">
       <img src="assets/images/FlPc9_VocJ4-unsplash.jpg" alt="" />
     </span>
     <header class="major">
-      <h1><a href="/desc/02_withdo.html" class="link">業務依頼 -WithDO- </a></h1>
+      <h1><a href="/desc/02_withdo.html" class="link">開発依頼 -WithDO- </a></h1>
       <p style="font-size: 1em;">Web開発から運用、ソフトの導入・環境構築、調査やデバッグ、学習メンターまで。<br>
 オプション追加型サービスで料金もわかり易く。ご要望に応じた最適なプランを。<br></p>
     </header>
@@ -65,16 +59,21 @@
         {% include tiles.html %}
 
         <!-- Two -->
-        <section id="two">
-            <div class="inner" style="color:#fff;">
-                <header class="major">
-                    <h2>ブログ</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
+        <section id="two" class="tiles tiles3">
+                <article style="width:100%;background-image: url('assets/images/macbook.jpg');">
+                <span class="image" style="display: none;">
+                  <img src="assets/images/macbook.jpg" alt="">
+                </span>
+                <header class="major" style="width: 100%;">
+                  <h3><a href="/05_blog.html" class="link">ブログ</a></h3>
+                <div class="pc_concent">{{ content }}
+                <ul class="actions" style="margin-top: 50px;">
                     <li><a href="/05_blog.html" class="button next">詳しく見る</a></li>
                 </ul>
             </div>
+            </header>
+              <a href="/05_blog.html" class="link primary"></a>
+            </article>
         </section>
 
     </div>

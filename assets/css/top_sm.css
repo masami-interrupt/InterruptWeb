@@ -43,7 +43,7 @@
     left: -22px;
     -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
     animation-delay: 2s;
-    animation: opacity-anim  11.1s ease-in-out infinite;
+    animation: opacity-anim  3s ease-in-out infinite;
   }
   .sm_more {
     font-size: 1.0em;
@@ -86,16 +86,48 @@
   background-color: #999;
   opacity: 0.75;
 }
-
+.tiles :before {
+  background-color: #333 !important;
+  opacity: 0.75;
+}
+.tiles article .link.primary:active {
+  opacity: 0;
+}
+.tiles h1 {
+  font-size: 1.3em;
+  border: none;
+}
+#one_1 .major p{
+  display: none;
+}
+#two {
+  height: 24vh;
+  background-color: #333 !important;
+  opacity: 0.75;
+}
+.pc_concent {
+  display: none;
+}
+#two h2 {
+  font-size: 1.7em;
+  font-weight: 800;
+}
+#two p {
+  display: none;
+}
+/*タイトルの下の線*/
+header.major>:first-child:after {
+  background-color: transparent;
+}
 @keyframes opacity-anim {
   0% {
-    opacity: 0;
+    opacity: 0.2;
   }
   50% {
     opacity: 1;
   }
   100% {
-    opacity: 0;
+    opacity: 0.2;
   }
 }
 }
@@ -125,7 +157,20 @@
 .sm_more_wrap {
  display: none;
 }  
+.tiles2 article:nth-child(6n - 5):before {
+  background-color: #e7b788;
+}
+.tiles3 article:nth-child(6n - 5):before {
+  background-color: #343a40;
+}
 
+#two {
+}
+#two p{
+  position: relative;
+  top: 30px;
+  color: #fff ;
+}
 }
 
 
