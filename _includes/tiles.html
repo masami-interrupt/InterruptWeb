@@ -5,8 +5,8 @@
 {% endif %}
 <section id="one" class="tiles">
     {% for tile in tiles limit:site.tiles-count %}
-<a href="{{ tile.url  | relative_url }}" class="link">
-  <article>
+<a href="{{ tile.url  | relative_url }}" class="link" style="width:50%;">
+  <article style="width:100%;">
     <span class="image">
       <img src="{{ tile.image }}" alt="" />
     </span>
