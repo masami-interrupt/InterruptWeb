@@ -75,6 +75,17 @@
   background-color: #999;
   opacity: 0.75;
 }
+.tiles :before {
+  background-color: #333 !important;
+  opacity: 0.75;
+}
+.tiles article .link.primary:active {
+  opacity: 0;
+}
+.tiles h1 {
+  font-size: 1.3em;
+  border: none;
+}
 #one_1 .major p{
   display: none;
 }
