@@ -38,6 +38,7 @@
     position: absolute;
     width: 350px;
     margin: 1em 2em;
+    text-align: center;
     padding: 1em 2em;
     bottom: -50px;
     left: -22px;
@@ -49,20 +50,19 @@
     font-size: 1.0em;
   font-weight:500;
   color: #fff;
-  background:rgba(42,42,42,0.5);
   height: 2em;
 }
 .sm_more p {
   position: relative;
   text-align: center;
+  top: 45px;
   width: 350px;
-  padding: 1em 2em;
   left: -22px;
   float: left;
 }
 .sm_more p > span{
   position: relative;
-  top: -30px;
+  top: -20px;
   font-weight: 700;
   font-family: "DINCondensedBold";
   font-size: 1.6em;
@@ -71,31 +71,9 @@
   left: -11px;
   text-align: center;
 }
-.sm_more p::before {
-  position: absolute;
-  content: '';
-  top: 2em;
-  left: 0;
-  width:0;
-  left: 22px;
-  border-style:solid;
-  border-width: 40px 143px 0 143px;
-  border-color:rgba(42,42,42,0.5) transparent transparent transparent; 
-}
 #banner:after{
   background-color: #999;
   opacity: 0.75;
-}
-.tiles :before {
-  background-color: #333 !important;
-  opacity: 0.75;
-}
-.tiles article .link.primary:active {
-  opacity: 0;
-}
-.tiles h1 {
-  font-size: 1.3em;
-  border: none;
 }
 #one_1 .major p{
   display: none;
