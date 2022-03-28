@@ -44,7 +44,7 @@
     left: -22px;
     -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
     animation-delay: 2s;
-    animation: opacity-anim  3s ease-in-out infinite;
+    animation: up-down-anim  3s ease-in-out infinite;
   }
   .sm_more {
     font-size: 1.0em;
@@ -117,6 +117,20 @@ header.major>:first-child:after {
   }
   100% {
     opacity: 0.2;
+  }
+}
+@keyframes up-down-anim {
+  0% {
+    transform: translate(0,0px);
+  }
+  30% {
+    transform: translate(0,10px);
+  }
+  50% {
+    transform: translate(0,15px);
+  }
+  100% {
+    transform: translate(0,2px);
   }
 }
 }

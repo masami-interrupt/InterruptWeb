@@ -6,7 +6,7 @@
 <section id="one" class="tiles">
     {% for tile in tiles limit:site.tiles-count %}
 <a href="{{ tile.url  | relative_url }}" class="link" style="width:50%;">
-  <article style="width:100%;">
+  <article style="width:100%;background-image: url('{{ tile.image }}');">
     <span class="image">
       <img src="{{ tile.image }}" alt="" />
     </span>
