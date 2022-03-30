@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: 実績一覧
-description: ""
+description: ''
 image: assets/images/kari-shea-k09UjFzAFbE-unsplash.jpg
 nav-menu: true
 ---
@@ -28,7 +28,7 @@ nav-menu: true
         </div>
     </section>
     <section>
-        <a href="generic.html" class="image">
+        <a href="/desc/performance_appli.html" class="image">
             <img src="{% link assets/images/app.jpg %}" alt="" data-position="top center" />
         </a>
         <div class="content">
@@ -44,7 +44,7 @@ nav-menu: true
         </div>
     </section>
     <section>
-        <a href="generic.html" class="image">
+        <a href="/desc/performance_work.html" class="image">
             <img src="{% link assets/images/hikoukai.jpg %}" alt="" data-position="25% 25%" />
         </a>
         <div class="content">
@@ -59,22 +59,22 @@ nav-menu: true
             </div>
         </div>
     </section>
-   <section>
-<a href="generic.html" class="image">
-    <img src="{% link assets/images/project.jpg %}" alt="" data-position="top center" />
-</a>
-<div class="content">
-    <div class="inner">
-        <header class="major">
-            <h2>その他の実績</h2>
-        </header>
-        <p style="color:#fff;">Webサイトやセミナー講師、技術コンサルなど、その他実績です。</p>
-        <ul class="actions">
-            <li><a href="/desc/performance_other.html" class="button next">詳しくはこちら</a></li>
-        </ul>
+    <section>
+    <a href="/desc/performance_other.html" class="image">
+        <img src="{% link assets/images/project.jpg %}" alt="" data-position="top center" />
+    </a>
+    <div class="content">
+        <div class="inner">
+            <header class="major">
+                <h2>その他の実績</h2>
+            </header>
+            <p style="color:#fff;">Webサイトやセミナー講師、技術コンサルなど、その他実績です。</p>
+            <ul class="actions">
+                <li><a href="/desc/performance_other.html" class="button next">詳しくはこちら</a></li>
+            </ul>
+        </div>
     </div>
-    </div>
-</section>
+    </section>
 </section>
 
 </div>

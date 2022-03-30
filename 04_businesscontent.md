@@ -13,7 +13,7 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 <section>
-    <a href="generic.html" class="image">
+    <a href="desc/spec.html" class="image">
         <img src="{% link assets/images/goran-ivos-T8LMIN09-mo-unsplash.jpg %}" alt="" data-position="center center" />
     </a>
     <div class="content">
@@ -55,7 +55,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
+		<a href="/desc/environment.html" class="image">
 			<img src="{% link assets/images/vipul-jha-a4X1cdC1QAc-unsplash.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -72,7 +72,7 @@ nav-menu: true
 		</div>
 	</section>
     <section>
-        <a href="generic.html" class="image">
+        <a href="" class="image">
             <img src="{% link assets/images/omid-armin-Heuqy6uiT-0-unsplash.jpg %}" alt="" data-position="top center" />
         </a>
         <div class="content">
@@ -89,7 +89,7 @@ nav-menu: true
 		<a href="generic.html" class="image">
 			<img src="{% link assets/images/christina-wocintechchat-com-UTw3j_aoIKM-unsplash.jpg %}" alt="" data-position="25% 25%" />
 		</a>
-        <div class="content">
+        <div class="/#contact">
             <div class="inner">
                 <header class="major">
                     <h3>セミナー講師</h3>
@@ -99,7 +99,6 @@ nav-menu: true
                 <ul class="actions">
                 <li><a href="/#contact" class="button">お問い合わせ</a></li>
                 </ul>
-
             </div>
         </div>
 	</section>
