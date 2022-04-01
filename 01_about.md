@@ -8,20 +8,18 @@ show_tile: false
 <style type="text/css">
 /*スマホ*/
 body::before {
-background-image:url('/assets/images/about_bk_sm.jpg')
-background-image:no-repeat;
-background-image:center;
-
-background-size: cover;
-content: "";
-display:block;
-position:fixed;
-top: 0;
-left: 0;
-z-index: -1;
-width: 100%;
-height: 100vh;
-}/*スマホ横*/
+   position:fixed;
+   top:0;
+   left:0;
+   z-index:-1;
+   width:100vw;
+   height:100vh;
+   background:url('/assets/images/about_bk_sm.jpg') no-repeat;
+   -webkit-background-size:contain;
+   background-size:contain;
+   content:"";
+}
+/*スマホ横*/
 @media all and (max-width: 768px) {
       body
       {
