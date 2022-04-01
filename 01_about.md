@@ -10,12 +10,22 @@ show_tile: false
 @media all and (max-width: 480px) {
       body
       {
+        z-index:-1;
          color: #ffffff;
          background-image: url('/assets/images/about_bk_sm.jpg');
-         background-attachment: fixed;
+         background-attachment: fixed !important;
       }
 }
-/*タブレット縦*/
+/*スマホ横*/
+@media all and (max-width: 768px) {
+      body
+      {
+        z-index:-1;
+         color: #ffffff;
+         background-image: url('/assets/images/about_bk_sm.jpg');
+         background-attachment: fixed !important;
+      }
+}/*タブレット縦*/
 @media all and (min-width: 768px) and (max-width: 1024px) {
       body
       {
