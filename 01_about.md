@@ -8,12 +8,12 @@ show_tile: false
 <style type="text/css">
 /*スマホ*/
 @media all and (max-width: 480px) {
-      body
+      body::before
       {
         z-index:-1;
          color: #ffffff;
          background-image: url('/assets/images/about_bk_sm.jpg');
-         background-attachment: fixed !important;
+         background-attachment: fixed;
       }
 }
 /*スマホ横*/
@@ -23,7 +23,7 @@ show_tile: false
         z-index:-1;
          color: #ffffff;
          background-image: url('/assets/images/about_bk_sm.jpg');
-         background-attachment: fixed !important;
+         background-attachment: fixed;
       }
 }/*タブレット縦*/
 @media all and (min-width: 768px) and (max-width: 1024px) {
