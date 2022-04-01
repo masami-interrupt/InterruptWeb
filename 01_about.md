@@ -14,7 +14,7 @@ background-image:center;
 
 background-size: cover;
 content: "";
-
+display:block;
 position:fixed;
 top: 0;
 left: 0;
