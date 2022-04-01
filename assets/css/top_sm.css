@@ -146,6 +146,27 @@ header.major>:first-child:after {
 
   }
 }
+/*タブレット横*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .splogo {
+    display: none;
+  }
+  .spandtab {
+    display: none;
+  }
+  .smbutton {
+    display: none;
+  }
+.sm_more_wrap {
+ display: none;
+}  
+.tiles2 article:nth-child(6n - 5):before {
+  background-color: #e7b788;
+}
+.tiles3 article:nth-child(6n - 5):before {
+  background-color: #343a40;
+}
+}
 /*PC*/
 @media all and (min-width: 1024px) { 
   .splogo {

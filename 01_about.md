@@ -28,7 +28,8 @@ body::before {
          background-image: url('/assets/images/about_bk_sm.jpg');
          background-attachment: fixed;
       }
-}/*タブレット縦*/
+}
+/*タブレット縦*/
 @media all and (min-width: 768px) and (max-width: 1024px) {
       body
       {

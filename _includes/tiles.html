@@ -5,18 +5,14 @@
 {% endif %}
 <section id="one" class="tiles">
     {% for tile in tiles limit:site.tiles-count %}
-  <article style="width:50%;background-image: url('{{ tile.image }}');">
-<div style="width:100%">
+  <article style="background-image: url('{{ tile.image }}');" onclick="location.href='{{ tile.url  | relative_url }}';">
     <span class="image">
       <img src="{{ tile.image }}" alt="" />
     </span>
-<a href="{{ tile.url  | relative_url }}" class="link">
     <header class="major">
       <h3>{{ tile.title }}</h3>
       <p>{{ tile.description }}</p>
     </header>
-  </a>
-  </div>
   </article>
   {% endfor %}
 </section>
