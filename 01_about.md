@@ -7,6 +7,7 @@ show_tile: false
 ---
 <style type="text/css">
 /*スマホ*/
+@media all and (max-width: 480px) { 
 body::before {
    position:fixed;
    top:0;
@@ -18,6 +19,7 @@ body::before {
    -webkit-background-size:contain;
    background-size:contain;
    content:"";
+}
 }
 /*スマホ横*/
 @media all and (max-width: 768px) {
