@@ -15,9 +15,12 @@ body::before {
    z-index:-1;
    width:100vw;
    height:100vh;
-   background:url('/assets/images/about_bk_sm.jpg') no-repeat;
-   -webkit-background-size:contain;
+   background:url('/assets/images/about_bk_sm.jpg');
+   background-repeat:  no-repeat;  
+   background-position:center center;
    background-size:contain;
+   -webkit-background-size:cover;
+   background-size:cover;
    content:"";
 }
 }
