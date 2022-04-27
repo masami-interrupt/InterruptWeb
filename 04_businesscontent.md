@@ -30,7 +30,7 @@ nav-menu: true
             <h2>提供技術<br class="br_sp"><span style="font-size: 0.5em;">（言語/開発ツール/フレームワーク）</span></h2>
             </header>
             <p style="color:#fff;">私たちは、20年以上ソフトウェア開発に携わってきました。<br>
-サーバーサイド、クライアントサイド、アプリケーションなど、その実績や扱う技術は多岐にわたります。<br>
+サーバーサイド、クライアントサイド、アプリケーションなど、<br>その実績や扱う技術は多岐にわたります。<br>
     </p>
             <ul class="actions">
             <li><a href="desc/spec.html" class="button">提供技術一覧</a></li>
@@ -45,17 +45,12 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>コンサルティング</h3>
+					<h3>WithDO <span style="font-size: 0.6em;">(受託開発・コンサルティング）</span></h3>
 				</header>
-				<p style="color:#fff;">小さなアドバイスや調査から、業務上での問題解決策のご提案まで、<br>
-                お気軽に使える月額制コンサルティングサービスを企画中です。<br>
-                「システム専門の部署を持ちたいけど、人員を確保するのが難しい…！」<br>
-                そんな時は私たちがシステム部となることも可能です。<br>
-                ご要望に応じて、プログラミング学習からサイトの立ち上げ、<br>
-                保守業務に業務ツール開発まで、最適なコースのご用意を検討しております。<br>
-                すぐのご依頼をご検討の場合は、以下よりお気軽にお問い合わせください。</p>
+				<p style="color:#fff;">Interruptメンバーがあなたの開発チームとなって活躍するIT業務受託サービスです。
+                小さなWebページの制作から、大規模なアプリ・メディアの開発、その後の運用までさまざまなご要望への対応が可能です。</p>
 				<ul class="actions">
-					<li><a href="/#contact" class="button">ご依頼はこちら</a></li>
+					<li><a href="/desc/02_withdo.html" class="button">ご依頼はこちら</a></li>
 				</ul>
 			</div>
 		</div>
