@@ -27,7 +27,7 @@ nav-menu: true
     <div class="content">
         <div class="inner">
             <header class="major">
-            <h2>提供技術<br class="br_sp"><span style="font-size: 0.5em;">（言語/開発ツール/フレームワーク）</span></h2>
+            <h2>提供技術<br class="br_sp"><span style="font-size: 0.5em;">（言語・開発ツール・フレームワーク）</span></h2>
             </header>
             <p style="color:#fff;">私たちは、20年以上ソフトウェア開発に携わってきました。<br>
 サーバーサイド、クライアントサイド、アプリケーションなど、<br>その実績や扱う技術は多岐にわたります。<br>
@@ -47,7 +47,7 @@ nav-menu: true
 				<header class="major">
 					<h3>WithDO <span style="font-size: 0.6em;">(受託開発・コンサルティング）</span></h3>
 				</header>
-				<p style="color:#fff;">Interruptメンバーがあなたの開発チームとなって活躍するIT業務受託サービスです。
+				<p style="color:#fff;padding-right: 36%;">Interruptメンバーがあなたの開発チームとなって活躍するIT業務受託サービスです。
                 小さなWebページの制作から、大規模なアプリ・メディアの開発、その後の運用までさまざまなご要望への対応が可能です。</p>
 				<ul class="actions">
 					<li><a href="/desc/02_withdo.html" class="button">ご依頼はこちら</a></li>
