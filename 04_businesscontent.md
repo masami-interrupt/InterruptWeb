@@ -12,6 +12,9 @@ nav-menu: true
     display: none;
 
 }
+.content_pc {
+padding-right: 36%;
+}
 }
 </style>
 <!-- Main -->
@@ -47,7 +50,7 @@ nav-menu: true
 				<header class="major">
 					<h3>WithDO <span style="font-size: 0.6em;">(受託開発・コンサルティング）</span></h3>
 				</header>
-				<p style="color:#fff;padding-right: 36%;">Interruptメンバーがあなたの開発チームとなって活躍するIT業務受託サービスです。
+				<p style="color:#fff;" class="content_pc">Interruptメンバーがあなたの開発チームとなって活躍するIT業務受託サービスです。
                 小さなWebページの制作から、大規模なアプリ・メディアの開発、その後の運用までさまざまなご要望への対応が可能です。</p>
 				<ul class="actions">
 					<li><a href="/desc/02_withdo.html" class="button">ご依頼はこちら</a></li>
