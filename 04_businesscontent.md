@@ -43,7 +43,7 @@ padding-right: 36%;
 </section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/goran-ivos-G_BCcijtpUY-unsplash.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/photo-1583836952677-1ef54960402d.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
