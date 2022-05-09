@@ -5,6 +5,54 @@ image: assets/images/pic100.jpg
 nav-menu: true
 show_tile: false
 ---
+<style type="text/css">
+/*スマホ*/
+@media all and (max-width: 480px) { 
+body::before {
+   position:fixed;
+   top:0;
+   left:0;
+   z-index:-1;
+   width:100vw;
+   height:100vh;
+   background:url('/assets/images/about_bk_sm.jpg');
+   background-repeat:  no-repeat;  
+   background-position:center center;
+   background-size:contain;
+   -webkit-background-size:cover;
+   background-size:cover;
+   content:"";
+}
+}
+/*スマホ横*/
+@media all and (max-width: 768px) {
+      body
+      {
+        z-index:-1;
+         color: #ffffff;
+         background-image: url('/assets/images/about_bk_sm.jpg');
+         background-attachment: fixed;
+      }
+}
+/*タブレット縦*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
+      body
+      {
+         color: #ffffff;
+         background-image: url('/assets/images/about_bk_pc.jpg');
+         background-attachment: fixed;
+      }
+}
+/*PC*/
+@media all and (min-width: 1024px) { 
+      body
+      {
+         color: #ffffff;
+         background-image: url('/assets/images/about_bk_pc.jpg');
+         background-attachment: fixed;
+      }
+}
+</style>
 
 <!-- Main -->
 <div id="main" class="alt">
@@ -13,11 +61,11 @@ show_tile: false
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1 style="color:#212529;">Interruptについて</h1>
+			<h1 style="color:#fff;">Interruptについて</h1>
 		</header>
 
 <!-- Content -->
-<h2 id="content" style="color:#212529;">作れる人にだけできることがあります。</h2>
+<h2 id="content" style="color:#fff;">作れる人にだけできることがあります。</h2>
 <br>
 <p>新しいサービスや事業を世の中にリリース・発信するには、<br>
 まずはプロダクトを立ち上げ、サービスを運用するためのアプリや、Webサイトなどを作らなければなりませんよね。<br>
@@ -29,7 +77,7 @@ show_tile: false
 <div class="row">
 	<div class="6u 12u$(small)">
     <hr class="major" />
-		<h5 style="color:#212529;">開発は安いオフショアに頼むのがいいのか</h5>
+		<h5 style="color:#fff;">開発は安いオフショアに頼むのがいいのか</h5>
         <br>
 		<p>「プログラミングなんて、単価の安いオフショアにまかせればいいよね。」よく言われます。 
         最初から完璧に企画ができている大型のシステムなら、それも一つの方法です。 <br>
@@ -50,7 +98,7 @@ show_tile: false
 	</div>
 	<div class="6u$ 12u$(small)">
     <hr class="major" />
-		<h5 style="color:#212529;">「安心できそうなあの会社に頼もう」</h5>
+		<h5 style="color:#fff;">「安心できそうなあの会社に頼もう」</h5>
         <br>
 		<p>「安心できそう」の判断は正しいでしょうか。<br>
         <br>
@@ -68,7 +116,7 @@ show_tile: false
 <hr class="major" />
 
 
-<h4  style="color:#212529;">企業理念</h4>
+<h4  style="color:#fff;">企業理念</h4>
 <div class="table-wrapper">
 	<table>
 		<tbody>
@@ -94,7 +142,7 @@ show_tile: false
 
 <hr class="major" />
 
-<h4  style="color:#212529;">会社概要</h4>
+<h4  style="color:#fff;">会社概要</h4>
 <div class="table-wrapper">
     <table>
        <thead>

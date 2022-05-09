@@ -5,12 +5,12 @@
 {% endif %}
 <section id="one" class="tiles">
     {% for tile in tiles limit:site.tiles-count %}
-  <article>
+  <article style="background-image: url('{{ tile.image }}');" onclick="location.href='{{ tile.url  | relative_url }}';">
     <span class="image">
       <img src="{{ tile.image }}" alt="" />
     </span>
     <header class="major">
-      <h3><a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a></h3>
+      <h3>{{ tile.title }}</h3>
       <p>{{ tile.description }}</p>
     </header>
   </article>

@@ -1,15 +1,16 @@
 ---
 layout: post
-title: 言語:開発ツール:フレームワーク
+title: 提供技術一覧
 description: 
 image: /assets/images/goran-ivos-T8LMIN09-mo-unsplash.jpg
 nav-menu: false
 show_tile: false
 ---
 <p>
-私たちは、２０年以上の実績で小さな社内システムから大手のシステムまで多岐にわたり開発を続けてきました。<br>
-多くのシステムを世に出し、今も使われています。<br>
-その豊富な実績でお客様に最適なシステムをご提案、実現することが可能です。まずはご相談ください。<br>
+大手企業のシステムから小さな社内ツールまで、私たちは多くの開発に携わってきました。<br>
+そして、その開発物の多くは今も使われ続けています。<br>
+また、高い技術力が必要とされる環境構築も数多く行なってきました。<br>
+20年以上の豊富な実績で、お客様のご要望に最適な技術をご提供します。<br>
 </p>
 <div class="table-wrapper" style="width: 100%;">
     <table class="alt" style="table-layout: fixed;">

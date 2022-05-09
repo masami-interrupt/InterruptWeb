@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: '私たちは技術者のチームです。'
+landing-title: '私たちは<span class="spandtab">、<br></span>技術者のチームです。'
 description: null
 image: null
 author: null

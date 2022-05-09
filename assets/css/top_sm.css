@@ -1,0 +1,202 @@
+
+@font-face {
+    font-family: 'DINCondensedBold';
+    font-style: normal;
+    font-weight: 100;
+    src: url('webfonts/D-DINCondensed-Bold.ttf') format('truetype');
+}
+/*** banner ***/
+/*スマホ*/
+@media all and (max-width: 480px) { 
+  .splogo {
+    position: absolute;
+    top: -60px;
+    width: 80%;
+  }
+  #banner {
+    height: 100vh !important;
+    padding-bottom: 0 !important;
+  }
+  #banner>.inner {
+    position: relative;
+    height: 100%;
+  }
+#banner>.inner header {
+  margin-top: 8em;
+}
+  .actions{
+    display: none;
+  }
+  .smbutton {
+    color: #fff;
+    max-width: 190px;
+    font-weight: 700;
+    border-bottom: solid 2px;
+
+  }
+  .sm_more_wrap {
+    position: absolute;
+    width: 350px;
+    margin: 1em 2em;
+    text-align: center;
+    padding: 1em 2em;
+    bottom: -50px;
+    left: -22px;
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-delay: 2s;
+    animation: up-down-anim  3s ease-in-out infinite;
+  }
+  .sm_more {
+    font-size: 1.0em;
+  font-weight:500;
+  color: #fff;
+  height: 2em;
+}
+.sm_more p {
+  position: relative;
+  text-align: center;
+  top: 40px;
+  width: 350px;
+  left: -22px;
+  float: left;
+}
+.sm_more p > span{
+  position: relative;
+  top: -32px;
+  font-weight: 700;
+  font-family: "DINCondensedBold";
+  font-size: 1.6em;
+  display: block;
+  margin: 1em 2em;
+  left: -11px;
+  text-align: center;
+}
+#banner:after{
+  background-color: #999;
+  opacity: 0.75;
+}
+.tiles :before {
+  background-color: #333 !important;
+  opacity: 0.75;
+}
+.tiles article .link.primary:active {
+  opacity: 0;
+}
+.tiles h1 {
+  font-size: 1.3em;
+  border: none;
+}
+#one_1 .major p{
+  display: none;
+}
+#two {
+  height: 24vh;
+  background-color: #333 !important;
+  opacity: 0.75;
+}
+.pc_concent {
+  display: none;
+}
+#two h2 {
+  font-size: 1.7em;
+  font-weight: 800;
+}
+#two p {
+  display: none;
+}
+/*タイトルの下の線*/
+header.major>:first-child:after {
+  background-color: transparent;
+}
+@keyframes opacity-anim {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@keyframes up-down-anim {
+  0% {
+    transform: translate(0,0px);
+  }
+  30% {
+    transform: translate(0,10px);
+  }
+  50% {
+    transform: translate(0,15px);
+  }
+  100% {
+    transform: translate(0,2px);
+  }
+}
+}
+
+/*タブレット縦*/
+@media all and (min-width: 498px) and (max-width: 1024px) {
+  .splogo {
+    position: absolute;
+    top: -150px;
+    width: 40%;
+  }
+  .spandtab {
+
+  }
+}
+/*タブレット横*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .splogo {
+    display: none;
+  }
+  .spandtab {
+    display: none;
+  }
+  .smbutton {
+    display: none;
+  }
+.sm_more_wrap {
+ display: none;
+}  
+.tiles2 article:nth-child(6n - 5):before {
+  background-color: #e7b788;
+}
+.tiles3 article:nth-child(6n - 5):before {
+  background-color: #343a40;
+}
+}
+/*PC*/
+@media all and (min-width: 1024px) { 
+  .splogo {
+    display: none;
+  }
+  .spandtab {
+    display: none;
+  }
+  .smbutton {
+    display: none;
+  }
+.sm_more_wrap {
+ display: none;
+}  
+.tiles2 article:nth-child(6n - 5):before {
+  background-color: #e7b788;
+}
+.tiles3 article:nth-child(6n - 5):before {
+  background-color: #343a40;
+}
+
+#two {
+}
+#two p{
+  position: relative;
+  top: 0px;
+  color: #fff ;
+}
+}
+
+
+
+

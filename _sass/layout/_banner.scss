@@ -134,9 +134,10 @@
 
 		@include breakpoint(small) {
 			@include padding(3em, 0, (2em, 0, 0, 0));
+			@include vendor('background-image', 'url("/assets/images/sm/banner.jpg")');
 			height: auto;
 			margin-bottom: -2.75em;
-			max-height: none;
+			max-height: 100vh;
 			min-height: 0;
 			top: -2.75em;
 
@@ -156,9 +157,9 @@
 			}
 
 			&.major {
-				height: auto;
+				height: 90vh;
 				min-height: 0;
-				max-height: none;
+				max-height: 90vh;
 			}
 		}
 

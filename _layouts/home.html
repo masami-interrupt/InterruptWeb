@@ -6,8 +6,7 @@
 -->
 <html>
 
-{% include head.html %}
-
+{% include head_top.html %}
 <body>
 
     {% include header.html %}
@@ -15,6 +14,9 @@
     <!-- Banner -->
     <section id="banner" class="major">
         <div class="inner">
+            <div class="splogo">
+                <img src="/assets/images/logo.png">
+            </div>
             <header class="major">
                 <h1>{{ page.landing-title }}</h1>
             </header>
@@ -23,6 +25,17 @@
                 <ul class="actions">
                     <li><a href="/01_about.html" class="button next">詳しく見る</a></li>
                 </ul>
+                <a href="/01_about.html">
+                <span class="smbutton"> What's Interrupt?　　≫ </span>
+                </a>
+            </div>
+            <div class="sm_more_wrap">
+                <a id="sm_more" href="#main">
+                <div class="sm_more">
+                   <p><span>MORE</span></p>
+                </div>
+                </a>
+                   <img style="position: relative;top: -44px;" src="/assets/images/arrow_down.png" width="40px">
             </div>
         </div>
     </section>
@@ -30,39 +43,33 @@
     <!-- Main -->
     <div id="main">
 
-        <!-- WITHDO -->
-        <style type="text/css">
-            .tiles2 article:nth-child(6n - 5):before {
-                background-color: #e7b788;
-            }
-        </style>
-<section id="one" class="tiles tiles2">
-  <article style="width: 100%;">
+<section id="one_1" class="tiles tiles2">
+    <article style="width:100%;background-image: url('assets/images/FlPc9_VocJ4-unsplash.jpg');" onclick="location.href='/desc/02_withdo.html'">
     <span class="image">
       <img src="assets/images/FlPc9_VocJ4-unsplash.jpg" alt="" />
     </span>
     <header class="major">
-      <h1><a href="/desc/02_withdo.html" class="link">業務依頼 -WithDO- </a></h1>
-      <p style="font-size: 1em;">Web開発から運用、ソフトの導入・環境構築、調査やデバッグ、学習メンターまで。<br>
-オプション追加型サービスで料金もわかり易く。ご要望に応じた最適なプランを。<br></p>
+      <h1>開発依頼 -WithDO- </h1>
+      <p style="font-size: 1em;">Interruptメンバーがあなたの開発チームとなって活躍するIT業務受託サービスです。
+小さなWebページの制作から、大規模なアプリ・メディアの開発、その後の運用まで、さまざまなご要望への対応が可能です。<br></p>
     </header>
-  </article>
+</a>
+</article>
 </section>
 
         <!-- One -->
         {% include tiles.html %}
 
         <!-- Two -->
-        <section id="two">
-            <div class="inner" style="color:#fff;">
-                <header class="major">
-                    <h2>ブログ</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="/05_blog.html" class="button next">詳しく見る</a></li>
-                </ul>
-            </div>
+        <section id="two" class="tiles tiles3">
+                <article style="width:100%;background-image: url('assets/images/macbook.jpg');" onclick="location.href='/05_blog.htm'">
+                        <span class="image" style="display: none;">
+                  <img src="assets/images/macbook.jpg" alt="">
+                </span>
+                <header class="major" style="width: 100%;">
+                  <h3>ブログ</h3>
+            </header>
+    </article>
         </section>
 
     </div>
