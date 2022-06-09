@@ -386,8 +386,10 @@ padding-top: 1px;
  line-height: 0.5em;"	
 }
 .withdoimages > div{
-	  width:25%;
+	  width:23%;
 	  text-align: center;
+max-width:100%;
+max-height:100%;
 }
 }
 /*タブレット縦*/
@@ -440,7 +442,8 @@ padding-top: 5px;
 .withdoimages > div{
 	  width:10%;
 	  text-align: center;
-}
+max-width:100%;
+max-height:100%;}
 }
 /*PC*/
 @media all and (min-width: 1024px) { 
@@ -492,6 +495,11 @@ padding-top: 5px;
 .withdoimages > div{
 	  width:10%;
 	  text-align: center;
+}
+.withdoimages > img{
+max-width:100%;
+max-height:100%;
+border: solid 1px;
 }
 }
 
