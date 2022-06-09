@@ -8,9 +8,19 @@ image: assets/images/3_2.jpg
 author: null
 show_tile: false
 ---
-<span style="font-weight:bold;font-size:1.5em;margin-bottom:40px;">ー共に創り、育てます</span><br>
-<span style="font-weight:normal;font-size:1.2em;line-height:1.6em;">
-Webサイトやホームページ、アプリの開発から運用、ソフトの導入・環境構築、調査やデバッグにテストプレイ、プログラミング学習メンターまで。<br>
-ITに関する業務の全部または一部をオプション追加で自由自在に依頼できる月額制ITサポートサービスです。<br>
-ご要望に応じた最適なプランをご提供します。<br>
+<span style="font-weight:bold;font-size:1.9em;margin-bottom:40px;">ー頼れる開発チームをあなたのもとに。</span><br>
+<div class="withdoimages">
+<div><img src="/assets/images/icons8/icons8-apple-app-store-250.png"/><div>iOS App<br>開発・運用</div></div>
+<div><img src="/assets/images/icons8/icons8-androidos-512.png"/><div>iOS App<br>開発・運用</div></div>
+<div><img src="/assets/images/icons8/icons8-ww-64.png"/><div>Web<br>開発・運用</div></div>
+<div><img src="/assets/images/icons8/icons8-service-512.png"/><div>社内用ツール<br>開発・運用</div></div>
+<div><img src="/assets/images/icons8/icons8-security-100.png"/><div>メンテナンス<br>セキュリティ強化</div></div>
+<div><img src="/assets/images/icons8/icons8-todo-100.png"/><div>デバッグ<br>テストプレイ</div></div>
+<div><img src="/assets/images/icons8/icons8-cs-90.png"/><div>環境構築<br>ソフト導入<br>アシスト</div></div>
+</div>
+
+<span style="font-weight:normal;font-size:1.2em;line-height:2.6em;margin-top: 50px;">
+Interruptメンバーがあなたの開発チームとなって活躍するIT業務受託サービスです。<br>
+小規模のWebページ制作から、大規模なアプリ・メディア開発、その後の運用まで、多種多様なご依頼への対応が可能です。<br>
+無料カウンセリングにてご要望や予算に応じた最適なプランをご案内致しますので、プラン選びにお悩みの方もご安心ください。<br>
 </span><br>

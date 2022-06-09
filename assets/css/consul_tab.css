@@ -336,6 +336,62 @@
 	opacity: 0.7;
 }
 
+/*** WithDOHeader ***/
+/*スマホ*/
+@media all and (max-width: 480px) { 
+.withdotab {
+  position: fixed;
+  z-index: 999;
+  top: 100;
+  left: 0;
+  width: 100%;
+  padding: 60px 3px 9px;
+  background: #161616;
+  box-sizing: border-box;
+  opacity: 0.9;
+  text-align: center;
+  line-height: 22px;
+  font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.withdoButton {
+  font-size: 0.4em;
+  letter-spacing: 0.5px;
+  width: 20%;
+  height: 22px;
+  color: #FFFFFF;
+  margin: 0px 3px;
+  border: none !important;
+  padding: 0;
+  cursor: pointer;
+}
+.withdoButton2{
+  font-size: 0.35em;
+  letter-spacing: 0.2px;
+  width: 29%;
+  height: 22px;
+  color: #FFFFFF;
+  margin: 0px 3px;
+  border: none !important;
+  padding: 0;
+  cursor: pointer;
+line-height:10px;
+padding-top: 1px;	
+}
+.withdoButton2 > span {
+ font-size: 0.3em;
+ line-height: 0.5em;"	
+}
+.withdoimages > div{
+	  width:25%;
+	  text-align: center;
+}
+}
+/*タブレット縦*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
 .withdotab {
   position: fixed;
   z-index: 999;
@@ -356,7 +412,7 @@
 .withdoButton {
   font-size: 0.9em;
   letter-spacing: 0.5px;
-  width: 180px;
+  width: 15%;
   height: 42px;
   color: #FFFFFF;
   margin: 0px 30px;
@@ -364,10 +420,101 @@
   padding: 0;
   cursor: pointer;
 }
+.withdoButton2{
+  font-size: 0.4em;
+  letter-spacing: 0.5px;
+  width: 23%;
+  height: 22px;
+  color: #FFFFFF;
+  margin: 0px 3px;
+  border: none !important;
+  padding: 0;
+  cursor: pointer;
+line-height:18px;
+padding-top: 5px;	
+}
+.withdoButton2 > span {
+  font-size: 0.3em;
+  line-height: 0.5em;"	
+}
+.withdoimages > div{
+	  width:10%;
+	  text-align: center;
+}
+}
+/*PC*/
+@media all and (min-width: 1024px) { 
+.withdotab {
+  position: fixed;
+  z-index: 999;
+  top: 120;
+  left: 0;
+  width: 100%;
+  padding: 65px 40px 12px;
+  background: #161616;
+  box-sizing: border-box;
+  opacity: 0.9;
+  text-align: center;
+  line-height: 42px;
+  font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.withdoButton {
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  width: 15%;
+  height: 42px;
+  color: #FFFFFF;
+  margin: 0px 30px;
+  border: none !important;
+  padding: 0;
+  cursor: pointer;
+}
+.withdoButton2{
+  font-size: 0.8em;
+  letter-spacing: 0.5px;
+  width: 15%;
+  height: 42px;
+  color: #FFFFFF;
+  margin: 0px 3px;
+  border: none !important;
+  padding: 0;
+  cursor: pointer;
+line-height:18px;
+padding-top: 5px;	
+}
+.withdoButton2 > span {
+ font-size: 12px;
+ line-height: 0.5em;"	
+}
+.withdoimages > div{
+	  width:10%;
+	  text-align: center;
+}
+}
+
 .withdoButton-selected {
  border-radius: 25px;
  background-color: #FFF;
  color: #161616; 	
+}
+.withdoimages {
+  z-index: 999;
+  top: 120;
+  left: 0;
+  width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 3em;
+}
+
+.withdoimages div{
+	font-size: 0.6em;
+	font-weight: 700;
+	padding-top: 10px;
 }
 /* ============================== 
 
