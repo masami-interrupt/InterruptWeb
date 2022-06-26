@@ -246,7 +246,7 @@ header.major>:first-child:after {
   font-weight: 700;
   line-height: 45px;
   height: 45px;
-  width: 95%;
+  width: 100%;
   z-index: 500;
 }  
 /*キラッと光る*/
