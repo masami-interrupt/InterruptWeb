@@ -391,6 +391,15 @@ padding-top: 1px;
 max-width:100%;
 max-height:100%;
 }
+.withdoimages img {
+  max-width: 60%;
+	padding-top: 13px;
+}
+.withdoimages p{
+	font-size: 0.4em;
+	font-weight: 500;
+	padding-top: 3px;
+}
 }
 /*タブレット縦*/
 @media all and (min-width: 768px) and (max-width: 1024px) {
@@ -444,6 +453,16 @@ padding-top: 5px;
 	  text-align: center;
 max-width:100%;
 max-height:100%;}
+.withdoimages img {
+  max-width: 70%;
+	padding-top: 33px;
+}
+.withdoimages p{
+	font-size: 0.4em;
+	font-weight: 700;
+	padding-top: 10px;
+}
+
 }
 /*PC*/
 @media all and (min-width: 1024px) { 
@@ -496,10 +515,9 @@ padding-top: 5px;
 	  width:10%;
 	  text-align: center;
 }
-.withdoimages > img{
-max-width:100%;
-max-height:100%;
-border: solid 1px;
+.withdoimages img{
+max-width:70%;
+	padding-top: 33px;
 }
 }
 
@@ -519,8 +537,8 @@ border: solid 1px;
     padding-bottom: 3em;
 }
 
-.withdoimages div{
-	font-size: 0.6em;
+.withdoimages p{
+	font-size: 0.4em;
 	font-weight: 700;
 	padding-top: 10px;
 }
