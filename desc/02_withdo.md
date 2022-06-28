@@ -19,8 +19,8 @@ show_tile: false
 <div><img src="/assets/images/icons8/icons8-cs-90.png"/><p>環境構築<br>ソフト導入<br>アシスト</p></div>
 </div>
 
-<span style="font-weight:normal;font-size:1.2em;line-height:2.6em;margin-top: 50px;">
+<div style="font-weight:bold;font-size:1.2em;line-height:2.6em;padding: 0 3em;">
 Interruptメンバーがあなたの開発チームとなって活躍するIT業務受託サービスです。<br>
 小さなWebページの制作から、大規模なアプリ・メディアの開発、その後の運用まで、さまざまなご要望への対応が可能です。<br>
 無料カウンセリングにてご要望やご予算を伺い、最適なプランのご提案も可能ですので、プランにお悩みの方もご安心ください。<br>
-</span><br>
+</div><br>
